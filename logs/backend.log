@@ -116,3 +116,8 @@
 17.2.2023, 16:25:26 - DEBUG - auth.service - signup with username: vtomer, fullName: Tomer Vardi 
 17.2.2023, 16:25:26 - ERROR - Cannot update user: undefined | TypeError: Class constructor ObjectId cannot be invoked without 'new' 
 17.2.2023, 16:25:26 - ERROR - Failed to Signup TypeError: Class constructor ObjectId cannot be invoked without 'new' 
+17.2.2023, 16:36:23 - INFO - Server is running on port: 3030 
+17.2.2023, 16:39:14 - INFO - Server is running on port: 3030 
+17.2.2023, 16:41:25 - INFO - Server is running on port: 3030 
+17.2.2023, 16:41:37 - INFO - Server is running on port: 3030 
+17.2.2023, 16:41:58 - INFO - Server is running on port: 3030 
