@@ -1,0 +1,118 @@
+15.2.2023, 20:42:09 - INFO - Server is running on port: 3030 
+15.2.2023, 20:43:16 - INFO - Server is running on port: 3030 
+15.2.2023, 20:44:17 - INFO - Server is running on port: 3030 
+15.2.2023, 20:51:38 - INFO - Server is running on port: 3030 
+15.2.2023, 20:53:05 - INFO - Server is running on port: 3030 
+15.2.2023, 20:54:22 - INFO - Server is running on port: 3030 
+15.2.2023, 20:54:50 - INFO - Server is running on port: 3030 
+15.2.2023, 20:56:04 - INFO - Server is running on port: 3030 
+15.2.2023, 20:56:34 - INFO - Server is running on port: 3030 
+16.2.2023, 10:23:49 - INFO - Server is running on port: 3030 
+17.2.2023, 12:22:27 - INFO - Server is running on port: 3030 
+17.2.2023, 12:24:25 - ERROR - Cannot Connect to DB TypeError: Cannot read properties of undefined (reading 'startsWith') 
+17.2.2023, 12:24:25 - ERROR - Failed to get Mongo collection TypeError: Cannot read properties of undefined (reading 'startsWith') 
+17.2.2023, 12:24:25 - ERROR - Cannot find users  | TypeError: Cannot read properties of undefined (reading 'startsWith') 
+17.2.2023, 12:24:25 - ERROR - Failed to get users TypeError: Cannot read properties of undefined (reading 'startsWith') 
+17.2.2023, 12:25:05 - INFO - Server is running on port: 3030 
+17.2.2023, 12:27:46 - ERROR - Cannot Connect to DB TypeError: Cannot read properties of undefined (reading 'startsWith') 
+17.2.2023, 12:27:46 - ERROR - Failed to get Mongo collection TypeError: Cannot read properties of undefined (reading 'startsWith') 
+17.2.2023, 12:27:46 - ERROR - Failed to get users TypeError: Cannot read properties of undefined (reading 'startsWith') 
+17.2.2023, 12:27:46 - ERROR - Cannot find users  | TypeError: Cannot read properties of undefined (reading 'startsWith') 
+17.2.2023, 12:29:22 - INFO - Server is running on port: 3030 
+17.2.2023, 12:53:21 - DEBUG - auth.service - signup with username: vtomer, fullName: Tomer Vardi 
+17.2.2023, 12:53:21 - ERROR - Cannot Connect to DB TypeError: Cannot read properties of undefined (reading 'startsWith') 
+17.2.2023, 12:53:21 - ERROR - Cannot find user by username: vtomer | TypeError: Cannot read properties of undefined (reading 'startsWith') 
+17.2.2023, 12:53:21 - ERROR - Failed to get Mongo collection TypeError: Cannot read properties of undefined (reading 'startsWith') 
+17.2.2023, 12:53:21 - ERROR - Failed to Signup TypeError: Cannot read properties of undefined (reading 'startsWith') 
+17.2.2023, 12:55:21 - INFO - Server is running on port: 3030 
+17.2.2023, 12:55:23 - DEBUG - auth.service - signup with username: vtomer, fullName: Tomer Vardi 
+17.2.2023, 12:55:24 - ERROR - Cannot find user by username: vtomer | TypeError: Cannot read properties of undefined (reading 'startsWith') 
+17.2.2023, 12:55:24 - ERROR - Failed to get Mongo collection TypeError: Cannot read properties of undefined (reading 'startsWith') 
+17.2.2023, 12:55:24 - ERROR - Failed to Signup TypeError: Cannot read properties of undefined (reading 'startsWith') 
+17.2.2023, 12:55:23 - ERROR - Cannot Connect to DB TypeError: Cannot read properties of undefined (reading 'startsWith') 
+17.2.2023, 12:56:13 - INFO - Server is running on port: 3030 
+17.2.2023, 12:56:16 - DEBUG - auth.service - signup with username: vtomer, fullName: Tomer Vardi 
+17.2.2023, 12:56:16 - ERROR - Cannot Connect to DB TypeError: Cannot read properties of undefined (reading 'startsWith') 
+17.2.2023, 12:56:16 - ERROR - Failed to get Mongo collection TypeError: Cannot read properties of undefined (reading 'startsWith') 
+17.2.2023, 12:56:16 - ERROR - Cannot find user by username: vtomer | TypeError: Cannot read properties of undefined (reading 'startsWith') 
+17.2.2023, 12:56:16 - ERROR - Failed to Signup TypeError: Cannot read properties of undefined (reading 'startsWith') 
+17.2.2023, 12:59:30 - INFO - Server is running on port: 3030 
+17.2.2023, 12:59:33 - DEBUG - auth.service - signup with username: vtomer, fullName: Tomer Vardi 
+17.2.2023, 12:59:33 - ERROR - Failed to get Mongo collection TypeError: Cannot read properties of undefined (reading 'startsWith') 
+17.2.2023, 12:59:33 - ERROR - Cannot Connect to DB TypeError: Cannot read properties of undefined (reading 'startsWith') 
+17.2.2023, 12:59:33 - ERROR - Cannot find user by username: vtomer | TypeError: Cannot read properties of undefined (reading 'startsWith') 
+17.2.2023, 12:59:33 - ERROR - Failed to Signup TypeError: Cannot read properties of undefined (reading 'startsWith') 
+17.2.2023, 13:03:40 - INFO - Server is running on port: 3030 
+17.2.2023, 13:03:50 - DEBUG - auth.service - signup with username: vtomer, fullName: Tomer Vardi 
+17.2.2023, 13:03:50 - ERROR - Failed to get Mongo collection TypeError: Cannot read properties of undefined (reading 'startsWith') 
+17.2.2023, 13:03:50 - ERROR - Cannot Connect to DB TypeError: Cannot read properties of undefined (reading 'startsWith') 
+17.2.2023, 13:03:50 - ERROR - Cannot find user by username: vtomer | TypeError: Cannot read properties of undefined (reading 'startsWith') 
+17.2.2023, 13:03:50 - ERROR - Failed to Signup TypeError: Cannot read properties of undefined (reading 'startsWith') 
+17.2.2023, 13:05:16 - INFO - Server is running on port: 3030 
+17.2.2023, 13:05:20 - DEBUG - auth.service - signup with username: vtomer, fullName: Tomer Vardi 
+17.2.2023, 13:05:20 - ERROR - Cannot Connect to DB TypeError: Cannot read properties of undefined (reading 'startsWith') 
+17.2.2023, 13:05:20 - ERROR - Failed to get Mongo collection TypeError: Cannot read properties of undefined (reading 'startsWith') 
+17.2.2023, 13:05:20 - ERROR - Cannot find user by username: vtomer | TypeError: Cannot read properties of undefined (reading 'startsWith') 
+17.2.2023, 13:05:20 - ERROR - Failed to Signup TypeError: Cannot read properties of undefined (reading 'startsWith') 
+17.2.2023, 13:07:05 - INFO - Server is running on port: 3030 
+17.2.2023, 13:07:12 - DEBUG - auth.service - signup with username: vtomer, fullName: Tomer Vardi 
+17.2.2023, 13:07:12 - ERROR - Cannot Connect to DB TypeError: Cannot read properties of undefined (reading 'startsWith') 
+17.2.2023, 13:07:12 - ERROR - Failed to get Mongo collection TypeError: Cannot read properties of undefined (reading 'startsWith') 
+17.2.2023, 13:07:12 - ERROR - Failed to Signup TypeError: Cannot read properties of undefined (reading 'startsWith') 
+17.2.2023, 13:07:12 - ERROR - Cannot find user by username: vtomer | TypeError: Cannot read properties of undefined (reading 'startsWith') 
+17.2.2023, 13:14:23 - INFO - Server is running on port: 3030 
+17.2.2023, 13:14:27 - DEBUG - auth.service - signup with username: vtomer, fullName: Tomer Vardi 
+17.2.2023, 13:14:27 - ERROR - Cannot Connect to DB TypeError: Cannot read properties of undefined (reading 'startsWith') 
+17.2.2023, 13:14:27 - ERROR - Failed to get Mongo collection TypeError: Cannot read properties of undefined (reading 'startsWith') 
+17.2.2023, 13:14:27 - ERROR - Cannot find user by username: vtomer | TypeError: Cannot read properties of undefined (reading 'startsWith') 
+17.2.2023, 13:14:27 - ERROR - Failed to Signup TypeError: Cannot read properties of undefined (reading 'startsWith') 
+17.2.2023, 13:15:19 - INFO - Server is running on port: 3030 
+17.2.2023, 13:15:26 - DEBUG - auth.service - signup with username: vtomer, fullName: Tomer Vardi 
+17.2.2023, 13:15:26 - ERROR - Cannot Connect to DB TypeError: Cannot read properties of undefined (reading 'startsWith') 
+17.2.2023, 13:15:26 - ERROR - Failed to get Mongo collection TypeError: Cannot read properties of undefined (reading 'startsWith') 
+17.2.2023, 13:15:26 - ERROR - Cannot find user by username: vtomer | TypeError: Cannot read properties of undefined (reading 'startsWith') 
+17.2.2023, 13:15:26 - ERROR - Failed to Signup TypeError: Cannot read properties of undefined (reading 'startsWith') 
+17.2.2023, 13:16:27 - INFO - Server is running on port: 3030 
+17.2.2023, 13:17:28 - DEBUG - auth.service - signup with username: vtomer, fullName: Tomer Vardi 
+17.2.2023, 13:17:28 - ERROR - Cannot find user by username: vtomer | TypeError: Cannot read properties of undefined (reading 'findOne') 
+17.2.2023, 13:17:28 - ERROR - Failed to Signup TypeError: Cannot read properties of undefined (reading 'findOne') 
+17.2.2023, 13:25:28 - INFO - Server is running on port: 3030 
+17.2.2023, 13:25:31 - DEBUG - auth.service - signup with username: vtomer, fullName: Tomer Vardi 
+17.2.2023, 13:25:31 - ERROR - Cannot find user by username: vtomer | TypeError: Cannot read properties of undefined (reading 'findOne') 
+17.2.2023, 13:25:31 - ERROR - Failed to Signup TypeError: Cannot read properties of undefined (reading 'findOne') 
+17.2.2023, 13:31:43 - INFO - Server is running on port: 3030 
+17.2.2023, 13:32:08 - INFO - Server is running on port: 3030 
+17.2.2023, 13:32:22 - INFO - Server is running on port: 3030 
+17.2.2023, 13:32:25 - DEBUG - auth.service - signup with username: vtomer, fullName: Tomer Vardi 
+17.2.2023, 13:32:25 - ERROR - Cannot find user by username: vtomer | TypeError: Cannot read properties of undefined (reading 'find') 
+17.2.2023, 13:32:25 - ERROR - Failed to Signup TypeError: Cannot read properties of undefined (reading 'find') 
+17.2.2023, 13:40:21 - INFO - Server is running on port: 3030 
+17.2.2023, 13:40:24 - DEBUG - auth.service - signup with username: vtomer, fullName: Tomer Vardi 
+17.2.2023, 13:40:24 - ERROR - Cannot find user by username: vtomer | TypeError: Cannot read properties of undefined (reading 'findOne') 
+17.2.2023, 13:40:24 - ERROR - Failed to Signup TypeError: Cannot read properties of undefined (reading 'findOne') 
+17.2.2023, 13:41:55 - INFO - Server is running on port: 3030 
+17.2.2023, 13:41:57 - DEBUG - auth.service - signup with username: vtomer, fullName: Tomer Vardi 
+17.2.2023, 13:41:58 - ERROR - Cannot update user: undefined | TypeError: Class constructor ObjectId cannot be invoked without 'new' 
+17.2.2023, 13:41:58 - ERROR - Failed to Signup TypeError: Class constructor ObjectId cannot be invoked without 'new' 
+17.2.2023, 15:22:37 - ERROR - Cannot find users  | TypeError: users.map is not a function 
+17.2.2023, 15:22:38 - ERROR - Failed to get users TypeError: users.map is not a function 
+17.2.2023, 16:21:17 - INFO - Server is running on port: 3030 
+17.2.2023, 16:21:33 - DEBUG - auth.service - signup with username: vtomer, fullName:   
+17.2.2023, 16:21:57 - DEBUG - auth.service - signup with username: vtomer, fullName:   
+17.2.2023, 16:22:13 - DEBUG - auth.service - signup with username: vtomer, fullName: Tomer Vardi 
+17.2.2023, 16:22:13 - ERROR - Cannot update user: undefined | TypeError: Class constructor ObjectId cannot be invoked without 'new' 
+17.2.2023, 16:22:13 - ERROR - Failed to Signup TypeError: Class constructor ObjectId cannot be invoked without 'new' 
+17.2.2023, 16:23:38 - DEBUG - auth.service - signup with username: vtomer, fullName: Tomer Vardi 
+17.2.2023, 16:23:38 - ERROR - Cannot update user: undefined | TypeError: Class constructor ObjectId cannot be invoked without 'new' 
+17.2.2023, 16:23:38 - ERROR - Failed to Signup TypeError: Class constructor ObjectId cannot be invoked without 'new' 
+17.2.2023, 16:23:42 - DEBUG - auth.service - signup with username: vtomer, fullName: Tomer Vardi 
+17.2.2023, 16:23:42 - ERROR - Cannot update user: undefined | TypeError: Class constructor ObjectId cannot be invoked without 'new' 
+17.2.2023, 16:23:42 - ERROR - Failed to Signup TypeError: Class constructor ObjectId cannot be invoked without 'new' 
+17.2.2023, 16:24:00 - INFO - Server is running on port: 3030 
+17.2.2023, 16:24:02 - DEBUG - auth.service - signup with username: vtomer, fullName: Tomer Vardi 
+17.2.2023, 16:24:02 - ERROR - Cannot update user: undefined | TypeError: Class constructor ObjectId cannot be invoked without 'new' 
+17.2.2023, 16:24:02 - ERROR - Failed to Signup TypeError: Class constructor ObjectId cannot be invoked without 'new' 
+17.2.2023, 16:25:21 - INFO - Server is running on port: 3030 
+17.2.2023, 16:25:26 - DEBUG - auth.service - signup with username: vtomer, fullName: Tomer Vardi 
+17.2.2023, 16:25:26 - ERROR - Cannot update user: undefined | TypeError: Class constructor ObjectId cannot be invoked without 'new' 
+17.2.2023, 16:25:26 - ERROR - Failed to Signup TypeError: Class constructor ObjectId cannot be invoked without 'new' 
