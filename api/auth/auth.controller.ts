@@ -4,6 +4,7 @@ import { Request, Response } from 'express'
 import { User, UserCredentials } from '../../Interfaces/user.interface'
 
 
+
 async function login(req: Request, res: Response) {
     const { username, password }: { username: string, password: string } = req.body
     try {
@@ -13,35 +14,31 @@ async function login(req: Request, res: Response) {
         res.cookie('loginToken', loginToken, { sameSite: 'none', secure: true })
         res.json(user)
     } catch (err) {
-        if (err instanceof Error) {
-            logger.error('Failed to Login ' + err)
-            res.status(401).send({ err: 'Failed to Login' })
-        }
-        console.log('Unexpected error', err)
+        logger.error('Failed to Login ' + err)
+        res.status(401).send({ err: 'Failed to Login' })
     }
 }
 
 async function signup(req: Request, res: Response) {
     try {
         const credentials: UserCredentials = req.body
-        
+
         const account = await authService.signup(credentials)
+        console.log(`account:`, account)
         logger.debug(`auth.route - new account created: ` + JSON.stringify(account))
 
-        const user = await authService.login(credentials.username, credentials.password)
+        const user: User = await authService.login(credentials.username, credentials.password)
         logger.info('User signup: ', user)
+        console.log(`user:`, user)
 
         const loginToken = authService.getLoginToken(user)
 
         res.cookie('loginToken', loginToken, { sameSite: 'none', secure: true })
         res.json(user)
-        
+
     } catch (err) {
-        if (err instanceof Error) {
-            logger.error('Failed to Signup ' + err)
-            res.status(500).send({ err: 'Failed to Signup' })
-        }
-        console.log('Unexpected error', err)
+        logger.error('Failed to Signup ' + err)
+        res.status(500).send({ err: 'Failed to Signup' })
     }
 }
 
@@ -51,11 +48,8 @@ async function logout(req: Request, res: Response) {
         res.send({ msg: 'Logged out successfully' })
 
     } catch (err) {
-        if (err instanceof Error) {
-            logger.error('Failed to Logout ' + err)
-            res.status(500).send({ err: 'Failed to Logout' })
-        }
-        console.log('Unexpected error', err)
+        logger.error('Failed to Logout ' + err)
+        res.status(500).send({ err: 'Failed to Logout' })
     }
 }
 

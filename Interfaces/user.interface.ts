@@ -1,10 +1,11 @@
-export interface User {
-    password?: string, 
-    username?: string, 
-    _id?: string,
+// External dependencies
+import { ObjectId } from "mongodb";
+
+
+// Interface Implementation
+export interface User extends UserCredentials{
+    _id?: ObjectId,
     createdAt?: number,
-    firstName: string,
-    lastName: string,
     about: string,
     profileImg: string,
     coverImg: string,
@@ -15,6 +16,8 @@ export interface User {
 }
 
 export interface UserCredentials {
-    password: string,
     username: string,
+    password?: string,
+    firstName: string,
+    lastName: string,
 }

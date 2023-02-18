@@ -121,3 +121,341 @@
 17.2.2023, 16:41:25 - INFO - Server is running on port: 3030 
 17.2.2023, 16:41:37 - INFO - Server is running on port: 3030 
 17.2.2023, 16:41:58 - INFO - Server is running on port: 3030 
+17.2.2023, 16:57:47 - INFO - Server is running on port: 3030 
+17.2.2023, 16:58:00 - INFO - Server is running on port: 3030 
+17.2.2023, 17:28:03 - INFO - Server is running on port: 3030 
+17.2.2023, 17:28:07 - INFO - Server is running on port: 3030 
+17.2.2023, 17:28:13 - INFO - Server is running on port: 3030 
+17.2.2023, 17:29:51 - INFO - Server is running on port: 3030 
+17.2.2023, 17:30:04 - INFO - Server is running on port: 3030 
+17.2.2023, 17:31:25 - INFO - Server is running on port: 3030 
+17.2.2023, 17:31:41 - INFO - Server is running on port: 3030 
+17.2.2023, 17:32:19 - INFO - Server is running on port: 3030 
+17.2.2023, 17:32:24 - INFO - Server is running on port: 3030 
+17.2.2023, 17:33:24 - INFO - Server is running on port: 3030 
+18.2.2023, 10:05:33 - ERROR - Cannot find users  | TypeError: users.map is not a function 
+18.2.2023, 10:05:33 - ERROR - Failed to get users TypeError: users.map is not a function 
+18.2.2023, 10:07:09 - INFO - Server is running on port: 3030 
+18.2.2023, 10:07:28 - DEBUG - auth.service - signup with username: vtomer, fullName: Tomer Vardi 
+18.2.2023, 10:07:28 - ERROR - Cannot update user: undefined | TypeError: Class constructor ObjectId cannot be invoked without 'new' 
+18.2.2023, 10:07:28 - ERROR - Failed to Signup TypeError: Class constructor ObjectId cannot be invoked without 'new' 
+18.2.2023, 10:08:27 - INFO - Server is running on port: 3030 
+18.2.2023, 10:08:37 - INFO - Server is running on port: 3030 
+18.2.2023, 10:08:56 - INFO - Server is running on port: 3030 
+18.2.2023, 10:09:05 - INFO - Server is running on port: 3030 
+18.2.2023, 10:09:32 - INFO - Server is running on port: 3030 
+18.2.2023, 10:09:41 - INFO - Server is running on port: 3030 
+18.2.2023, 10:10:15 - INFO - Server is running on port: 3030 
+18.2.2023, 10:10:22 - INFO - Server is running on port: 3030 
+18.2.2023, 10:10:36 - DEBUG - auth.service - signup with username: vtomer, fullName: Tomer Vardi 
+18.2.2023, 10:10:36 - ERROR - Cannot update user: undefined | TypeError: Class constructor ObjectId cannot be invoked without 'new' 
+18.2.2023, 10:10:36 - ERROR - Failed to Signup TypeError: Class constructor ObjectId cannot be invoked without 'new' 
+18.2.2023, 10:12:55 - INFO - Server is running on port: 3030 
+18.2.2023, 10:13:01 - DEBUG - auth.service - signup with username: vtomer, fullName: Tomer Vardi 
+18.2.2023, 10:13:01 - ERROR - Failed to Signup TypeError: Class constructor ObjectId cannot be invoked without 'new' 
+18.2.2023, 10:13:01 - ERROR - Cannot add user: undefined | TypeError: Class constructor ObjectId cannot be invoked without 'new' 
+18.2.2023, 10:13:49 - INFO - Server is running on port: 3030 
+18.2.2023, 10:13:50 - DEBUG - auth.service - signup with username: vtomer, fullName: Tomer Vardi 
+18.2.2023, 10:13:50 - ERROR - Cannot add user: undefined | TypeError: Class constructor ObjectId cannot be invoked without 'new' 
+18.2.2023, 10:13:50 - ERROR - Failed to Signup TypeError: Class constructor ObjectId cannot be invoked without 'new' 
+18.2.2023, 10:14:51 - INFO - Server is running on port: 3030 
+18.2.2023, 10:14:55 - DEBUG - auth.service - signup with username: vtomer, fullName: Tomer Vardi 
+18.2.2023, 10:14:55 - ERROR - Failed to Signup TypeError: Class constructor ObjectId cannot be invoked without 'new' 
+18.2.2023, 10:14:55 - ERROR - Cannot add user: undefined | TypeError: Class constructor ObjectId cannot be invoked without 'new' 
+18.2.2023, 10:35:47 - INFO - Server is running on port: 3030 
+18.2.2023, 10:35:54 - DEBUG - auth.service - signup with username: vtomer, fullName: Tomer Vardi 
+18.2.2023, 10:35:54 - ERROR - Cannot add user: undefined | TypeError: Class constructor ObjectId cannot be invoked without 'new' 
+18.2.2023, 10:35:54 - ERROR - Failed to Signup TypeError: Class constructor ObjectId cannot be invoked without 'new' 
+18.2.2023, 11:12:17 - INFO - Server is running on port: 3030 
+18.2.2023, 11:28:32 - INFO - Server is running on port: 3030 
+18.2.2023, 11:30:20 - INFO - Server is running on port: 3030 
+18.2.2023, 11:30:54 - INFO - Server is running on port: 3030 
+18.2.2023, 11:32:10 - INFO - Server is running on port: 3030 
+18.2.2023, 11:32:38 - INFO - Server is running on port: 3030 
+18.2.2023, 11:32:55 - ERROR - Cannot find users  | TypeError: users.map is not a function 
+18.2.2023, 11:32:55 - ERROR - Failed to get users TypeError: users.map is not a function 
+18.2.2023, 11:33:47 - ERROR - Cannot find users  | TypeError: users.map is not a function 
+18.2.2023, 11:33:47 - ERROR - Failed to get users TypeError: users.map is not a function 
+18.2.2023, 11:34:14 - ERROR - Cannot find users  | TypeError: users.map is not a function 
+18.2.2023, 11:34:14 - ERROR - Failed to get users TypeError: users.map is not a function 
+18.2.2023, 11:34:42 - INFO - Server is running on port: 3030 
+18.2.2023, 11:34:48 - INFO - Server is running on port: 3030 
+18.2.2023, 11:35:35 - INFO - Server is running on port: 3030 
+18.2.2023, 11:36:08 - INFO - Server is running on port: 3030 
+18.2.2023, 11:36:16 - INFO - Server is running on port: 3030 
+18.2.2023, 11:36:26 - DEBUG - auth.service - signup with username: vtomer, fullName: Tomer  
+18.2.2023, 11:36:26 - ERROR - Failed to Signup Missing required signup information 
+18.2.2023, 11:43:56 - INFO - Server is running on port: 3030 
+18.2.2023, 11:44:33 - INFO - Server is running on port: 3030 
+18.2.2023, 11:44:37 - DEBUG - auth.service - signup with username: vtomer, fullName: Tomer Vardi 
+18.2.2023, 11:44:37 - DEBUG - auth.route - new account created: undefined 
+18.2.2023, 11:44:37 - DEBUG - auth.service - login with username: vtomer 
+18.2.2023, 11:44:37 - ERROR - Failed to Signup Invalid username or password 
+18.2.2023, 11:45:57 - INFO - Server is running on port: 3030 
+18.2.2023, 11:46:23 - INFO - Server is running on port: 3030 
+18.2.2023, 11:52:14 - INFO - Server is running on port: 3030 
+18.2.2023, 11:52:19 - INFO - Server is running on port: 3030 
+18.2.2023, 11:52:26 - DEBUG - auth.service - signup with username: vtomer, fullName: Tomer Vardi 
+18.2.2023, 11:52:26 - DEBUG - auth.route - new account created: {"password":"$2b$10$gJaJsdFgRrl5yVNpwhTL5.hGZHUrzEF36SstPv9AXsBMwhvmiNZ3C","username":"vtomer","firstName":"Tomer","lastName":"Vardi","about":"","profileImg":"","coverImg":"","follows":[],"followers":[],"savedTweets":[],"isGuest":false,"_id":"63f09fda8f480b89b140a2c9"} 
+18.2.2023, 11:54:30 - DEBUG - auth.service - signup with username: vtomer, fullName: Tomer Vardi 
+18.2.2023, 11:54:30 - ERROR - Failed to Signup Username already taken 
+18.2.2023, 12:04:41 - INFO - Server is running on port: 3030 
+18.2.2023, 12:04:50 - INFO - Server is running on port: 3030 
+18.2.2023, 12:06:57 - INFO - Server is running on port: 3030 
+18.2.2023, 12:07:13 - DEBUG - auth.service - signup with username: vtomer, fullName: Tomer Vardi 
+18.2.2023, 12:07:13 - DEBUG - auth.route - new account created: {"password":"$2b$10$swO3G90HivTfMkQj7groPe52NcC1fL74RSjqJpE8/rVy4UjWkE4ce","username":"vtomer","firstName":"Tomer","lastName":"Vardi","about":"","profileImg":"","coverImg":"","follows":[],"followers":[],"savedTweets":[],"isGuest":false,"_id":"63f0a351034d97a2c55d452b"} 
+18.2.2023, 12:07:13 - DEBUG - auth.service - login with username: vtomer 
+18.2.2023, 12:07:13 - INFO - User signup:  | {"_id":"63f0a351034d97a2c55d452b","username":"vtomer","firstName":"Tomer","lastName":"Vardi","about":"","profileImg":"","coverImg":"","follows":[],"followers":[],"savedTweets":[],"isGuest":false} 
+18.2.2023, 12:10:26 - INFO - Server is running on port: 3030 
+18.2.2023, 12:10:35 - DEBUG - auth.service - signup with username: vtomer, fullName: Tomer Vardi (userId: 63f0a351034d97a2c55d452b)
+18.2.2023, 12:10:35 - DEBUG - auth.route - new account created: {"password":"$2b$10$HdQoHmK8/TxpAhyFj0FZL.oLCB9NWQ5xEZBw5FmKbdhslj8cGpIIG","username":"vtomer","firstName":"Tomer","lastName":"Vardi","about":"","profileImg":"","coverImg":"","follows":[],"followers":[],"savedTweets":[],"isGuest":false,"_id":"63f0a41b57a78226844c6ac2"} (userId: 63f0a351034d97a2c55d452b)
+18.2.2023, 12:10:35 - DEBUG - auth.service - login with username: vtomer (userId: 63f0a351034d97a2c55d452b)
+18.2.2023, 12:10:35 - INFO - User signup:  | {"_id":"63f0a41b57a78226844c6ac2","username":"vtomer","firstName":"Tomer","lastName":"Vardi","about":"","profileImg":"","coverImg":"","follows":[],"followers":[],"savedTweets":[],"isGuest":false} (userId: 63f0a351034d97a2c55d452b)
+18.2.2023, 12:11:48 - INFO - Server is running on port: 3030 
+18.2.2023, 12:12:02 - INFO - Server is running on port: 3030 
+18.2.2023, 12:12:22 - INFO - Server is running on port: 3030 
+18.2.2023, 12:12:58 - INFO - Server is running on port: 3030 
+18.2.2023, 12:17:16 - INFO - Server is running on port: 3030 
+18.2.2023, 12:18:02 - DEBUG - auth.service - signup with username: vtomer, fullName: Tomer Vardi (userId: 63f0a41b57a78226844c6ac2)
+18.2.2023, 12:18:02 - DEBUG - auth.route - new account created: {"password":"$2b$10$PbuJvL6TU1zF535ad13NKu2xU3hillD23vAv.CZcxb7DKpNWBa6U.","username":"vtomer","firstName":"Tomer","lastName":"Vardi","about":"","profileImg":"","coverImg":"","follows":[],"followers":[],"savedTweets":[],"isGuest":false,"_id":"63f0a5da9d0e7ea25c9bc97d"} (userId: 63f0a41b57a78226844c6ac2)
+18.2.2023, 12:18:02 - DEBUG - auth.service - login with username: vtomer (userId: 63f0a41b57a78226844c6ac2)
+18.2.2023, 12:18:02 - INFO - User signup:  | {"_id":"63f0a5da9d0e7ea25c9bc97d","username":"vtomer","firstName":"Tomer","lastName":"Vardi","about":"","profileImg":"","coverImg":"","follows":[],"followers":[],"savedTweets":[],"isGuest":false} (userId: 63f0a41b57a78226844c6ac2)
+18.2.2023, 12:18:02 - ERROR - Failed to Signup TypeError: Class constructor ObjectId cannot be invoked without 'new' (userId: 63f0a41b57a78226844c6ac2)
+18.2.2023, 12:25:16 - INFO - Server is running on port: 3030 
+18.2.2023, 12:25:28 - DEBUG - auth.service - signup with username: vtomer, fullName: Tomer Vardi (userId: 63f0a41b57a78226844c6ac2)
+18.2.2023, 12:25:28 - DEBUG - auth.route - new account created: {"password":"$2b$10$KpMiVktwk7/ecRGWaVg4ZOfTqSS6iaLcSjtqJ2LnMq9s0.kn0V7xe","username":"vtomer","firstName":"Tomer","lastName":"Vardi","about":"","profileImg":"","coverImg":"","follows":[],"followers":[],"savedTweets":[],"isGuest":false,"_id":"63f0a798be313956b69fdd63"} (userId: 63f0a41b57a78226844c6ac2)
+18.2.2023, 12:25:28 - DEBUG - auth.service - login with username: vtomer (userId: 63f0a41b57a78226844c6ac2)
+18.2.2023, 12:25:28 - INFO - User signup:  | {"_id":"63f0a798be313956b69fdd63","username":"vtomer","firstName":"Tomer","lastName":"Vardi","about":"","profileImg":"","coverImg":"","follows":[],"followers":[],"savedTweets":[],"isGuest":false} (userId: 63f0a41b57a78226844c6ac2)
+18.2.2023, 12:25:28 - ERROR - Failed to Signup TypeError: Class constructor ObjectId cannot be invoked without 'new' (userId: 63f0a41b57a78226844c6ac2)
+18.2.2023, 12:26:29 - INFO - Server is running on port: 3030 
+18.2.2023, 12:26:35 - DEBUG - auth.service - signup with username: vtomer, fullName: Tomer Vardi (userId: 63f0a41b57a78226844c6ac2)
+18.2.2023, 12:26:35 - DEBUG - auth.route - new account created: {"password":"$2b$10$LpuxGHaobfDVv6xvtWcMd.RVu2FBbisX2OtZLfMoq93zbxj979zmi","username":"vtomer","firstName":"Tomer","lastName":"Vardi","about":"","profileImg":"","coverImg":"","follows":[],"followers":[],"savedTweets":[],"isGuest":false,"_id":"63f0a7db471995d84ec2b66a"} (userId: 63f0a41b57a78226844c6ac2)
+18.2.2023, 12:26:35 - DEBUG - auth.service - login with username: vtomer (userId: 63f0a41b57a78226844c6ac2)
+18.2.2023, 12:26:35 - INFO - User signup:  | {"_id":"63f0a7db471995d84ec2b66a","username":"vtomer","firstName":"Tomer","lastName":"Vardi","about":"","profileImg":"","coverImg":"","follows":[],"followers":[],"savedTweets":[],"isGuest":false,"createdAt":"2023-02-18T10:26:35.000Z"} (userId: 63f0a41b57a78226844c6ac2)
+18.2.2023, 12:26:35 - ERROR - Failed to Signup TypeError: Class constructor ObjectId cannot be invoked without 'new' (userId: 63f0a41b57a78226844c6ac2)
+18.2.2023, 12:26:56 - INFO - Server is running on port: 3030 
+18.2.2023, 12:27:10 - INFO - Server is running on port: 3030 
+18.2.2023, 12:27:16 - DEBUG - auth.service - signup with username: vtomer, fullName: Tomer Vardi (userId: 63f0a41b57a78226844c6ac2)
+18.2.2023, 12:27:16 - DEBUG - auth.route - new account created: {"password":"$2b$10$JeSs0Gs0rDkOJrh0z2iLGOp9Ak3AzQ0QGyxpmHa4DexH.9pV/lsMO","username":"vtomer","firstName":"Tomer","lastName":"Vardi","about":"","profileImg":"","coverImg":"","follows":[],"followers":[],"savedTweets":[],"isGuest":false,"_id":"63f0a804904dd24a3ad6fd37"} (userId: 63f0a41b57a78226844c6ac2)
+18.2.2023, 12:27:16 - DEBUG - auth.service - login with username: vtomer (userId: 63f0a41b57a78226844c6ac2)
+18.2.2023, 12:27:16 - INFO - User signup:  | {"_id":"63f0a804904dd24a3ad6fd37","username":"vtomer","firstName":"Tomer","lastName":"Vardi","about":"","profileImg":"","coverImg":"","follows":[],"followers":[],"savedTweets":[],"isGuest":false,"createdAt":"2023-02-18T10:27:16.000Z"} (userId: 63f0a41b57a78226844c6ac2)
+18.2.2023, 12:28:12 - INFO - Server is running on port: 3030 
+18.2.2023, 12:28:22 - INFO - Server is running on port: 3030 
+18.2.2023, 12:28:57 - ERROR - Cannot find users  | TypeError: users.map is not a function (userId: 63f0a804904dd24a3ad6fd37)
+18.2.2023, 12:28:57 - ERROR - Failed to get users TypeError: users.map is not a function (userId: 63f0a804904dd24a3ad6fd37)
+18.2.2023, 12:29:10 - ERROR - Cannot find users  | TypeError: users.map is not a function (userId: 63f0a804904dd24a3ad6fd37)
+18.2.2023, 12:29:10 - ERROR - Failed to get users TypeError: users.map is not a function (userId: 63f0a804904dd24a3ad6fd37)
+18.2.2023, 12:29:21 - DEBUG - auth.service - signup with username: vtomer, fullName: Tomer Vardi (userId: 63f0a804904dd24a3ad6fd37)
+18.2.2023, 12:29:21 - DEBUG - auth.route - new account created: {"password":"$2b$10$Lha/abJwCDMCLhMA9Rq8zujEZS51p.4MUFG7HBKflVzEwRVUB.XMK","username":"vtomer","firstName":"Tomer","lastName":"Vardi","about":"","profileImg":"","coverImg":"","follows":[],"followers":[],"savedTweets":[],"isGuest":false,"_id":"63f0a88142a5f20884a9a219"} (userId: 63f0a804904dd24a3ad6fd37)
+18.2.2023, 12:29:21 - DEBUG - auth.service - login with username: vtomer (userId: 63f0a804904dd24a3ad6fd37)
+18.2.2023, 12:29:22 - INFO - User signup:  | {"_id":"63f0a88142a5f20884a9a219","username":"vtomer","firstName":"Tomer","lastName":"Vardi","about":"","profileImg":"","coverImg":"","follows":[],"followers":[],"savedTweets":[],"isGuest":false,"createdAt":"2023-02-18T10:29:21.000Z"} (userId: 63f0a804904dd24a3ad6fd37)
+18.2.2023, 12:29:51 - DEBUG - auth.service - signup with username: vtomer, fullName: Tomer Vardi (userId: 63f0a88142a5f20884a9a219)
+18.2.2023, 12:29:51 - ERROR - Failed to Signup Username already taken (userId: 63f0a88142a5f20884a9a219)
+18.2.2023, 12:31:17 - ERROR - Cannot find users  | TypeError: users.map is not a function (userId: 63f0a88142a5f20884a9a219)
+18.2.2023, 12:31:17 - ERROR - Failed to get users TypeError: users.map is not a function (userId: 63f0a88142a5f20884a9a219)
+18.2.2023, 12:31:38 - DEBUG - auth.service - signup with username: vtomer, fullName: Tomer Vardi (userId: 63f0a88142a5f20884a9a219)
+18.2.2023, 12:31:38 - DEBUG - auth.route - new account created: {"password":"$2b$10$kJRN0IL.vhE.Rs/emdIlFeSSRYK4AdoNK3.dhfWkLYSatkFtKU3W6","username":"vtomer","firstName":"Tomer","lastName":"Vardi","about":"","profileImg":"","coverImg":"","follows":[],"followers":[],"savedTweets":[],"isGuest":false,"_id":"63f0a90a42a5f20884a9a21a"} (userId: 63f0a88142a5f20884a9a219)
+18.2.2023, 12:31:38 - DEBUG - auth.service - login with username: vtomer (userId: 63f0a88142a5f20884a9a219)
+18.2.2023, 12:31:38 - INFO - User signup:  | {"_id":"63f0a90a42a5f20884a9a21a","username":"vtomer","firstName":"Tomer","lastName":"Vardi","about":"","profileImg":"","coverImg":"","follows":[],"followers":[],"savedTweets":[],"isGuest":false,"createdAt":"2023-02-18T10:31:38.000Z"} (userId: 63f0a88142a5f20884a9a219)
+18.2.2023, 12:33:01 - ERROR - Cannot find users  | TypeError: users.map is not a function (userId: 63f0a90a42a5f20884a9a21a)
+18.2.2023, 12:33:01 - ERROR - Failed to get users TypeError: users.map is not a function (userId: 63f0a90a42a5f20884a9a21a)
+18.2.2023, 12:33:11 - ERROR - Cannot find users  | TypeError: users.map is not a function (userId: 63f0a90a42a5f20884a9a21a)
+18.2.2023, 12:33:11 - ERROR - Failed to get users TypeError: users.map is not a function (userId: 63f0a90a42a5f20884a9a21a)
+18.2.2023, 12:33:26 - DEBUG - auth.service - signup with username: vtomer, fullName: Tomer Vardi (userId: 63f0a90a42a5f20884a9a21a)
+18.2.2023, 12:33:26 - DEBUG - auth.route - new account created: {"password":"$2b$10$bVRMUcQVVuulEyIo1eaiceASWVpdg3hfHB8M/Qi7Hw2eq5v0YMK1m","username":"vtomer","firstName":"Tomer","lastName":"Vardi","about":"","profileImg":"","coverImg":"","follows":[],"followers":[],"savedTweets":[],"isGuest":false,"_id":"63f0a97642a5f20884a9a21b"} (userId: 63f0a90a42a5f20884a9a21a)
+18.2.2023, 12:33:26 - DEBUG - auth.service - login with username: vtomer (userId: 63f0a90a42a5f20884a9a21a)
+18.2.2023, 12:33:26 - INFO - User signup:  | {"_id":"63f0a97642a5f20884a9a21b","username":"vtomer","firstName":"Tomer","lastName":"Vardi","about":"","profileImg":"","coverImg":"","follows":[],"followers":[],"savedTweets":[],"isGuest":false,"createdAt":"2023-02-18T10:33:26.000Z"} (userId: 63f0a90a42a5f20884a9a21a)
+18.2.2023, 12:33:41 - ERROR - Cannot find users  | TypeError: users.map is not a function (userId: 63f0a97642a5f20884a9a21b)
+18.2.2023, 12:33:41 - ERROR - Failed to get users TypeError: users.map is not a function (userId: 63f0a97642a5f20884a9a21b)
+18.2.2023, 12:34:24 - ERROR - Cannot find users  | TypeError: users.map is not a function (userId: 63f0a97642a5f20884a9a21b)
+18.2.2023, 12:34:24 - ERROR - Failed to get users TypeError: users.map is not a function (userId: 63f0a97642a5f20884a9a21b)
+18.2.2023, 12:34:46 - ERROR - Cannot find users  | TypeError: users.map is not a function (userId: 63f0a97642a5f20884a9a21b)
+18.2.2023, 12:34:46 - ERROR - Failed to get users TypeError: users.map is not a function (userId: 63f0a97642a5f20884a9a21b)
+18.2.2023, 12:34:57 - DEBUG - auth.service - signup with username: vtomer, fullName: Tomer Vardi (userId: 63f0a97642a5f20884a9a21b)
+18.2.2023, 12:34:57 - DEBUG - auth.route - new account created: {"password":"$2b$10$QYIguSH5fwce7LBNGnGpQeV.vrnqVwzAoCUEgfhkTmZEKFRNUpx.a","username":"vtomer","firstName":"Tomer","lastName":"Vardi","about":"","profileImg":"","coverImg":"","follows":[],"followers":[],"savedTweets":[],"isGuest":false,"_id":"63f0a9d142a5f20884a9a21c"} (userId: 63f0a97642a5f20884a9a21b)
+18.2.2023, 12:34:57 - DEBUG - auth.service - login with username: vtomer (userId: 63f0a97642a5f20884a9a21b)
+18.2.2023, 12:34:57 - INFO - User signup:  | {"_id":"63f0a9d142a5f20884a9a21c","username":"vtomer","firstName":"Tomer","lastName":"Vardi","about":"","profileImg":"","coverImg":"","follows":[],"followers":[],"savedTweets":[],"isGuest":false,"createdAt":"2023-02-18T10:34:57.000Z"} (userId: 63f0a97642a5f20884a9a21b)
+18.2.2023, 12:36:12 - ERROR - Cannot find users  | TypeError: users.map is not a function (userId: 63f0a9d142a5f20884a9a21c)
+18.2.2023, 12:36:12 - ERROR - Failed to get users TypeError: users.map is not a function (userId: 63f0a9d142a5f20884a9a21c)
+18.2.2023, 12:47:46 - ERROR - Cannot find users  | TypeError: users.map is not a function (userId: 63f0a9d142a5f20884a9a21c)
+18.2.2023, 12:47:46 - ERROR - Failed to get users TypeError: users.map is not a function (userId: 63f0a9d142a5f20884a9a21c)
+18.2.2023, 12:47:52 - DEBUG - auth.service - signup with username: vtomer, fullName: Tomer Vardi (userId: 63f0a9d142a5f20884a9a21c)
+18.2.2023, 12:47:52 - DEBUG - auth.route - new account created: {"password":"$2b$10$HUPKCbpyNPVOlRh4roSQ0.YeGb1ts4Ok138/k7h9oVapCR/oaFXHW","username":"vtomer","firstName":"Tomer","lastName":"Vardi","about":"","profileImg":"","coverImg":"","follows":[],"followers":[],"savedTweets":[],"isGuest":false,"_id":"63f0acd842a5f20884a9a21d"} (userId: 63f0a9d142a5f20884a9a21c)
+18.2.2023, 12:47:52 - DEBUG - auth.service - login with username: vtomer (userId: 63f0a9d142a5f20884a9a21c)
+18.2.2023, 12:47:52 - INFO - User signup:  | {"_id":"63f0acd842a5f20884a9a21d","username":"vtomer","firstName":"Tomer","lastName":"Vardi","about":"","profileImg":"","coverImg":"","follows":[],"followers":[],"savedTweets":[],"isGuest":false,"createdAt":"2023-02-18T10:47:52.000Z"} (userId: 63f0a9d142a5f20884a9a21c)
+18.2.2023, 12:48:25 - ERROR - Cannot find users  | TypeError: users.map is not a function (userId: 63f0acd842a5f20884a9a21d)
+18.2.2023, 12:48:25 - ERROR - Failed to get users TypeError: users.map is not a function (userId: 63f0acd842a5f20884a9a21d)
+18.2.2023, 12:49:37 - ERROR - Cannot find users  | TypeError: users.map is not a function (userId: 63f0acd842a5f20884a9a21d)
+18.2.2023, 12:49:37 - ERROR - Failed to get users TypeError: users.map is not a function (userId: 63f0acd842a5f20884a9a21d)
+18.2.2023, 12:50:16 - ERROR - Cannot find users  | TypeError: users.map is not a function (userId: 63f0acd842a5f20884a9a21d)
+18.2.2023, 12:50:16 - ERROR - Failed to get users TypeError: users.map is not a function (userId: 63f0acd842a5f20884a9a21d)
+18.2.2023, 12:50:32 - ERROR - Cannot find users  | TypeError: users.map is not a function (userId: 63f0acd842a5f20884a9a21d)
+18.2.2023, 12:50:32 - ERROR - Failed to get users TypeError: users.map is not a function (userId: 63f0acd842a5f20884a9a21d)
+18.2.2023, 12:50:38 - DEBUG - auth.service - signup with username: vtomer, fullName: Tomer Vardi (userId: 63f0acd842a5f20884a9a21d)
+18.2.2023, 12:50:38 - DEBUG - auth.route - new account created: {"password":"$2b$10$7c3i/sLuxDt6yNhn0zOqX.si2ATg.376E7TpZ6yoboR5i00ttbS1a","username":"vtomer","firstName":"Tomer","lastName":"Vardi","about":"","profileImg":"","coverImg":"","follows":[],"followers":[],"savedTweets":[],"isGuest":false,"_id":"63f0ad7e42a5f20884a9a21e"} (userId: 63f0acd842a5f20884a9a21d)
+18.2.2023, 12:50:38 - DEBUG - auth.service - login with username: vtomer (userId: 63f0acd842a5f20884a9a21d)
+18.2.2023, 12:50:39 - INFO - User signup:  | {"_id":"63f0ad7e42a5f20884a9a21e","username":"vtomer","firstName":"Tomer","lastName":"Vardi","about":"","profileImg":"","coverImg":"","follows":[],"followers":[],"savedTweets":[],"isGuest":false,"createdAt":"2023-02-18T10:50:38.000Z"} (userId: 63f0acd842a5f20884a9a21d)
+18.2.2023, 12:52:35 - ERROR - Cannot find users  | TypeError: users.map is not a function (userId: 63f0ad7e42a5f20884a9a21e)
+18.2.2023, 12:52:35 - ERROR - Failed to get users TypeError: users.map is not a function (userId: 63f0ad7e42a5f20884a9a21e)
+18.2.2023, 12:52:53 - ERROR - Cannot find users  | TypeError: users.map is not a function (userId: 63f0ad7e42a5f20884a9a21e)
+18.2.2023, 12:52:53 - ERROR - Failed to get users TypeError: users.map is not a function (userId: 63f0ad7e42a5f20884a9a21e)
+18.2.2023, 12:53:01 - ERROR - Cannot find users  | TypeError: users.map is not a function (userId: 63f0ad7e42a5f20884a9a21e)
+18.2.2023, 12:53:01 - ERROR - Failed to get users TypeError: users.map is not a function (userId: 63f0ad7e42a5f20884a9a21e)
+18.2.2023, 12:53:06 - ERROR - Cannot find users  | TypeError: users.map is not a function (userId: 63f0ad7e42a5f20884a9a21e)
+18.2.2023, 12:53:06 - ERROR - Failed to get users TypeError: users.map is not a function (userId: 63f0ad7e42a5f20884a9a21e)
+18.2.2023, 12:53:10 - ERROR - Cannot find users  | TypeError: users.map is not a function (userId: 63f0ad7e42a5f20884a9a21e)
+18.2.2023, 12:53:10 - ERROR - Failed to get users TypeError: users.map is not a function (userId: 63f0ad7e42a5f20884a9a21e)
+18.2.2023, 12:53:22 - ERROR - Cannot find users  | TypeError: users.map is not a function (userId: 63f0ad7e42a5f20884a9a21e)
+18.2.2023, 12:53:22 - ERROR - Failed to get users TypeError: users.map is not a function (userId: 63f0ad7e42a5f20884a9a21e)
+18.2.2023, 12:55:19 - INFO - Server is running on port: 3030 
+18.2.2023, 12:55:24 - ERROR - Cannot find users  | TypeError: users.map is not a function (userId: 63f0ad7e42a5f20884a9a21e)
+18.2.2023, 12:55:24 - ERROR - Failed to get users TypeError: users.map is not a function (userId: 63f0ad7e42a5f20884a9a21e)
+18.2.2023, 12:55:54 - INFO - Server is running on port: 3030 
+18.2.2023, 12:56:01 - INFO - Server is running on port: 3030 
+18.2.2023, 12:56:01 - ERROR - Cannot find users  | TypeError: users.map is not a function (userId: 63f0ad7e42a5f20884a9a21e)
+18.2.2023, 12:56:01 - ERROR - Failed to get users TypeError: users.map is not a function (userId: 63f0ad7e42a5f20884a9a21e)
+18.2.2023, 12:56:52 - INFO - Server is running on port: 3030 
+18.2.2023, 12:57:16 - INFO - Server is running on port: 3030 
+18.2.2023, 12:57:16 - ERROR - Cannot find users  | TypeError: users.map is not a function (userId: 63f0ad7e42a5f20884a9a21e)
+18.2.2023, 12:57:16 - ERROR - Failed to get users TypeError: users.map is not a function (userId: 63f0ad7e42a5f20884a9a21e)
+18.2.2023, 12:57:17 - ERROR - Cannot find users  | TypeError: users.map is not a function (userId: 63f0ad7e42a5f20884a9a21e)
+18.2.2023, 12:57:17 - ERROR - Failed to get users TypeError: users.map is not a function (userId: 63f0ad7e42a5f20884a9a21e)
+18.2.2023, 12:57:31 - INFO - Server is running on port: 3030 
+18.2.2023, 12:57:32 - ERROR - Cannot find users  | TypeError: users.map is not a function (userId: 63f0ad7e42a5f20884a9a21e)
+18.2.2023, 12:57:32 - ERROR - Failed to get users TypeError: users.map is not a function (userId: 63f0ad7e42a5f20884a9a21e)
+18.2.2023, 13:01:20 - INFO - Server is running on port: 3030 
+18.2.2023, 13:01:20 - ERROR - Cannot find users  | TypeError: userCollection.toArray is not a function (userId: 63f0ad7e42a5f20884a9a21e)
+18.2.2023, 13:01:20 - ERROR - Failed to get users TypeError: userCollection.toArray is not a function (userId: 63f0ad7e42a5f20884a9a21e)
+18.2.2023, 13:02:16 - INFO - Server is running on port: 3030 
+18.2.2023, 13:02:16 - ERROR - Cannot find users  | TypeError: userCollection.toArray is not a function (userId: 63f0ad7e42a5f20884a9a21e)
+18.2.2023, 13:02:16 - ERROR - Failed to get users TypeError: userCollection.toArray is not a function (userId: 63f0ad7e42a5f20884a9a21e)
+18.2.2023, 13:02:33 - INFO - Server is running on port: 3030 
+18.2.2023, 13:02:39 - ERROR - Cannot find users  | TypeError: userCollection.toArray is not a function (userId: 63f0ad7e42a5f20884a9a21e)
+18.2.2023, 13:02:39 - ERROR - Failed to get users TypeError: userCollection.toArray is not a function (userId: 63f0ad7e42a5f20884a9a21e)
+18.2.2023, 13:04:23 - INFO - Server is running on port: 3030 
+18.2.2023, 13:04:28 - ERROR - Cannot find users  | TypeError: users.map is not a function (userId: 63f0ad7e42a5f20884a9a21e)
+18.2.2023, 13:04:28 - ERROR - Failed to get users TypeError: users.map is not a function (userId: 63f0ad7e42a5f20884a9a21e)
+18.2.2023, 13:04:32 - ERROR - Cannot find users  | TypeError: users.map is not a function (userId: 63f0ad7e42a5f20884a9a21e)
+18.2.2023, 13:04:32 - ERROR - Failed to get users TypeError: users.map is not a function (userId: 63f0ad7e42a5f20884a9a21e)
+18.2.2023, 13:04:35 - ERROR - Cannot find users  | TypeError: users.map is not a function (userId: 63f0ad7e42a5f20884a9a21e)
+18.2.2023, 13:04:35 - ERROR - Failed to get users TypeError: users.map is not a function (userId: 63f0ad7e42a5f20884a9a21e)
+18.2.2023, 13:05:00 - INFO - Server is running on port: 3030 
+18.2.2023, 13:05:30 - INFO - Server is running on port: 3030 
+18.2.2023, 13:05:30 - ERROR - Cannot find users  | TypeError: users.map is not a function (userId: 63f0ad7e42a5f20884a9a21e)
+18.2.2023, 13:05:30 - ERROR - Failed to get users TypeError: users.map is not a function (userId: 63f0ad7e42a5f20884a9a21e)
+18.2.2023, 13:05:35 - ERROR - Cannot find users  | TypeError: users.map is not a function (userId: 63f0ad7e42a5f20884a9a21e)
+18.2.2023, 13:05:35 - ERROR - Failed to get users TypeError: users.map is not a function (userId: 63f0ad7e42a5f20884a9a21e)
+18.2.2023, 13:05:45 - INFO - Server is running on port: 3030 
+18.2.2023, 13:06:13 - INFO - Server is running on port: 3030 
+18.2.2023, 13:06:14 - ERROR - Cannot find users  | TypeError: users.map is not a function (userId: 63f0ad7e42a5f20884a9a21e)
+18.2.2023, 13:06:14 - ERROR - Failed to get users TypeError: users.map is not a function (userId: 63f0ad7e42a5f20884a9a21e)
+18.2.2023, 13:06:17 - ERROR - Cannot find users  | TypeError: users.map is not a function (userId: 63f0ad7e42a5f20884a9a21e)
+18.2.2023, 13:06:17 - ERROR - Failed to get users TypeError: users.map is not a function (userId: 63f0ad7e42a5f20884a9a21e)
+18.2.2023, 13:09:29 - INFO - Server is running on port: 3030 
+18.2.2023, 13:09:37 - INFO - Server is running on port: 3030 
+18.2.2023, 13:09:38 - ERROR - Cannot find users  | TypeError: users.map is not a function (userId: 63f0ad7e42a5f20884a9a21e)
+18.2.2023, 13:09:38 - ERROR - Failed to get users TypeError: users.map is not a function (userId: 63f0ad7e42a5f20884a9a21e)
+18.2.2023, 13:09:41 - ERROR - Cannot find users  | TypeError: users.map is not a function (userId: 63f0ad7e42a5f20884a9a21e)
+18.2.2023, 13:09:41 - ERROR - Failed to get users TypeError: users.map is not a function (userId: 63f0ad7e42a5f20884a9a21e)
+18.2.2023, 13:11:22 - INFO - Server is running on port: 3030 
+18.2.2023, 13:12:05 - INFO - Server is running on port: 3030 
+18.2.2023, 13:12:05 - ERROR - Cannot find users  | TypeError: users.map is not a function (userId: 63f0ad7e42a5f20884a9a21e)
+18.2.2023, 13:12:05 - ERROR - Failed to get users TypeError: users.map is not a function (userId: 63f0ad7e42a5f20884a9a21e)
+18.2.2023, 13:12:30 - ERROR - Cannot find users  | TypeError: users.map is not a function (userId: 63f0ad7e42a5f20884a9a21e)
+18.2.2023, 13:12:30 - ERROR - Failed to get users TypeError: users.map is not a function (userId: 63f0ad7e42a5f20884a9a21e)
+18.2.2023, 13:12:57 - INFO - Server is running on port: 3030 
+18.2.2023, 13:13:09 - ERROR - Cannot find users  | TypeError: Class constructor ObjectId cannot be invoked without 'new' (userId: 63f0ad7e42a5f20884a9a21e)
+18.2.2023, 13:13:09 - ERROR - Failed to get users TypeError: Class constructor ObjectId cannot be invoked without 'new' (userId: 63f0ad7e42a5f20884a9a21e)
+18.2.2023, 13:13:45 - INFO - Server is running on port: 3030 
+18.2.2023, 13:13:49 - ERROR - Failed to get users TypeError: Class constructor ObjectId cannot be invoked without 'new' (userId: 63f0ad7e42a5f20884a9a21e)
+18.2.2023, 13:13:49 - ERROR - Cannot find users  | TypeError: Class constructor ObjectId cannot be invoked without 'new' (userId: 63f0ad7e42a5f20884a9a21e)
+18.2.2023, 13:13:58 - ERROR - Cannot find users  | TypeError: Class constructor ObjectId cannot be invoked without 'new' (userId: 63f0ad7e42a5f20884a9a21e)
+18.2.2023, 13:13:58 - ERROR - Failed to get users TypeError: Class constructor ObjectId cannot be invoked without 'new' (userId: 63f0ad7e42a5f20884a9a21e)
+18.2.2023, 13:14:26 - INFO - Server is running on port: 3030 
+18.2.2023, 13:14:26 - ERROR - Cannot find users  | TypeError: Class constructor ObjectId cannot be invoked without 'new' (userId: 63f0ad7e42a5f20884a9a21e)
+18.2.2023, 13:14:26 - ERROR - Failed to get users TypeError: Class constructor ObjectId cannot be invoked without 'new' (userId: 63f0ad7e42a5f20884a9a21e)
+18.2.2023, 13:14:50 - INFO - Server is running on port: 3030 
+18.2.2023, 13:15:22 - INFO - Server is running on port: 3030 
+18.2.2023, 13:15:50 - INFO - Server is running on port: 3030 
+18.2.2023, 13:16:34 - INFO - Server is running on port: 3030 
+18.2.2023, 13:16:53 - INFO - Server is running on port: 3030 
+18.2.2023, 13:17:15 - INFO - Server is running on port: 3030 
+18.2.2023, 13:18:04 - INFO - Server is running on port: 3030 
+18.2.2023, 13:18:43 - INFO - Server is running on port: 3030 
+18.2.2023, 13:19:44 - DEBUG - auth.service - signup with username: vtomer, fullName: Tomer Vardi (userId: 63f0ad7e42a5f20884a9a21e)
+18.2.2023, 13:19:44 - DEBUG - auth.service - login with username: vtomer (userId: 63f0ad7e42a5f20884a9a21e)
+18.2.2023, 13:19:44 - DEBUG - auth.route - new account created: {"password":"$2b$10$ah2NoAkFet/ItJmydZYxIOBsLpG4z.JPAZdYwBlXznxT8GDewrPLe","username":"vtomer","firstName":"Tomer","lastName":"Vardi","about":"","profileImg":"","coverImg":"","follows":[],"followers":[],"savedTweets":[],"isGuest":false,"_id":"63f0b45067fdb516dfab160b"} (userId: 63f0ad7e42a5f20884a9a21e)
+18.2.2023, 13:19:44 - INFO - User signup:  | {"_id":"63f0b45067fdb516dfab160b","username":"vtomer","firstName":"Tomer","lastName":"Vardi","about":"","profileImg":"","coverImg":"","follows":[],"followers":[],"savedTweets":[],"isGuest":false,"createdAt":"2023-02-18T11:19:44.000Z"} (userId: 63f0ad7e42a5f20884a9a21e)
+18.2.2023, 13:40:48 - DEBUG - auth.service - login with username: vtomer (userId: 63f0b45067fdb516dfab160b)
+18.2.2023, 13:40:48 - INFO - User login:  | {"_id":"63f0b45067fdb516dfab160b","username":"vtomer","firstName":"Tomer","lastName":"Vardi","about":"","profileImg":"","coverImg":"","follows":[],"followers":[],"savedTweets":[],"isGuest":false,"createdAt":"2023-02-18T11:19:44.000Z"} (userId: 63f0b45067fdb516dfab160b)
+18.2.2023, 13:40:55 - DEBUG - auth.service - login with username: vtomer (userId: 63f0b45067fdb516dfab160b)
+18.2.2023, 13:40:55 - INFO - User login:  | {"_id":"63f0b45067fdb516dfab160b","username":"vtomer","firstName":"Tomer","lastName":"Vardi","about":"","profileImg":"","coverImg":"","follows":[],"followers":[],"savedTweets":[],"isGuest":false,"createdAt":"2023-02-18T11:19:44.000Z"} (userId: 63f0b45067fdb516dfab160b)
+18.2.2023, 13:41:05 - DEBUG - auth.service - login with username: vtomer (userId: 63f0b45067fdb516dfab160b)
+18.2.2023, 13:41:05 - ERROR - Failed to Login Invalid username or password (userId: 63f0b45067fdb516dfab160b)
+18.2.2023, 13:41:11 - DEBUG - auth.service - login with username: vtomer (userId: 63f0b45067fdb516dfab160b)
+18.2.2023, 13:41:11 - INFO - User login:  | {"_id":"63f0b45067fdb516dfab160b","username":"vtomer","firstName":"Tomer","lastName":"Vardi","about":"","profileImg":"","coverImg":"","follows":[],"followers":[],"savedTweets":[],"isGuest":false,"createdAt":"2023-02-18T11:19:44.000Z"} (userId: 63f0b45067fdb516dfab160b)
+18.2.2023, 13:41:55 - DEBUG - auth.service - signup with username: vtomer, fullName:   (userId: 63f0b45067fdb516dfab160b)
+18.2.2023, 13:41:55 - ERROR - Failed to Signup Missing required signup information (userId: 63f0b45067fdb516dfab160b)
+18.2.2023, 13:43:16 - DEBUG - auth.service - login with username: vtomer (userId: 63f0b45067fdb516dfab160b)
+18.2.2023, 13:43:16 - INFO - User login:  | {"_id":"63f0b45067fdb516dfab160b","username":"vtomer","firstName":"Tomer","lastName":"Vardi","about":"","profileImg":"","coverImg":"","follows":[],"followers":[],"savedTweets":[],"isGuest":false,"createdAt":"2023-02-18T11:19:44.000Z"} (userId: 63f0b45067fdb516dfab160b)
+18.2.2023, 13:43:48 - DEBUG - auth.service - login with username: vtomer (userId: 63f0b45067fdb516dfab160b)
+18.2.2023, 13:43:48 - INFO - User login:  | {"_id":"63f0b45067fdb516dfab160b","username":"vtomer","firstName":"Tomer","lastName":"Vardi","about":"","profileImg":"","coverImg":"","follows":[],"followers":[],"savedTweets":[],"isGuest":false,"createdAt":"2023-02-18T11:19:44.000Z"} (userId: 63f0b45067fdb516dfab160b)
+18.2.2023, 13:43:55 - DEBUG - auth.service - login with username: vtomer (userId: 63f0b45067fdb516dfab160b)
+18.2.2023, 13:43:55 - ERROR - Failed to Login Invalid username or password (userId: 63f0b45067fdb516dfab160b)
+18.2.2023, 13:46:51 - DEBUG - auth.service - login with username: vtomer (userId: 63f0b45067fdb516dfab160b)
+18.2.2023, 13:46:52 - INFO - User login:  | {"_id":"63f0b45067fdb516dfab160b","username":"vtomer","firstName":"Tomer","lastName":"Vardi","about":"","profileImg":"","coverImg":"","follows":[],"followers":[],"savedTweets":[],"isGuest":false,"createdAt":"2023-02-18T11:19:44.000Z"} (userId: 63f0b45067fdb516dfab160b)
+18.2.2023, 13:47:01 - DEBUG - auth.service - login with username: vtomer (userId: 63f0b45067fdb516dfab160b)
+18.2.2023, 13:47:01 - INFO - User login:  | {"_id":"63f0b45067fdb516dfab160b","username":"vtomer","firstName":"Tomer","lastName":"Vardi","about":"","profileImg":"","coverImg":"","follows":[],"followers":[],"savedTweets":[],"isGuest":false,"createdAt":"2023-02-18T11:19:44.000Z"} (userId: 63f0b45067fdb516dfab160b)
+18.2.2023, 13:47:42 - DEBUG - auth.service - login with username: vtomer (userId: 63f0b45067fdb516dfab160b)
+18.2.2023, 13:47:42 - INFO - User login:  | {"_id":"63f0b45067fdb516dfab160b","username":"vtomer","firstName":"Tomer","lastName":"Vardi","about":"","profileImg":"","coverImg":"","follows":[],"followers":[],"savedTweets":[],"isGuest":false,"createdAt":"2023-02-18T11:19:44.000Z"} (userId: 63f0b45067fdb516dfab160b)
+18.2.2023, 19:20:45 - INFO - Server is running on port: 3030 
+18.2.2023, 19:45:56 - DEBUG - auth.service - login with username: vtomer (userId: 63f0b45067fdb516dfab160b)
+18.2.2023, 19:45:56 - ERROR - Failed to Login Invalid username or password (userId: 63f0b45067fdb516dfab160b)
+18.2.2023, 19:47:07 - DEBUG - auth.service - login with username: vtomer (userId: 63f0b45067fdb516dfab160b)
+18.2.2023, 19:47:07 - ERROR - Failed to Login Invalid username or password (userId: 63f0b45067fdb516dfab160b)
+18.2.2023, 19:47:46 - DEBUG - auth.service - login with username: vtomer (userId: 63f0b45067fdb516dfab160b)
+18.2.2023, 19:47:46 - ERROR - Failed to Login Invalid username or password (userId: 63f0b45067fdb516dfab160b)
+18.2.2023, 19:47:47 - DEBUG - auth.service - login with username: vtomer (userId: 63f0b45067fdb516dfab160b)
+18.2.2023, 19:47:47 - ERROR - Failed to Login Invalid username or password (userId: 63f0b45067fdb516dfab160b)
+18.2.2023, 19:47:48 - DEBUG - auth.service - login with username: vtomer (userId: 63f0b45067fdb516dfab160b)
+18.2.2023, 19:47:48 - ERROR - Failed to Login Invalid username or password (userId: 63f0b45067fdb516dfab160b)
+18.2.2023, 19:47:57 - DEBUG - auth.service - login with username: vtomer (userId: 63f0b45067fdb516dfab160b)
+18.2.2023, 19:47:57 - ERROR - Failed to Login Invalid username or password (userId: 63f0b45067fdb516dfab160b)
+18.2.2023, 19:47:58 - DEBUG - auth.service - login with username: vtomer (userId: 63f0b45067fdb516dfab160b)
+18.2.2023, 19:47:58 - ERROR - Failed to Login Invalid username or password (userId: 63f0b45067fdb516dfab160b)
+18.2.2023, 19:47:59 - DEBUG - auth.service - login with username: vtomer (userId: 63f0b45067fdb516dfab160b)
+18.2.2023, 19:47:59 - ERROR - Failed to Login Invalid username or password (userId: 63f0b45067fdb516dfab160b)
+18.2.2023, 19:47:59 - DEBUG - auth.service - login with username: vtomer (userId: 63f0b45067fdb516dfab160b)
+18.2.2023, 19:47:59 - ERROR - Failed to Login Invalid username or password (userId: 63f0b45067fdb516dfab160b)
+18.2.2023, 19:48:00 - DEBUG - auth.service - login with username: vtomer (userId: 63f0b45067fdb516dfab160b)
+18.2.2023, 19:48:00 - ERROR - Failed to Login Invalid username or password (userId: 63f0b45067fdb516dfab160b)
+18.2.2023, 19:48:01 - DEBUG - auth.service - login with username: vtomer (userId: 63f0b45067fdb516dfab160b)
+18.2.2023, 19:48:01 - ERROR - Failed to Login Invalid username or password (userId: 63f0b45067fdb516dfab160b)
+18.2.2023, 19:48:01 - DEBUG - auth.service - login with username: vtomer (userId: 63f0b45067fdb516dfab160b)
+18.2.2023, 19:48:01 - ERROR - Failed to Login Invalid username or password (userId: 63f0b45067fdb516dfab160b)
+18.2.2023, 19:48:24 - DEBUG - auth.service - signup with username: vtomer, fullName: Tomer  (userId: 63f0b45067fdb516dfab160b)
+18.2.2023, 19:48:24 - ERROR - Failed to Signup Missing required signup information (userId: 63f0b45067fdb516dfab160b)
+18.2.2023, 19:48:26 - DEBUG - auth.service - signup with username: vtomer, fullName: Tomer  (userId: 63f0b45067fdb516dfab160b)
+18.2.2023, 19:48:26 - ERROR - Failed to Signup Missing required signup information (userId: 63f0b45067fdb516dfab160b)
+18.2.2023, 19:48:27 - DEBUG - auth.service - signup with username: vtomer, fullName: Tomer  (userId: 63f0b45067fdb516dfab160b)
+18.2.2023, 19:48:27 - ERROR - Failed to Signup Missing required signup information (userId: 63f0b45067fdb516dfab160b)
+18.2.2023, 19:48:28 - DEBUG - auth.service - signup with username: vtomer, fullName: Tomer  (userId: 63f0b45067fdb516dfab160b)
+18.2.2023, 19:48:28 - ERROR - Failed to Signup Missing required signup information (userId: 63f0b45067fdb516dfab160b)
+18.2.2023, 19:48:28 - ERROR - Failed to Signup Missing required signup information (userId: 63f0b45067fdb516dfab160b)
+18.2.2023, 19:48:28 - DEBUG - auth.service - signup with username: vtomer, fullName: Tomer  (userId: 63f0b45067fdb516dfab160b)
+18.2.2023, 19:48:35 - DEBUG - auth.service - signup with username: vtomer, fullName: Tomer Vardi (userId: 63f0b45067fdb516dfab160b)
+18.2.2023, 19:48:35 - DEBUG - auth.service - login with username: vtomer (userId: 63f0b45067fdb516dfab160b)
+18.2.2023, 19:48:35 - DEBUG - auth.route - new account created: {"password":"$2b$10$z0P9Gm2pmHPlvtqvWvWnqucnnjoAWjIs8w8Vm0rj31sc.b/Hqfs7C","username":"vtomer","firstName":"Tomer","lastName":"Vardi","about":"","profileImg":"","coverImg":"","follows":[],"followers":[],"savedTweets":[],"isGuest":false,"_id":"63f10f73038e6637ecdc75c4"} (userId: 63f0b45067fdb516dfab160b)
+18.2.2023, 19:48:35 - INFO - User signup:  | {"_id":"63f10f73038e6637ecdc75c4","username":"vtomer","firstName":"Tomer","lastName":"Vardi","about":"","profileImg":"","coverImg":"","follows":[],"followers":[],"savedTweets":[],"isGuest":false,"createdAt":"2023-02-18T17:48:35.000Z"} (userId: 63f0b45067fdb516dfab160b)
+18.2.2023, 19:50:56 - DEBUG - auth.service - signup with username: vtomer, fullName: Tomer Vardi (userId: 63f10f73038e6637ecdc75c4)
+18.2.2023, 19:50:56 - DEBUG - auth.route - new account created: {"password":"$2b$10$Ufm0X/oLvJyqhGPRiOxqNOwxtL/UVSR9rpjtAsnXG6ru/CC3JLJPG","username":"vtomer","firstName":"Tomer","lastName":"Vardi","about":"","profileImg":"","coverImg":"","follows":[],"followers":[],"savedTweets":[],"isGuest":false,"_id":"63f11000038e6637ecdc75c5"} (userId: 63f10f73038e6637ecdc75c4)
+18.2.2023, 19:50:56 - DEBUG - auth.service - login with username: vtomer (userId: 63f10f73038e6637ecdc75c4)
+18.2.2023, 19:50:56 - INFO - User signup:  | {"_id":"63f11000038e6637ecdc75c5","username":"vtomer","firstName":"Tomer","lastName":"Vardi","about":"","profileImg":"","coverImg":"","follows":[],"followers":[],"savedTweets":[],"isGuest":false,"createdAt":"2023-02-18T17:50:56.000Z"} (userId: 63f10f73038e6637ecdc75c4)
+18.2.2023, 19:52:43 - DEBUG - auth.service - signup with username: vtomer, fullName: Tomer Vardi (userId: 63f11000038e6637ecdc75c5)
+18.2.2023, 19:52:44 - DEBUG - auth.route - new account created: {"password":"$2b$10$l1yhBHIVuUUWha75blLEDOd8xWBK/nzUpsv2Tfqz1AgDcezRvTbzm","username":"vtomer","firstName":"Tomer","lastName":"Vardi","about":"","profileImg":"","coverImg":"","follows":[],"followers":[],"savedTweets":[],"isGuest":false,"_id":"63f1106c038e6637ecdc75c6"} (userId: 63f11000038e6637ecdc75c5)
+18.2.2023, 19:52:44 - DEBUG - auth.service - login with username: vtomer (userId: 63f11000038e6637ecdc75c5)
+18.2.2023, 19:52:44 - INFO - User signup:  | {"_id":"63f1106c038e6637ecdc75c6","username":"vtomer","firstName":"Tomer","lastName":"Vardi","about":"","profileImg":"","coverImg":"","follows":[],"followers":[],"savedTweets":[],"isGuest":false,"createdAt":"2023-02-18T17:52:44.000Z"} (userId: 63f11000038e6637ecdc75c5)
+18.2.2023, 19:54:05 - DEBUG - auth.service - signup with username: vtomer, fullName: Tomer Vardi (userId: 63f1106c038e6637ecdc75c6)
+18.2.2023, 19:54:05 - DEBUG - auth.route - new account created: {"password":"$2b$10$xk9HJSjWKjCSk66uODHb0uFjakS1Jrw1NVA/K0.G7ziU5qVkIkVxy","username":"vtomer","firstName":"Tomer","lastName":"Vardi","about":"","profileImg":"","coverImg":"","follows":[],"followers":[],"savedTweets":[],"isGuest":false,"_id":"63f110bd038e6637ecdc75c7"} (userId: 63f1106c038e6637ecdc75c6)
+18.2.2023, 19:54:05 - DEBUG - auth.service - login with username: vtomer (userId: 63f1106c038e6637ecdc75c6)
+18.2.2023, 19:54:05 - INFO - User signup:  | {"_id":"63f110bd038e6637ecdc75c7","username":"vtomer","firstName":"Tomer","lastName":"Vardi","about":"","profileImg":"","coverImg":"","follows":[],"followers":[],"savedTweets":[],"isGuest":false,"createdAt":"2023-02-18T17:54:05.000Z"} (userId: 63f1106c038e6637ecdc75c6)

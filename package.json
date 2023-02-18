@@ -3,8 +3,7 @@
   "version": "1.0.0",
   "description": "retwitt app Express Node.js Typescript backend inc. server.ts, cors, cookie-parser, routes, controllers, services and dbService using MongoDB to handle data.",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "set NODE_ENV=development&& nodemon",
+    "start": "set NODE_ENV=development&&npx nodemon",
     "server:dev": "set NODE_ENV=development&&npx nodemon",
     "server:prod": "set NODE_ENV=production && npm run build && node build/server.ts",
     "build": "rimraf ./build && tsc"

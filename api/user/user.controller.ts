@@ -9,24 +9,19 @@ async function getUser(req: Request, res: Response) {
         const user: User = await userService.getById(userId)
         res.send(user)
     } catch (err) {
-        if (err instanceof Error) {
-            logger.error('Failed to get user ' + err)
-            res.status(500).send({ err: 'Failed to get user' })
-        }
-        console.log('Unexpected error', err);
+        logger.error('Failed to get user ' + err)
+        res.status(500).send({ err: 'Failed to get user' })
     }
 }
 
 async function getUsers(req: Request, res: Response) {
     try {
         const users: User[] = await userService.query()
+        console.log(`users:`, users)
         res.send(users)
     } catch (err) {
-        if (err instanceof Error) {
-            logger.error('Failed to get users ' + err)
-            res.status(500).send({ err: 'Failed to get users' })
-        }
-        console.log('Unexpected error', err);
+        logger.error('Failed to get users ' + err)
+        res.status(500).send({ err: 'Failed to get users' })
     }
 }
 
@@ -36,11 +31,8 @@ async function deleteUser(req: Request, res: Response) {
         await userService.remove(userId)
         res.send({ msg: 'Deleted successfully' })
     } catch (err) {
-        if (err instanceof Error) {
-            logger.error('Failed to delete user ' + err)
-            res.status(500).send({ err: 'Failed to delete user' })
-        }
-        console.log('Unexpected error', err);
+        logger.error('Failed to delete user ' + err)
+        res.status(500).send({ err: 'Failed to delete user' })
     }
 }
 
@@ -50,11 +42,8 @@ async function updateUser(req: Request, res: Response) {
         const savedUser: User = await userService.update(user)
         res.send(savedUser)
     } catch (err) {
-        if (err instanceof Error) {
-            logger.error('Failed to update user ' + err)
-            res.status(500).send({ err: 'Failed to update user' })
-        }
-        console.log('Unexpected error', err);
+        logger.error('Failed to update user ' + err)
+        res.status(500).send({ err: 'Failed to update user' })
     }
 }
 
