@@ -3,6 +3,16 @@ const logger = require('../../services/logger.service')
 import { Request, Response } from 'express'
 import { User } from '../../Interfaces/user.interface'
 
+async function getUsers(req: Request, res: Response) {
+    try {
+        const users: User[] = await userService.query()
+        res.send(users)
+    } catch (err) {
+        logger.error('Failed to get users ' + err)
+        res.status(500).send({ err: 'Failed to get users' })
+    }
+}
+
 async function getUser(req: Request, res: Response) {
     try {
         const userId: string = req.params.id
@@ -11,17 +21,6 @@ async function getUser(req: Request, res: Response) {
     } catch (err) {
         logger.error('Failed to get user ' + err)
         res.status(500).send({ err: 'Failed to get user' })
-    }
-}
-
-async function getUsers(req: Request, res: Response) {
-    try {
-        const users: User[] = await userService.query()
-        console.log(`users:`, users)
-        res.send(users)
-    } catch (err) {
-        logger.error('Failed to get users ' + err)
-        res.status(500).send({ err: 'Failed to get users' })
     }
 }
 
@@ -47,11 +46,9 @@ async function updateUser(req: Request, res: Response) {
     }
 }
 
-
-
 module.exports = {
-    getUser,
     getUsers,
+    getUser,
     deleteUser,
     updateUser,
 }

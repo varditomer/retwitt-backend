@@ -459,3 +459,225 @@
 18.2.2023, 19:54:05 - DEBUG - auth.route - new account created: {"password":"$2b$10$xk9HJSjWKjCSk66uODHb0uFjakS1Jrw1NVA/K0.G7ziU5qVkIkVxy","username":"vtomer","firstName":"Tomer","lastName":"Vardi","about":"","profileImg":"","coverImg":"","follows":[],"followers":[],"savedTweets":[],"isGuest":false,"_id":"63f110bd038e6637ecdc75c7"} (userId: 63f1106c038e6637ecdc75c6)
 18.2.2023, 19:54:05 - DEBUG - auth.service - login with username: vtomer (userId: 63f1106c038e6637ecdc75c6)
 18.2.2023, 19:54:05 - INFO - User signup:  | {"_id":"63f110bd038e6637ecdc75c7","username":"vtomer","firstName":"Tomer","lastName":"Vardi","about":"","profileImg":"","coverImg":"","follows":[],"followers":[],"savedTweets":[],"isGuest":false,"createdAt":"2023-02-18T17:54:05.000Z"} (userId: 63f1106c038e6637ecdc75c6)
+19.2.2023, 11:39:32 - INFO - Server is running on port: 3030 
+19.2.2023, 11:40:04 - INFO - Server is running on port: 3030 
+19.2.2023, 11:40:43 - INFO - Server is running on port: 3030 
+19.2.2023, 11:41:10 - INFO - Server is running on port: 3030 
+19.2.2023, 11:45:51 - DEBUG - auth.service - signup with username: vtomer, fullName: Tomer Vardi (userId: 63f110bd038e6637ecdc75c7)
+19.2.2023, 11:45:51 - DEBUG - auth.route - new account created: {"password":"$2b$10$w9M1BVHmx47sJeg2hAXHbuWJgABvv82QjRzz7zR7dLGljbTGpLEQy","username":"vtomer","firstName":"Tomer","lastName":"Vardi","about":"","profileImg":"","coverImg":"","follows":[],"followers":[],"savedTweets":[],"isGuest":false,"_id":"63f1efcfd45a8a1ac431b44f"} (userId: 63f110bd038e6637ecdc75c7)
+19.2.2023, 11:45:51 - DEBUG - auth.service - login with username: vtomer (userId: 63f110bd038e6637ecdc75c7)
+19.2.2023, 11:45:51 - INFO - User signup:  | {"_id":"63f1efcfd45a8a1ac431b44f","username":"vtomer","firstName":"Tomer","lastName":"Vardi","about":"","profileImg":"","coverImg":"","follows":[],"followers":[],"savedTweets":[],"isGuest":false,"createdAt":"2023-02-19T09:45:51.000Z"} (userId: 63f110bd038e6637ecdc75c7)
+19.2.2023, 12:49:55 - DEBUG - auth.service - signup with username: vtomer, fullName: Tomer Vardi (userId: 63f1efcfd45a8a1ac431b44f)
+19.2.2023, 12:49:55 - DEBUG - auth.service - login with username: vtomer (userId: 63f1efcfd45a8a1ac431b44f)
+19.2.2023, 12:49:55 - DEBUG - auth.route - new account created: {"password":"$2b$10$1TJohQbwRyBKhieDxNq93eggtZdl/Sha11s4CJuTQpiswdpXcFfIm","username":"vtomer","firstName":"Tomer","lastName":"Vardi","about":"","profileImg":"","coverImg":"","follows":[],"followers":[],"savedTweets":[],"isGuest":false,"_id":"63f1fed3d45a8a1ac431b450"} (userId: 63f1efcfd45a8a1ac431b44f)
+19.2.2023, 12:49:56 - INFO - User signup:  | {"_id":"63f1fed3d45a8a1ac431b450","username":"vtomer","firstName":"Tomer","lastName":"Vardi","about":"","profileImg":"","coverImg":"","follows":[],"followers":[],"savedTweets":[],"isGuest":false,"createdAt":"2023-02-19T10:49:55.000Z"} (userId: 63f1efcfd45a8a1ac431b44f)
+19.2.2023, 19:41:58 - DEBUG - auth.service - signup with username: vtomer, fullName: Tomer Vardi (userId: 63f1fed3d45a8a1ac431b450)
+19.2.2023, 19:41:58 - DEBUG - auth.route - new account created: {"password":"$2b$10$U4IzaHq6/3rGSgQ9FwtJrulJGT071XV5zdH11C8PSOb78tskr3m9S","username":"vtomer","firstName":"Tomer","lastName":"Vardi","about":"","profileImg":"","coverImg":"","follows":[],"followers":[],"savedTweets":[],"isGuest":false,"_id":"63f25f66d45a8a1ac431b451"} (userId: 63f1fed3d45a8a1ac431b450)
+19.2.2023, 19:41:58 - DEBUG - auth.service - login with username: vtomer (userId: 63f1fed3d45a8a1ac431b450)
+19.2.2023, 19:41:58 - INFO - User signup:  | {"_id":"63f25f66d45a8a1ac431b451","username":"vtomer","firstName":"Tomer","lastName":"Vardi","about":"","profileImg":"","coverImg":"","follows":[],"followers":[],"savedTweets":[],"isGuest":false,"createdAt":"2023-02-19T17:41:58.000Z"} (userId: 63f1fed3d45a8a1ac431b450)
+19.2.2023, 20:04:32 - DEBUG - auth.service - signup with username: vtomer, fullName: Tomer Vardi 
+19.2.2023, 20:04:32 - ERROR - Failed to Signup Username already taken 
+19.2.2023, 20:05:09 - DEBUG - auth.service - signup with username: vtomer, fullName: Tomer Vardi 
+19.2.2023, 20:05:09 - ERROR - Failed to Signup Username already taken 
+19.2.2023, 20:08:26 - INFO - Server is running on port: 3030 
+19.2.2023, 20:08:33 - DEBUG - auth.service - signup with username: vtomer, fullName: Tomer Vardi 
+19.2.2023, 20:08:33 - ERROR - Failed to Signup Username already taken 
+19.2.2023, 20:09:28 - INFO - Server is running on port: 3030 
+19.2.2023, 20:09:33 - INFO - Server is running on port: 3030 
+19.2.2023, 20:09:46 - DEBUG - auth.service - signup with username: vtomer, fullName: Tomer Vardi 
+19.2.2023, 20:09:46 - ERROR - Failed to Signup Username already taken 
+19.2.2023, 20:14:07 - INFO - Server is running on port: 3030 
+19.2.2023, 20:14:21 - INFO - Server is running on port: 3030 
+19.2.2023, 20:15:54 - INFO - Server is running on port: 3030 
+19.2.2023, 20:15:54 - DEBUG - auth.service - signup with username: vtomer, fullName: Tomer Vardi 
+19.2.2023, 20:18:21 - INFO - Server is running on port: 3030 
+19.2.2023, 20:18:21 - DEBUG - auth.service - signup with username: gffh, fullName:   
+19.2.2023, 20:18:21 - ERROR - Failed to Signup Missing required signup information 
+19.2.2023, 20:19:11 - DEBUG - auth.service - signup with username: gffh, fullName:   
+19.2.2023, 20:19:11 - ERROR - Failed to Signup Missing required signup information 
+19.2.2023, 20:20:09 - DEBUG - auth.service - login with username: vtomer 
+19.2.2023, 20:20:09 - INFO - User login:  | {"_id":"63f25f66d45a8a1ac431b451","username":"vtomer","firstName":"Tomer","lastName":"Vardi","about":"","profileImg":"","coverImg":"","follows":[],"followers":[],"savedTweets":[],"isGuest":false,"createdAt":"2023-02-19T17:41:58.000Z"} 
+19.2.2023, 20:22:45 - DEBUG - auth.service - login with username: vtomer (userId: 63f25f66d45a8a1ac431b451)
+19.2.2023, 20:22:45 - INFO - User login:  | {"_id":"63f25f66d45a8a1ac431b451","username":"vtomer","firstName":"Tomer","lastName":"Vardi","about":"","profileImg":"","coverImg":"","follows":[],"followers":[],"savedTweets":[],"isGuest":false,"createdAt":"2023-02-19T17:41:58.000Z"} (userId: 63f25f66d45a8a1ac431b451)
+19.2.2023, 20:22:57 - DEBUG - auth.service - login with username: vtomer (userId: 63f25f66d45a8a1ac431b451)
+19.2.2023, 20:22:57 - INFO - User login:  | {"_id":"63f25f66d45a8a1ac431b451","username":"vtomer","firstName":"Tomer","lastName":"Vardi","about":"","profileImg":"","coverImg":"","follows":[],"followers":[],"savedTweets":[],"isGuest":false,"createdAt":"2023-02-19T17:41:58.000Z"} (userId: 63f25f66d45a8a1ac431b451)
+19.2.2023, 20:23:56 - DEBUG - auth.service - login with username: vtomer 
+19.2.2023, 20:23:56 - INFO - User login:  | {"_id":"63f25f66d45a8a1ac431b451","username":"vtomer","firstName":"Tomer","lastName":"Vardi","about":"","profileImg":"","coverImg":"","follows":[],"followers":[],"savedTweets":[],"isGuest":false,"createdAt":"2023-02-19T17:41:58.000Z"} 
+20.2.2023, 14:03:40 - INFO - Server is running on port: 3030 
+20.2.2023, 14:04:21 - INFO - Server is running on port: 3030 
+20.2.2023, 14:04:35 - INFO - Server is running on port: 3030 
+20.2.2023, 14:04:42 - INFO - Server is running on port: 3030 
+20.2.2023, 14:12:33 - INFO - Server is running on port: 3030 
+20.2.2023, 14:14:38 - INFO - Server is running on port: 3030 
+20.2.2023, 14:16:43 - INFO - Server is running on port: 3030 
+20.2.2023, 14:20:42 - INFO - Server is running on port: 3030 
+20.2.2023, 14:20:58 - INFO - Server is running on port: 3030 
+20.2.2023, 14:21:23 - DEBUG - auth.service - login with username: vtomer 
+20.2.2023, 14:21:24 - INFO - User login:  | {"_id":"63f25f66d45a8a1ac431b451","username":"vtomer","firstName":"Tomer","lastName":"Vardi","about":"","profileImg":"","coverImg":"","follows":[],"followers":[],"savedTweets":[],"isGuest":false,"createdAt":"2023-02-19T17:41:58.000Z"} 
+20.2.2023, 14:22:02 - INFO - Server is running on port: 3030 
+20.2.2023, 14:22:43 - INFO - Server is running on port: 3030 
+20.2.2023, 14:23:05 - INFO - Server is running on port: 3030 
+20.2.2023, 14:23:52 - INFO - Server is running on port: 3030 
+20.2.2023, 14:24:00 - INFO - Server is running on port: 3030 
+20.2.2023, 14:24:13 - DEBUG - auth.service - login with username: vtomer 
+20.2.2023, 14:24:13 - INFO - User login:  | {"_id":"63f25f66d45a8a1ac431b451","username":"vtomer","firstName":"Tomer","lastName":"Vardi","about":"","profileImg":"","coverImg":"","follows":[],"followers":[],"savedTweets":[],"isGuest":false,"createdAt":"2023-02-19T17:41:58.000Z"} 
+20.2.2023, 14:25:48 - INFO - Server is running on port: 3030 
+20.2.2023, 14:26:01 - INFO - Server is running on port: 3030 
+20.2.2023, 14:30:41 - INFO - Server is running on port: 3030 
+20.2.2023, 14:30:46 - INFO - Server is running on port: 3030 
+20.2.2023, 14:31:28 - INFO - Server is running on port: 3030 
+20.2.2023, 14:32:38 - INFO - Server is running on port: 3030 
+20.2.2023, 14:34:35 - INFO - Server is running on port: 3030 
+20.2.2023, 14:34:58 - INFO - Server is running on port: 3030 
+20.2.2023, 14:40:52 - INFO - Server is running on port: 3030 
+20.2.2023, 14:41:02 - INFO - Server is running on port: 3030 
+20.2.2023, 15:57:15 - INFO - Server is running on port: 3030 
+20.2.2023, 15:58:27 - INFO - Server is running on port: 3030 
+20.2.2023, 16:00:45 - INFO - Server is running on port: 3030 
+20.2.2023, 16:01:36 - INFO - Server is running on port: 3030 
+20.2.2023, 16:03:30 - INFO - Server is running on port: 3030 
+20.2.2023, 16:04:46 - INFO - Server is running on port: 3030 
+20.2.2023, 16:07:28 - INFO - Server is running on port: 3030 
+20.2.2023, 16:08:31 - INFO - Server is running on port: 3030 
+20.2.2023, 18:13:08 - INFO - Server is running on port: 3030 
+20.2.2023, 18:15:13 - INFO - Server is running on port: 3030 
+20.2.2023, 18:20:55 - INFO - Server is running on port: 3030 
+20.2.2023, 18:21:48 - INFO - Server is running on port: 3030 
+20.2.2023, 18:23:15 - INFO - Server is running on port: 3030 
+20.2.2023, 18:24:48 - INFO - Server is running on port: 3030 
+20.2.2023, 18:26:34 - INFO - Server is running on port: 3030 
+20.2.2023, 18:28:49 - INFO - Server is running on port: 3030 
+20.2.2023, 18:38:25 - DEBUG - auth.service - login with username: vtomer 
+20.2.2023, 18:38:25 - ERROR - Failed to Login Error: data and hash arguments required 
+20.2.2023, 18:38:56 - DEBUG - auth.service - signup with username: vtomer, fullName: Tomer Vardi 
+20.2.2023, 18:38:56 - ERROR - Failed to Signup Username already taken 
+20.2.2023, 18:39:01 - DEBUG - auth.service - login with username: vtomer 
+20.2.2023, 18:39:01 - ERROR - Failed to Login Error: data and hash arguments required 
+20.2.2023, 18:39:20 - INFO - Server is running on port: 3030 
+20.2.2023, 18:39:23 - DEBUG - auth.service - login with username: vtomer 
+20.2.2023, 18:39:23 - ERROR - Failed to Login Error: data and hash arguments required 
+20.2.2023, 18:39:55 - DEBUG - auth.service - login with username: vtomer 
+20.2.2023, 18:39:55 - ERROR - Failed to Login Error: data and hash arguments required 
+20.2.2023, 18:41:05 - INFO - Server is running on port: 3030 
+20.2.2023, 18:41:10 - INFO - Server is running on port: 3030 
+20.2.2023, 18:41:10 - DEBUG - auth.service - login with username: vtomer 
+20.2.2023, 18:41:10 - ERROR - Failed to Login Error: data and hash arguments required 
+20.2.2023, 18:42:18 - INFO - Server is running on port: 3030 
+20.2.2023, 18:42:20 - DEBUG - auth.service - login with username: vtomer 
+20.2.2023, 18:42:20 - ERROR - Failed to Login Error: data and hash arguments required 
+20.2.2023, 18:42:43 - INFO - Server is running on port: 3030 
+20.2.2023, 18:42:43 - DEBUG - auth.service - login with username: vtomer 
+20.2.2023, 18:42:43 - ERROR - Failed to Login Error: data and hash arguments required 
+20.2.2023, 18:43:14 - INFO - Server is running on port: 3030 
+20.2.2023, 18:43:14 - DEBUG - auth.service - login with username: vtomer 
+20.2.2023, 18:43:14 - ERROR - Failed to Login Error: data and hash arguments required 
+20.2.2023, 18:45:16 - INFO - Server is running on port: 3030 
+20.2.2023, 18:45:53 - DEBUG - auth.service - signup with username: json, fullName: bob deep 
+20.2.2023, 18:45:53 - ERROR - Cannot find user by username: json | TypeError: Cannot convert undefined or null to object 
+20.2.2023, 18:45:53 - ERROR - Failed to Signup TypeError: Cannot convert undefined or null to object 
+20.2.2023, 18:46:00 - DEBUG - auth.service - signup with username: json, fullName: bob deep 
+20.2.2023, 18:46:00 - ERROR - Cannot find user by username: json | TypeError: Cannot convert undefined or null to object 
+20.2.2023, 18:46:00 - ERROR - Failed to Signup TypeError: Cannot convert undefined or null to object 
+20.2.2023, 18:46:31 - INFO - Server is running on port: 3030 
+20.2.2023, 18:46:31 - DEBUG - auth.service - signup with username: json, fullName: bob deep 
+20.2.2023, 18:46:31 - ERROR - Cannot find user by username: json | TypeError: Cannot convert undefined or null to object 
+20.2.2023, 18:46:31 - ERROR - Failed to Signup TypeError: Cannot convert undefined or null to object 
+20.2.2023, 18:47:31 - INFO - Server is running on port: 3030 
+20.2.2023, 18:47:34 - DEBUG - auth.service - signup with username: json, fullName: bob deep 
+20.2.2023, 18:47:34 - ERROR - Cannot find user by username: json | TypeError: Cannot convert undefined or null to object 
+20.2.2023, 18:47:34 - ERROR - Failed to Signup TypeError: Cannot convert undefined or null to object 
+20.2.2023, 18:47:50 - INFO - Server is running on port: 3030 
+20.2.2023, 18:47:52 - DEBUG - auth.service - signup with username: json, fullName: bob deep 
+20.2.2023, 18:47:52 - ERROR - Cannot find user by username: json | TypeError: Cannot convert undefined or null to object 
+20.2.2023, 18:47:52 - ERROR - Failed to Signup TypeError: Cannot convert undefined or null to object 
+20.2.2023, 18:49:41 - INFO - Server is running on port: 3030 
+20.2.2023, 18:49:49 - INFO - Server is running on port: 3030 
+20.2.2023, 18:49:58 - DEBUG - auth.service - signup with username: json, fullName: bob deep 
+20.2.2023, 18:49:59 - ERROR - Cannot find user by username: json | TypeError: Cannot convert undefined or null to object 
+20.2.2023, 18:49:59 - ERROR - Failed to Signup TypeError: Cannot convert undefined or null to object 
+20.2.2023, 18:50:20 - INFO - Server is running on port: 3030 
+20.2.2023, 18:50:22 - DEBUG - auth.service - signup with username: json, fullName: bob deep 
+20.2.2023, 18:50:22 - ERROR - Cannot find user by username: json | TypeError: Cannot convert undefined or null to object 
+20.2.2023, 18:50:22 - ERROR - Failed to Signup TypeError: Cannot convert undefined or null to object 
+20.2.2023, 18:50:48 - INFO - Server is running on port: 3030 
+20.2.2023, 18:50:48 - DEBUG - auth.service - signup with username: json, fullName: bob deep 
+20.2.2023, 18:50:48 - ERROR - Cannot find user by username: json | TypeError: Cannot convert undefined or null to object 
+20.2.2023, 18:50:48 - ERROR - Failed to Signup TypeError: Cannot convert undefined or null to object 
+20.2.2023, 18:51:17 - INFO - Server is running on port: 3030 
+20.2.2023, 18:51:29 - INFO - Server is running on port: 3030 
+20.2.2023, 18:51:35 - DEBUG - auth.service - signup with username: json, fullName: bob deep 
+20.2.2023, 18:51:36 - DEBUG - auth.route - new account created: {"password":"$2b$10$.TpP8hG6WSPQ83ffWvFabuKBsBzN1ht7kleAh0EFFAH/SSZbhJSZC","username":"json","firstName":"bob","lastName":"deep","about":"","profileImg":"","coverImg":"","follows":[],"followers":[],"savedTweets":[],"isGuest":false,"_id":"63f3a518ea73acaf58008589"} 
+20.2.2023, 18:51:36 - DEBUG - auth.service - login with username: json 
+20.2.2023, 18:51:36 - ERROR - Failed to Signup Error: data and hash arguments required 
+20.2.2023, 18:52:14 - DEBUG - auth.service - signup with username: json, fullName: bob deep 
+20.2.2023, 18:52:14 - ERROR - Failed to Signup Username already taken 
+20.2.2023, 18:56:54 - INFO - Server is running on port: 3030 
+20.2.2023, 18:57:14 - INFO - Server is running on port: 3030 
+20.2.2023, 18:57:21 - DEBUG - auth.service - login with username: vtomer 
+20.2.2023, 18:57:21 - INFO - User login:  | {"_id":"63f25f66d45a8a1ac431b451","username":"vtomer","firstName":"Tomer","lastName":"Vardi","about":"","profileImg":"","coverImg":"","follows":[],"followers":[],"savedTweets":[],"isGuest":false,"createdAt":"2023-02-19T17:41:58.000Z"} 
+22.2.2023, 13:20:03 - INFO - Server is running on port: 3030 
+22.2.2023, 13:20:39 - DEBUG - auth.service - signup with username: gg, fullName: op lf 
+22.2.2023, 13:20:39 - DEBUG - auth.route - new account created: {"password":"$2b$10$g7LUtbCyd41IDHMTKKZYFuRVGFDY3Gy.ViDweFPVrv/qvxTAOxUB2","username":"gg","firstName":"op","lastName":"lf","about":"","profileImg":"","coverImg":"","follows":[],"followers":[],"savedTweets":[],"isGuest":false,"_id":"63f5fa87191909a897bf3aae"} 
+22.2.2023, 13:20:39 - DEBUG - auth.service - login with username: gg 
+22.2.2023, 13:20:39 - INFO - User signup:  | {"_id":"63f5fa87191909a897bf3aae","username":"gg","firstName":"op","lastName":"lf","about":"","profileImg":"","coverImg":"","follows":[],"followers":[],"savedTweets":[],"isGuest":false,"createdAt":"2023-02-22T11:20:39.000Z"} 
+24.2.2023, 11:56:23 - INFO - Server is running on port: 3030 
+24.2.2023, 11:57:04 - DEBUG - auth.service - signup with username: vtomer, fullName: Tomer Vardi (userId: 63f5fa87191909a897bf3aae)
+24.2.2023, 11:57:04 - DEBUG - auth.route - new account created: {"password":"$2b$10$134nrXcOXsp8Q22zTrwXlOCr0Fx/8oRfRRBljTyqgdnc9xEqSnzLu","username":"vtomer","firstName":"Tomer","lastName":"Vardi","about":"","profileImg":"","coverImg":"","follows":[],"followers":[],"savedTweets":[],"isGuest":false,"_id":"63f889f07c2ac49cc507f976"} (userId: 63f5fa87191909a897bf3aae)
+24.2.2023, 11:57:04 - DEBUG - auth.service - login with username: vtomer (userId: 63f5fa87191909a897bf3aae)
+24.2.2023, 11:57:04 - INFO - User signup:  | {"_id":"63f889f07c2ac49cc507f976","username":"vtomer","firstName":"Tomer","lastName":"Vardi","about":"","profileImg":"","coverImg":"","follows":[],"followers":[],"savedTweets":[],"isGuest":false,"createdAt":"2023-02-24T09:57:04.000Z"} (userId: 63f5fa87191909a897bf3aae)
+24.2.2023, 11:59:03 - DEBUG - auth.service - login with username: vtomer (userId: 63f889f07c2ac49cc507f976)
+24.2.2023, 11:59:03 - INFO - User login:  | {"_id":"63f889f07c2ac49cc507f976","username":"vtomer","firstName":"Tomer","lastName":"Vardi","about":"","profileImg":"","coverImg":"","follows":[],"followers":[],"savedTweets":[],"isGuest":false,"createdAt":"2023-02-24T09:57:04.000Z"} (userId: 63f889f07c2ac49cc507f976)
+24.2.2023, 12:00:02 - DEBUG - auth.service - login with username: vtomer (userId: 63f889f07c2ac49cc507f976)
+24.2.2023, 12:00:03 - INFO - User login:  | {"_id":"63f889f07c2ac49cc507f976","username":"vtomer","firstName":"Tomer","lastName":"Vardi","about":"","profileImg":"","coverImg":"","follows":[],"followers":[],"savedTweets":[],"isGuest":false,"createdAt":"2023-02-24T09:57:04.000Z"} (userId: 63f889f07c2ac49cc507f976)
+24.2.2023, 12:12:02 - INFO - Server is running on port: 3030 
+24.2.2023, 12:12:13 - INFO - Server is running on port: 3030 
+24.2.2023, 12:13:19 - DEBUG - auth.service - login with username: vtomer (userId: 63f889f07c2ac49cc507f976)
+24.2.2023, 12:13:19 - INFO - User login:  | {"_id":"63f889f07c2ac49cc507f976","username":"vtomer","firstName":"Tomer","lastName":"Vardi","about":"","profileImg":"","coverImg":"","follows":[],"followers":[],"savedTweets":[],"isGuest":false,"createdAt":"2023-02-24T09:57:04.000Z"} (userId: 63f889f07c2ac49cc507f976)
+24.2.2023, 12:19:17 - INFO - Server is running on port: 3030 
+24.2.2023, 12:20:39 - INFO - Server is running on port: 3030 
+24.2.2023, 12:30:03 - INFO - Server is running on port: 3030 
+24.2.2023, 12:30:21 - INFO - Server is running on port: 3030 
+24.2.2023, 12:30:28 - INFO - Server is running on port: 3030 
+24.2.2023, 12:31:00 - INFO - Server is running on port: 3030 
+24.2.2023, 12:31:20 - DEBUG - auth.service - signup with username: b, fullName: 2 3 (userId: 63f889f07c2ac49cc507f976)
+24.2.2023, 12:31:20 - DEBUG - auth.route - new account created: {"password":"$2b$10$r29KzexP0TPL4RIDDolW/efvH6ZDTQeMa5vr2eA6GsWhN89NAxZwa","username":"b","firstName":"2","lastName":"3","about":"","profileImg":"","coverImg":"","follows":[],"followers":[],"savedTweets":[],"isGuest":false} (userId: 63f889f07c2ac49cc507f976)
+24.2.2023, 12:31:20 - DEBUG - auth.service - login with username: b (userId: 63f889f07c2ac49cc507f976)
+24.2.2023, 12:31:20 - ERROR - Failed to Signup Invalid username or password (userId: 63f889f07c2ac49cc507f976)
+24.2.2023, 12:35:51 - INFO - Server is running on port: 3030 
+24.2.2023, 12:35:52 - DEBUG - auth.service - login with username: vtomer (userId: 63f889f07c2ac49cc507f976)
+24.2.2023, 12:35:52 - INFO - User login:  | {"_id":"63f889f07c2ac49cc507f976","username":"vtomer","firstName":"Tomer","lastName":"Vardi","about":"","profileImg":"","coverImg":"","follows":[],"followers":[],"savedTweets":[],"isGuest":false,"createdAt":"2023-02-24T09:57:04.000Z"} (userId: 63f889f07c2ac49cc507f976)
+24.2.2023, 13:25:08 - DEBUG - auth.service - signup with username: vtomer, fullName: Tomer Vardi (userId: 63f889f07c2ac49cc507f976)
+24.2.2023, 13:25:08 - DEBUG - auth.route - new account created: {"password":"$2b$10$lOYeZtzwrmK8U5w80Mrx0e2JtSfV8pfX.G8vkKjvMa3VuskmDF2pK","username":"vtomer","firstName":"Tomer","lastName":"Vardi","about":"","profileImg":"","coverImg":"","follows":[],"followers":[],"savedTweets":[],"isGuest":false,"_id":"63f89e94e64b25a44cb1b0ac"} (userId: 63f889f07c2ac49cc507f976)
+24.2.2023, 13:25:08 - DEBUG - auth.service - login with username: vtomer (userId: 63f889f07c2ac49cc507f976)
+24.2.2023, 13:25:08 - INFO - User signup:  | {"_id":"63f89e94e64b25a44cb1b0ac","username":"vtomer","firstName":"Tomer","lastName":"Vardi","about":"","profileImg":"","coverImg":"","follows":[],"followers":[],"savedTweets":[],"isGuest":false,"createdAt":"2023-02-24T11:25:08.000Z"} (userId: 63f889f07c2ac49cc507f976)
+24.2.2023, 13:28:08 - INFO - Server is running on port: 3030 
+24.2.2023, 14:52:59 - DEBUG - auth.service - signup with username: b, fullName: Boo Boo (userId: 63f89e94e64b25a44cb1b0ac)
+24.2.2023, 14:52:59 - DEBUG - auth.route - new account created: {"password":"$2b$10$LFoQW3ztPy0pIszv3ftsW.iEh7Z8lnqf3oxzNySBZcIt58SQQPhVa","username":"b","firstName":"Boo","lastName":"Boo","about":"","profileImg":"","coverImg":"","follows":[],"followers":[],"savedTweets":[],"isGuest":false,"_id":"63f8b32b266633812a3df72d"} (userId: 63f89e94e64b25a44cb1b0ac)
+24.2.2023, 14:52:59 - DEBUG - auth.service - login with username: b (userId: 63f89e94e64b25a44cb1b0ac)
+24.2.2023, 14:52:59 - INFO - User signup:  | {"_id":"63f8b32b266633812a3df72d","username":"b","firstName":"Boo","lastName":"Boo","about":"","profileImg":"","coverImg":"","follows":[],"followers":[],"savedTweets":[],"isGuest":false,"createdAt":"2023-02-24T12:52:59.000Z"} (userId: 63f89e94e64b25a44cb1b0ac)
+24.2.2023, 14:54:23 - ERROR - Failed to update user TypeError: Class constructor ObjectId cannot be invoked without 'new' (userId: 63f8b32b266633812a3df72d)
+24.2.2023, 14:54:23 - ERROR - Cannot update user: undefined | TypeError: Class constructor ObjectId cannot be invoked without 'new' (userId: 63f8b32b266633812a3df72d)
+24.2.2023, 14:55:08 - DEBUG - auth.service - login with username: b (userId: 63f8b32b266633812a3df72d)
+24.2.2023, 14:55:08 - INFO - User login:  | {"_id":"63f8b32b266633812a3df72d","username":"b","firstName":"Boo","lastName":"Boo","about":"","profileImg":"","coverImg":"","follows":[],"followers":[],"savedTweets":[],"isGuest":false,"createdAt":"2023-02-24T12:52:59.000Z"} (userId: 63f8b32b266633812a3df72d)
+24.2.2023, 14:58:01 - DEBUG - auth.service - login with username: b 
+24.2.2023, 14:58:01 - INFO - User login:  | {"_id":"63f8b32b266633812a3df72d","username":"b","firstName":"Boo","lastName":"Boo","about":"","profileImg":"","coverImg":"","follows":[],"followers":[],"savedTweets":[],"isGuest":false,"createdAt":"2023-02-24T12:52:59.000Z"} 
+24.2.2023, 14:58:09 - ERROR - Cannot update user: undefined | TypeError: Class constructor ObjectId cannot be invoked without 'new' (userId: 63f8b32b266633812a3df72d)
+24.2.2023, 14:58:09 - ERROR - Failed to update user TypeError: Class constructor ObjectId cannot be invoked without 'new' (userId: 63f8b32b266633812a3df72d)
+24.2.2023, 15:44:05 - DEBUG - auth.service - login with username: b 
+24.2.2023, 15:44:05 - INFO - User login:  | {"_id":"63f8b32b266633812a3df72d","username":"b","firstName":"Boo","lastName":"Boo","about":"","profileImg":"","coverImg":"","follows":[],"followers":[],"savedTweets":[],"isGuest":false,"createdAt":"2023-02-24T12:52:59.000Z"} 
+24.2.2023, 15:44:09 - ERROR - Cannot update user: 63f8b32b266633812a3df72d | TypeError: Class constructor ObjectId cannot be invoked without 'new' (userId: 63f8b32b266633812a3df72d)
+24.2.2023, 15:44:09 - ERROR - Failed to update user TypeError: Class constructor ObjectId cannot be invoked without 'new' (userId: 63f8b32b266633812a3df72d)
+24.2.2023, 15:45:22 - INFO - Server is running on port: 3030 
+24.2.2023, 15:45:26 - DEBUG - auth.service - login with username: b (userId: 63f8b32b266633812a3df72d)
+24.2.2023, 15:45:26 - INFO - User login:  | {"_id":"63f8b32b266633812a3df72d","username":"b","firstName":"Boo","lastName":"Boo","about":"","profileImg":"","coverImg":"","follows":[],"followers":[],"savedTweets":[],"isGuest":false,"createdAt":"2023-02-24T12:52:59.000Z"} (userId: 63f8b32b266633812a3df72d)
+24.2.2023, 15:45:37 - DEBUG - auth.service - login with username: b 
+24.2.2023, 15:45:37 - INFO - User login:  | {"_id":"63f8b32b266633812a3df72d","username":"b","firstName":"Boo","lastName":"Boo","about":"","profileImg":"","coverImg":"","follows":[],"followers":[],"savedTweets":[],"isGuest":false,"createdAt":"2023-02-24T12:52:59.000Z"} 
+24.2.2023, 15:47:36 - INFO - Server is running on port: 3030 
+24.2.2023, 15:49:11 - INFO - Server is running on port: 3030 
+24.2.2023, 15:49:16 - DEBUG - auth.service - login with username: b 
+24.2.2023, 15:49:16 - INFO - User login:  | {"_id":"63f8b32b266633812a3df72d","username":"b","firstName":"Boo","lastName":"Boo","about":"","profileImg":"","coverImg":"","follows":["63f89e94e64b25a44cb1b0ac"],"followers":[],"savedTweets":[],"isGuest":false,"createdAt":"2023-02-24T12:52:59.000Z"} 
+24.2.2023, 15:49:47 - DEBUG - auth.service - login with username: vtomer 
+24.2.2023, 15:49:47 - INFO - User login:  | {"_id":"63f89e94e64b25a44cb1b0ac","username":"vtomer","firstName":"Tomer","lastName":"Vardi","about":"","profileImg":"","coverImg":"","follows":[],"followers":[],"savedTweets":[],"isGuest":false,"createdAt":"2023-02-24T11:25:08.000Z"} 
+24.2.2023, 15:50:10 - INFO - Server is running on port: 3030 
+24.2.2023, 15:50:51 - INFO - Server is running on port: 3030 
+24.2.2023, 15:50:52 - DEBUG - user.service - updating user: 63f89e94e64b25a44cb1b0ac (userId: 63f89e94e64b25a44cb1b0ac)

@@ -25,7 +25,7 @@ if (process.env.NODE_ENV === 'production') {
 
 const authRoutes = require('./api/auth/auth.routes')
 const userRoutes = require('./api/user/user.routes')
-// const reviewRoutes = require('./api/review/review.routes')
+const tweetRoutes = require('./api/tweet/tweet.routes')
 
 // routes
 const setupAsyncLocalStorage = require('./middlewares/setupAls.middleware')
@@ -33,7 +33,7 @@ app.all('*', setupAsyncLocalStorage)
 
 app.use('/api/auth', authRoutes)
 app.use('/api/user', userRoutes)
-// app.use('/api/review', reviewRoutes)
+app.use('/api/tweet', tweetRoutes)
 // app.use('/api/car', (req: Request, res: Response) => {
 //     res.send('Not implemented, get from misterBackend...')
 // })
@@ -43,7 +43,6 @@ app.use('/api/user', userRoutes)
 // so when requesting http://localhost:3030/index.html/car/123 it will still respond with
 // our SPA (single page app) (the index.html file) and allow vue/react-router to take it from there
 app.get('/**', (req: Request, res: Response) => {
-    console.log(`path.join(__dirname, 'build', 'index.html'):`, path.join(__dirname))
     res.sendFile(path.join(__dirname, 'build', 'index.html'))
 })
 

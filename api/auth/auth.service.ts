@@ -10,10 +10,8 @@ async function login(username: string, password: string) {
 
     const user = await userService.getByUsername(username)
     if (!user) return Promise.reject('Invalid username or password')
-
     const match = await bcrypt.compare(password, user.password)
     if (!match) return Promise.reject('Invalid username or password')
-
     delete user.password
     user.createdAt = user._id.getTimestamp()
     user._id = user._id.toString()
@@ -25,7 +23,7 @@ async function signup({ username, password, firstName, lastName }: UserCredentia
 
     logger.debug(`auth.service - signup with username: ${username}, fullName: ${firstName} ${lastName}`)
     if (!username || !password || !firstName || !lastName) return Promise.reject('Missing required signup information')
-
+    
     const userExist: User = await userService.getByUsername(username)
     if (userExist) return Promise.reject('Username already taken')
 
@@ -34,7 +32,6 @@ async function signup({ username, password, firstName, lastName }: UserCredentia
 }
 
 function getLoginToken(user: User) {
-    // const userInfo = { _id: user._id, firstName: user.firstName, isAdmin: user.isAdmin }
     const userInfo = { _id: user._id, firstName: user.firstName, lastName: user.lastName }
     return cryptr.encrypt(JSON.stringify(userInfo))
 }
@@ -49,8 +46,6 @@ function validateToken(loginToken: any) {
     }
     return null
 }
-
-
 
 module.exports = {
     login,

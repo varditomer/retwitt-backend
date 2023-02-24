@@ -3,11 +3,11 @@ const logger = require('../../services/logger.service')
 import { Request, Response } from 'express'
 import { User, UserCredentials } from '../../Interfaces/user.interface'
 
-
-
 async function login(req: Request, res: Response) {
     const { username, password }: { username: string, password: string } = req.body
     try {
+        console.log(`username:`, username)
+        console.log(`password:`, password)
         const user = await authService.login(username, password)
         const loginToken = authService.getLoginToken(user)
         logger.info('User login: ', user)
@@ -22,14 +22,12 @@ async function login(req: Request, res: Response) {
 async function signup(req: Request, res: Response) {
     try {
         const credentials: UserCredentials = req.body
-
+        console.log(`credentials:`, credentials)
         const account = await authService.signup(credentials)
-        console.log(`account:`, account)
         logger.debug(`auth.route - new account created: ` + JSON.stringify(account))
 
         const user: User = await authService.login(credentials.username, credentials.password)
         logger.info('User signup: ', user)
-        console.log(`user:`, user)
 
         const loginToken = authService.getLoginToken(user)
 
