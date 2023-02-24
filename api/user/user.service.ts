@@ -5,6 +5,7 @@ const logger = require('../../services/logger.service')
 const dbService = require('../../services/database.service')
 
 async function query() {
+    logger.debug(`user.service - getting users`)
     try {
         const userCollection = await dbService.getCollection('user')
         let users: User[] = await userCollection.find().toArray()
@@ -32,6 +33,7 @@ async function getByUsername(username: string) {
 }
 
 async function getById(userId: string) {
+    logger.debug(`user.service - getting user by Id: ${userId}`)
     try {
         const userCollection = await dbService.getCollection('user')
         const user: User = await userCollection.findOne({ _id: ObjectId(userId) })
@@ -45,6 +47,8 @@ async function getById(userId: string) {
 }
 
 async function remove(userId: string) {
+    logger.debug(`user.service - removing user: ${userId}`)
+
     try {
         const userCollection = await dbService.getCollection('user')
         await userCollection.deleteOne({ _id: ObjectId(userId) })
@@ -75,6 +79,7 @@ async function update(user: User) {
 }
 
 async function add(userCredentials: UserCredentials) {
+    logger.debug(`user.service - adding user: ${userCredentials.username}`)
     try {
         const newUser = _getEmptyUser()
         const userToAdd = {
