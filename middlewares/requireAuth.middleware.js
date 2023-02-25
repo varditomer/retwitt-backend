@@ -1,6 +1,7 @@
 const authService = require('../api/auth/auth.service')
 const logger = require('../services/logger.service')
 const config = require('../config')
+const tweetService = require('../api/tweet/tweet.service')
 
 function requireAuth(req, res, next) {
 
@@ -35,14 +36,17 @@ function requireAdmin(req, res, next) {
   next()
 }
 
-function requireOwnership(req, res, next) {
+async function requireOwnership(req, res, next) {
   if (!req?.cookies?.loginToken) return res.status(401).send('Not Authenticated')
 
   const loggedinUser = authService.validateToken(req.cookies.loginToken)
   if (!loggedinUser) return res.status(401).send('Not Authenticated')
+  
+  const tweet = await tweetService.getById(req.params.id)
+  const createdBy = tweet.createdBy
 
-  if (loggedinUser._id !== req.body.createdBy) {
-    logger.warn(loggedinUser.fullname + 'attempted to delete not owned tweet')
+  if (loggedinUser._id !== createdBy) {
+    logger.warn(loggedinUser.fullname + ' ' + 'attempted to delete not owned tweet')
     res.status(403).end('Not Authorized')
     return
   }

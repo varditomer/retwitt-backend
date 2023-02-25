@@ -8,7 +8,7 @@ const ObjectId = require('mongodb').ObjectId
 async function query() {
     try {
         const tweetCollection = await dbService.getCollection('tweet')
-        let tweets: Tweet[] = await tweetCollection.find().toArray()
+        let tweets: Tweet[] = await tweetCollection.find().sort({ _id : -1 }).toArray() 
         tweets = tweets.map((tweet: Tweet) => {
             tweet.createdAt = new ObjectId(tweet._id).getTimestamp()
             return tweet
@@ -23,22 +23,23 @@ async function query() {
 async function getById(tweetId: string) {
     try {
         const tweetCollection = await dbService.getCollection('tweet')
-        const tweet: Tweet = await tweetCollection.findOne({ _id: ObjectId(tweetId) })
+        tweetId = new ObjectId(tweetId)
+        const tweet: Tweet = await tweetCollection.findOne({ _id: tweetId })
         tweet.createdAt = new ObjectId(tweet._id).getTimestamp()
         return tweet
     } catch (err) {
         logger.error(`Cannot find user by id: ${tweetId}`, err)
         throw err
     }
-
 }
 
 async function addTweet(tweetToAdd: Tweet) {
     try {
         const tweetCollection = await dbService.getCollection('tweet')
-        const savedTweet: Tweet = await tweetCollection.insertOne(tweetToAdd)
-        savedTweet.createdAt = new ObjectId(savedTweet._id).getTimestamp()
-        return savedTweet
+        const mongoRes: any = await tweetCollection.insertOne(tweetToAdd)
+        tweetToAdd._id = mongoRes.insertedId.toString()
+        tweetToAdd.createdAt = new ObjectId(tweetToAdd._id).getTimestamp()
+        return tweetToAdd
     } catch (err) {
         logger.error(`Cannot add tweet: ${tweetToAdd._id}`, err)
         throw err
@@ -50,7 +51,7 @@ async function updateTweet(tweetToUpdate: Tweet) {
     try {
         // peek only updatable properties
         const tweetToSave = {
-            _id: ObjectId(tweetToUpdate._id), // needed for the returned obj
+            _id: new ObjectId(tweetToUpdate._id), // needed for the returned obj
             replies: tweetToUpdate.replies,
             reTweetedBy: tweetToUpdate.reTweetedBy,
             savedBy: tweetToUpdate.savedBy,
@@ -58,7 +59,7 @@ async function updateTweet(tweetToUpdate: Tweet) {
         }
         const tweetCollection = await dbService.getCollection('tweet')
         await tweetCollection.updateOne({ _id: tweetToSave._id }, { $set: tweetToSave })
-        return tweetToSave
+        return tweetToUpdate
     } catch (err) {
         logger.error(`Cannot update tweet: ${tweetToUpdate._id}`, err)
         throw err
@@ -69,7 +70,8 @@ async function updateTweet(tweetToUpdate: Tweet) {
 async function remove(tweetId: string) {
     try {
         const tweetCollection = await dbService.getCollection('tweet')
-        await tweetCollection.deleteOne({ _id: ObjectId(tweetId) })
+        tweetId = new ObjectId(tweetId)
+        await tweetCollection.deleteOne({ _id: (tweetId) })
     } catch (err) {
         logger.error(`Cannot remove tweet: ${tweetId}`, err)
         throw err

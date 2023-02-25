@@ -28,6 +28,7 @@ async function deleteUser(req: Request, res: Response) {
     try {
         const userId: string = req.params.id
         await userService.remove(userId)
+        logger.info('User removed: ', userId)
         res.send({ msg: 'Deleted successfully' })
     } catch (err) {
         logger.error('Failed to delete user ' + err)
@@ -39,6 +40,7 @@ async function updateUser(req: Request, res: Response) {
     try {
         const user: User = req.body
         const savedUser: User = await userService.update(user)
+        logger.info('User updated: ', user._id)
         res.send(savedUser)
     } catch (err) {
         logger.error('Failed to update user ' + err)

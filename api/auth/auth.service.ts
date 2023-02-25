@@ -23,7 +23,7 @@ async function signup({ username, password, firstName, lastName }: UserCredentia
 
     logger.debug(`auth.service - signup with username: ${username}, fullName: ${firstName} ${lastName}`)
     if (!username || !password || !firstName || !lastName) return Promise.reject('Missing required signup information')
-    
+
     const userExist: User = await userService.getByUsername(username)
     if (userExist) return Promise.reject('Username already taken')
 

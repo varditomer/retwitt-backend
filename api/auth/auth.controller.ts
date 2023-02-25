@@ -6,8 +6,6 @@ import { User, UserCredentials } from '../../Interfaces/user.interface'
 async function login(req: Request, res: Response) {
     const { username, password }: { username: string, password: string } = req.body
     try {
-        console.log(`username:`, username)
-        console.log(`password:`, password)
         const user = await authService.login(username, password)
         const loginToken = authService.getLoginToken(user)
         logger.info('User login: ', user)
@@ -22,7 +20,6 @@ async function login(req: Request, res: Response) {
 async function signup(req: Request, res: Response) {
     try {
         const credentials: UserCredentials = req.body
-        console.log(`credentials:`, credentials)
         const account = await authService.signup(credentials)
         logger.debug(`auth.route - new account created: ` + JSON.stringify(account))
 

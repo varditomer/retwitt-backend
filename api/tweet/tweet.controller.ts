@@ -6,7 +6,6 @@ import { NewTweetFields, Tweet } from '../../Interfaces/tweet.interface'
 async function getTweets(req: Request, res: Response) {
     try {
         const tweets: Tweet[] = await tweetService.query()
-        console.log(`tweets:`, tweets)
         res.send(tweets)
     } catch (err) {
         logger.error('Failed to get tweets ' + err)

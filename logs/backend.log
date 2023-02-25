@@ -684,3 +684,263 @@
 24.2.2023, 15:53:44 - INFO - Server is running on port: 3030 
 24.2.2023, 15:54:44 - INFO - Server is running on port: 3030 
 24.2.2023, 15:55:41 - INFO - Server is running on port: 3030 
+24.2.2023, 15:57:23 - INFO - Server is running on port: 3030 
+24.2.2023, 15:57:26 - DEBUG - auth.service - login with username: vtomer (userId: 63f89e94e64b25a44cb1b0ac)
+24.2.2023, 15:57:26 - INFO - User login:  | {"_id":"63f89e94e64b25a44cb1b0ac","username":"vtomer","firstName":"Tomer","lastName":"Vardi","about":"","profileImg":"","coverImg":"","follows":["63f8b32b266633812a3df72d"],"followers":[],"savedTweets":[],"isGuest":false,"createdAt":"2023-02-24T11:25:08.000Z"} (userId: 63f89e94e64b25a44cb1b0ac)
+24.2.2023, 16:01:15 - DEBUG - auth.service - login with username: vtomer 
+24.2.2023, 16:01:16 - INFO - User login:  | {"_id":"63f89e94e64b25a44cb1b0ac","username":"vtomer","firstName":"Tomer","lastName":"Vardi","about":"","profileImg":"","coverImg":"","follows":["63f8b32b266633812a3df72d"],"followers":[],"savedTweets":[],"isGuest":false,"createdAt":"2023-02-24T11:25:08.000Z"} 
+24.2.2023, 16:03:35 - INFO - Server is running on port: 3030 
+24.2.2023, 16:05:13 - INFO - Server is running on port: 3030 
+24.2.2023, 16:06:12 - DEBUG - auth.service - login with username: vtomer 
+24.2.2023, 16:06:13 - INFO - User login:  | {"_id":"63f89e94e64b25a44cb1b0ac","username":"vtomer","firstName":"Tomer","lastName":"Vardi","about":"","profileImg":"","coverImg":"","follows":["63f8b32b266633812a3df72d"],"followers":[],"savedTweets":[],"isGuest":false,"createdAt":"2023-02-24T11:25:08.000Z"} 
+24.2.2023, 16:06:36 - DEBUG - user.service - getting users (userId: 63f89e94e64b25a44cb1b0ac)
+24.2.2023, 16:06:41 - DEBUG - user.service - getting users (userId: 63f89e94e64b25a44cb1b0ac)
+24.2.2023, 16:07:07 - DEBUG - auth.service - login with username: vtomer 
+24.2.2023, 16:07:07 - INFO - User login:  | {"_id":"63f89e94e64b25a44cb1b0ac","username":"vtomer","firstName":"Tomer","lastName":"Vardi","about":"","profileImg":"","coverImg":"","follows":["63f8b32b266633812a3df72d"],"followers":[],"savedTweets":[],"isGuest":false,"createdAt":"2023-02-24T11:25:08.000Z"} 
+24.2.2023, 16:07:25 - DEBUG - user.service - getting users (userId: 63f89e94e64b25a44cb1b0ac)
+24.2.2023, 16:08:25 - DEBUG - user.service - getting users (userId: 63f89e94e64b25a44cb1b0ac)
+24.2.2023, 16:17:15 - DEBUG - user.service - getting users (userId: 63f89e94e64b25a44cb1b0ac)
+24.2.2023, 16:18:24 - DEBUG - user.service - getting users (userId: 63f89e94e64b25a44cb1b0ac)
+24.2.2023, 16:20:52 - DEBUG - user.service - updating user: 63f89e94e64b25a44cb1b0ac (userId: 63f89e94e64b25a44cb1b0ac)
+24.2.2023, 16:20:52 - INFO - User updated:  | 63f89e94e64b25a44cb1b0ac (userId: 63f89e94e64b25a44cb1b0ac)
+24.2.2023, 16:20:53 - ERROR - Cannot update tweet: 63f8c4aaae834d8e65e2013f | TypeError: Class constructor ObjectId cannot be invoked without 'new' (userId: 63f89e94e64b25a44cb1b0ac)
+24.2.2023, 16:20:53 - ERROR - Failed to update tweet TypeError: Class constructor ObjectId cannot be invoked without 'new' (userId: 63f89e94e64b25a44cb1b0ac)
+24.2.2023, 16:21:40 - INFO - Server is running on port: 3030 
+24.2.2023, 16:21:55 - DEBUG - user.service - getting users (userId: 63f89e94e64b25a44cb1b0ac)
+24.2.2023, 16:21:59 - DEBUG - user.service - updating user: 63f89e94e64b25a44cb1b0ac (userId: 63f89e94e64b25a44cb1b0ac)
+24.2.2023, 16:21:59 - INFO - User updated:  | 63f89e94e64b25a44cb1b0ac (userId: 63f89e94e64b25a44cb1b0ac)
+24.2.2023, 16:22:09 - DEBUG - auth.service - login with username: vtomer 
+24.2.2023, 16:22:10 - INFO - User login:  | {"_id":"63f89e94e64b25a44cb1b0ac","username":"vtomer","firstName":"Tomer","lastName":"Vardi","about":"","profileImg":"","coverImg":"","follows":["63f8b32b266633812a3df72d"],"followers":[],"savedTweets":[],"isGuest":false,"createdAt":"2023-02-24T11:25:08.000Z"} 
+24.2.2023, 16:22:52 - DEBUG - auth.service - login with username: vtomer 
+24.2.2023, 16:22:52 - INFO - User login:  | {"_id":"63f89e94e64b25a44cb1b0ac","username":"vtomer","firstName":"Tomer","lastName":"Vardi","about":"","profileImg":"","coverImg":"","follows":["63f8b32b266633812a3df72d"],"followers":[],"savedTweets":[],"isGuest":false,"createdAt":"2023-02-24T11:25:08.000Z"} 
+24.2.2023, 16:23:09 - DEBUG - user.service - getting users (userId: 63f89e94e64b25a44cb1b0ac)
+24.2.2023, 16:23:41 - DEBUG - user.service - getting users (userId: 63f89e94e64b25a44cb1b0ac)
+24.2.2023, 16:23:53 - DEBUG - user.service - updating user: 63f89e94e64b25a44cb1b0ac (userId: 63f89e94e64b25a44cb1b0ac)
+24.2.2023, 16:23:53 - INFO - User updated:  | 63f89e94e64b25a44cb1b0ac (userId: 63f89e94e64b25a44cb1b0ac)
+24.2.2023, 16:24:30 - DEBUG - user.service - getting users (userId: 63f89e94e64b25a44cb1b0ac)
+24.2.2023, 16:26:07 - DEBUG - user.service - getting users (userId: 63f89e94e64b25a44cb1b0ac)
+24.2.2023, 16:26:16 - DEBUG - user.service - getting users (userId: 63f89e94e64b25a44cb1b0ac)
+24.2.2023, 16:26:21 - DEBUG - user.service - updating user: 63f89e94e64b25a44cb1b0ac (userId: 63f89e94e64b25a44cb1b0ac)
+24.2.2023, 16:26:21 - INFO - User updated:  | 63f89e94e64b25a44cb1b0ac (userId: 63f89e94e64b25a44cb1b0ac)
+24.2.2023, 16:27:14 - DEBUG - user.service - getting users (userId: 63f89e94e64b25a44cb1b0ac)
+24.2.2023, 16:27:17 - DEBUG - user.service - updating user: 63f89e94e64b25a44cb1b0ac (userId: 63f89e94e64b25a44cb1b0ac)
+24.2.2023, 16:27:17 - INFO - User updated:  | 63f89e94e64b25a44cb1b0ac (userId: 63f89e94e64b25a44cb1b0ac)
+24.2.2023, 16:27:38 - DEBUG - user.service - getting users (userId: 63f89e94e64b25a44cb1b0ac)
+24.2.2023, 16:27:40 - DEBUG - user.service - updating user: 63f89e94e64b25a44cb1b0ac (userId: 63f89e94e64b25a44cb1b0ac)
+24.2.2023, 16:27:40 - INFO - User updated:  | 63f89e94e64b25a44cb1b0ac (userId: 63f89e94e64b25a44cb1b0ac)
+24.2.2023, 16:28:07 - DEBUG - user.service - getting users (userId: 63f89e94e64b25a44cb1b0ac)
+24.2.2023, 16:28:11 - DEBUG - user.service - updating user: 63f89e94e64b25a44cb1b0ac (userId: 63f89e94e64b25a44cb1b0ac)
+24.2.2023, 16:28:11 - INFO - User updated:  | 63f89e94e64b25a44cb1b0ac (userId: 63f89e94e64b25a44cb1b0ac)
+24.2.2023, 16:29:22 - INFO - Server is running on port: 3030 
+24.2.2023, 16:29:22 - DEBUG - user.service - getting users (userId: 63f89e94e64b25a44cb1b0ac)
+24.2.2023, 16:29:25 - DEBUG - user.service - updating user: 63f89e94e64b25a44cb1b0ac (userId: 63f89e94e64b25a44cb1b0ac)
+24.2.2023, 16:29:25 - INFO - User updated:  | 63f89e94e64b25a44cb1b0ac (userId: 63f89e94e64b25a44cb1b0ac)
+24.2.2023, 16:29:27 - DEBUG - user.service - updating user: 63f89e94e64b25a44cb1b0ac (userId: 63f89e94e64b25a44cb1b0ac)
+24.2.2023, 16:29:27 - INFO - User updated:  | 63f89e94e64b25a44cb1b0ac (userId: 63f89e94e64b25a44cb1b0ac)
+24.2.2023, 16:29:29 - DEBUG - user.service - updating user: 63f89e94e64b25a44cb1b0ac (userId: 63f89e94e64b25a44cb1b0ac)
+24.2.2023, 16:29:29 - INFO - User updated:  | 63f89e94e64b25a44cb1b0ac (userId: 63f89e94e64b25a44cb1b0ac)
+24.2.2023, 16:29:30 - DEBUG - user.service - updating user: 63f89e94e64b25a44cb1b0ac (userId: 63f89e94e64b25a44cb1b0ac)
+24.2.2023, 16:29:31 - INFO - User updated:  | 63f89e94e64b25a44cb1b0ac (userId: 63f89e94e64b25a44cb1b0ac)
+24.2.2023, 16:37:28 - DEBUG - user.service - getting users (userId: 63f89e94e64b25a44cb1b0ac)
+24.2.2023, 16:37:58 - DEBUG - user.service - getting users (userId: 63f89e94e64b25a44cb1b0ac)
+24.2.2023, 16:38:19 - DEBUG - user.service - updating user: 63f89e94e64b25a44cb1b0ac (userId: 63f89e94e64b25a44cb1b0ac)
+24.2.2023, 16:38:19 - INFO - User updated:  | 63f89e94e64b25a44cb1b0ac (userId: 63f89e94e64b25a44cb1b0ac)
+24.2.2023, 16:38:24 - DEBUG - user.service - updating user: 63f89e94e64b25a44cb1b0ac (userId: 63f89e94e64b25a44cb1b0ac)
+24.2.2023, 16:38:24 - INFO - User updated:  | 63f89e94e64b25a44cb1b0ac (userId: 63f89e94e64b25a44cb1b0ac)
+24.2.2023, 16:38:27 - DEBUG - user.service - updating user: 63f89e94e64b25a44cb1b0ac (userId: 63f89e94e64b25a44cb1b0ac)
+24.2.2023, 16:38:27 - INFO - User updated:  | 63f89e94e64b25a44cb1b0ac (userId: 63f89e94e64b25a44cb1b0ac)
+24.2.2023, 16:38:30 - DEBUG - user.service - updating user: 63f89e94e64b25a44cb1b0ac (userId: 63f89e94e64b25a44cb1b0ac)
+24.2.2023, 16:38:30 - INFO - User updated:  | 63f89e94e64b25a44cb1b0ac (userId: 63f89e94e64b25a44cb1b0ac)
+24.2.2023, 16:38:32 - DEBUG - user.service - updating user: 63f89e94e64b25a44cb1b0ac (userId: 63f89e94e64b25a44cb1b0ac)
+24.2.2023, 16:38:32 - INFO - User updated:  | 63f89e94e64b25a44cb1b0ac (userId: 63f89e94e64b25a44cb1b0ac)
+24.2.2023, 16:38:34 - DEBUG - user.service - updating user: 63f89e94e64b25a44cb1b0ac (userId: 63f89e94e64b25a44cb1b0ac)
+24.2.2023, 16:38:34 - INFO - User updated:  | 63f89e94e64b25a44cb1b0ac (userId: 63f89e94e64b25a44cb1b0ac)
+24.2.2023, 16:51:31 - DEBUG - user.service - getting users (userId: 63f89e94e64b25a44cb1b0ac)
+24.2.2023, 16:53:43 - DEBUG - user.service - getting users (userId: 63f89e94e64b25a44cb1b0ac)
+24.2.2023, 16:56:36 - DEBUG - user.service - getting users (userId: 63f89e94e64b25a44cb1b0ac)
+24.2.2023, 17:01:50 - WARN - undefinedattempted to delete not owned tweet (userId: 63f89e94e64b25a44cb1b0ac)
+24.2.2023, 17:03:50 - DEBUG - user.service - getting users (userId: 63f89e94e64b25a44cb1b0ac)
+24.2.2023, 17:05:54 - DEBUG - user.service - getting users (userId: 63f89e94e64b25a44cb1b0ac)
+24.2.2023, 17:06:18 - DEBUG - user.service - getting users (userId: 63f89e94e64b25a44cb1b0ac)
+24.2.2023, 17:06:25 - WARN - undefinedattempted to delete not owned tweet (userId: 63f89e94e64b25a44cb1b0ac)
+24.2.2023, 17:07:36 - INFO - Server is running on port: 3030 
+24.2.2023, 17:07:46 - WARN - undefinedattempted to delete not owned tweet (userId: 63f89e94e64b25a44cb1b0ac)
+24.2.2023, 17:09:37 - INFO - Server is running on port: 3030 
+24.2.2023, 17:09:47 - INFO - Server is running on port: 3030 
+24.2.2023, 17:09:55 - WARN - undefined attempted to delete not owned tweet (userId: 63f89e94e64b25a44cb1b0ac)
+24.2.2023, 17:10:19 - INFO - Server is running on port: 3030 
+24.2.2023, 17:10:21 - WARN - undefined attempted to delete not owned tweet (userId: 63f89e94e64b25a44cb1b0ac)
+24.2.2023, 17:10:52 - INFO - Server is running on port: 3030 
+24.2.2023, 17:10:54 - WARN - undefined attempted to delete not owned tweet (userId: 63f89e94e64b25a44cb1b0ac)
+24.2.2023, 17:13:26 - DEBUG - auth.service - login with username: b 
+24.2.2023, 17:13:26 - INFO - User login:  | {"_id":"63f8b32b266633812a3df72d","username":"b","firstName":"Boo","lastName":"Boo","about":"","profileImg":"","coverImg":"","follows":["63f89e94e64b25a44cb1b0ac"],"followers":[],"savedTweets":[],"isGuest":false,"createdAt":"2023-02-24T12:52:59.000Z"} 
+24.2.2023, 17:13:49 - DEBUG - user.service - getting users (userId: 63f8b32b266633812a3df72d)
+24.2.2023, 17:14:05 - WARN - undefined attempted to delete not owned tweet (userId: 63f8b32b266633812a3df72d)
+24.2.2023, 17:16:28 - INFO - Server is running on port: 3030 
+24.2.2023, 17:16:52 - INFO - Server is running on port: 3030 
+24.2.2023, 17:16:54 - DEBUG - auth.service - login with username: vtomer 
+24.2.2023, 17:16:55 - INFO - User login:  | {"_id":"63f89e94e64b25a44cb1b0ac","username":"vtomer","firstName":"Tomer","lastName":"Vardi","about":"","profileImg":"","coverImg":"","follows":["63f8b32b266633812a3df72d"],"followers":[],"savedTweets":[],"isGuest":false,"createdAt":"2023-02-24T11:25:08.000Z"} 
+24.2.2023, 17:17:38 - WARN - undefined attempted to delete not owned tweet (userId: 63f89e94e64b25a44cb1b0ac)
+24.2.2023, 17:20:49 - INFO - Server is running on port: 3030 
+24.2.2023, 17:21:17 - INFO - Server is running on port: 3030 
+24.2.2023, 17:21:18 - WARN - undefined attempted to delete not owned tweet (userId: 63f89e94e64b25a44cb1b0ac)
+24.2.2023, 17:21:56 - INFO - Server is running on port: 3030 
+24.2.2023, 17:22:10 - WARN - undefined attempted to delete not owned tweet (userId: 63f89e94e64b25a44cb1b0ac)
+24.2.2023, 17:24:31 - INFO - Server is running on port: 3030 
+24.2.2023, 17:26:23 - INFO - Server is running on port: 3030 
+24.2.2023, 17:26:28 - WARN - undefined attempted to delete not owned tweet (userId: 63f89e94e64b25a44cb1b0ac)
+24.2.2023, 17:27:25 - INFO - Server is running on port: 3030 
+24.2.2023, 17:27:26 - WARN - undefined attempted to delete not owned tweet (userId: 63f89e94e64b25a44cb1b0ac)
+24.2.2023, 17:33:43 - INFO - Server is running on port: 3030 
+24.2.2023, 17:33:52 - INFO - Server is running on port: 3030 
+24.2.2023, 17:33:55 - WARN - undefined attempted to delete not owned tweet (userId: 63f89e94e64b25a44cb1b0ac)
+24.2.2023, 17:34:35 - INFO - Server is running on port: 3030 
+24.2.2023, 17:34:35 - WARN - undefined attempted to delete not owned tweet (userId: 63f89e94e64b25a44cb1b0ac)
+24.2.2023, 17:36:05 - INFO - Server is running on port: 3030 
+24.2.2023, 17:36:08 - WARN - undefined attempted to delete not owned tweet (userId: 63f89e94e64b25a44cb1b0ac)
+24.2.2023, 17:38:17 - INFO - Server is running on port: 3030 
+24.2.2023, 17:38:19 - WARN - undefined attempted to delete not owned tweet (userId: 63f89e94e64b25a44cb1b0ac)
+24.2.2023, 17:39:51 - INFO - Server is running on port: 3030 
+24.2.2023, 17:40:25 - INFO - Server is running on port: 3030 
+24.2.2023, 17:40:33 - WARN - undefined attempted to delete not owned tweet (userId: 63f89e94e64b25a44cb1b0ac)
+24.2.2023, 17:43:15 - INFO - Server is running on port: 3030 
+24.2.2023, 17:44:47 - INFO - Server is running on port: 3030 
+24.2.2023, 17:45:01 - INFO - Server is running on port: 3030 
+24.2.2023, 17:45:21 - INFO - Server is running on port: 3030 
+24.2.2023, 17:45:25 - ERROR - Cannot remove tweet: 63f8c8437b5d282992242082 | TypeError: Class constructor ObjectId cannot be invoked without 'new' (userId: 63f89e94e64b25a44cb1b0ac)
+24.2.2023, 17:45:25 - ERROR - Failed to delete tweet TypeError: Class constructor ObjectId cannot be invoked without 'new' (userId: 63f89e94e64b25a44cb1b0ac)
+24.2.2023, 17:47:18 - INFO - Server is running on port: 3030 
+24.2.2023, 17:47:18 - WARN - undefined attempted to delete not owned tweet (userId: 63f89e94e64b25a44cb1b0ac)
+24.2.2023, 17:48:02 - INFO - Server is running on port: 3030 
+24.2.2023, 17:48:03 - ERROR - Cannot remove tweet: 63f8c8437b5d282992242082 | TypeError: Class constructor ObjectId cannot be invoked without 'new' (userId: 63f89e94e64b25a44cb1b0ac)
+24.2.2023, 17:48:03 - ERROR - Failed to delete tweet TypeError: Class constructor ObjectId cannot be invoked without 'new' (userId: 63f89e94e64b25a44cb1b0ac)
+24.2.2023, 17:48:29 - INFO - Server is running on port: 3030 
+24.2.2023, 17:48:30 - ERROR - Cannot remove tweet: 63f8c8437b5d282992242082 | TypeError: Class constructor ObjectId cannot be invoked without 'new' (userId: 63f89e94e64b25a44cb1b0ac)
+24.2.2023, 17:48:30 - ERROR - Failed to delete tweet TypeError: Class constructor ObjectId cannot be invoked without 'new' (userId: 63f89e94e64b25a44cb1b0ac)
+24.2.2023, 17:48:42 - INFO - Server is running on port: 3030 
+24.2.2023, 17:49:49 - INFO - Server is running on port: 3030 
+24.2.2023, 17:49:53 - ERROR - Cannot remove tweet: 63f8c8437b5d282992242082 | TypeError: Class constructor ObjectId cannot be invoked without 'new' (userId: 63f89e94e64b25a44cb1b0ac)
+24.2.2023, 17:49:53 - ERROR - Failed to delete tweet TypeError: Class constructor ObjectId cannot be invoked without 'new' (userId: 63f89e94e64b25a44cb1b0ac)
+24.2.2023, 17:50:18 - INFO - Server is running on port: 3030 
+24.2.2023, 17:50:47 - DEBUG - user.service - getting users (userId: 63f89e94e64b25a44cb1b0ac)
+24.2.2023, 17:51:03 - DEBUG - user.service - getting users (userId: 63f89e94e64b25a44cb1b0ac)
+24.2.2023, 17:51:32 - DEBUG - user.service - getting users (userId: 63f89e94e64b25a44cb1b0ac)
+24.2.2023, 18:02:05 - DEBUG - user.service - getting users (userId: 63f89e94e64b25a44cb1b0ac)
+24.2.2023, 18:02:39 - DEBUG - user.service - getting users (userId: 63f89e94e64b25a44cb1b0ac)
+24.2.2023, 18:02:39 - ERROR - Cannot find tweets  | BSONError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer (userId: 63f89e94e64b25a44cb1b0ac)
+24.2.2023, 18:02:39 - ERROR - Failed to get tweets BSONError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer (userId: 63f89e94e64b25a44cb1b0ac)
+24.2.2023, 18:02:45 - DEBUG - user.service - getting users (userId: 63f89e94e64b25a44cb1b0ac)
+24.2.2023, 18:02:45 - ERROR - Cannot find tweets  | BSONError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer (userId: 63f89e94e64b25a44cb1b0ac)
+24.2.2023, 18:02:45 - ERROR - Failed to get tweets BSONError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer (userId: 63f89e94e64b25a44cb1b0ac)
+24.2.2023, 18:02:51 - DEBUG - user.service - getting users (userId: 63f89e94e64b25a44cb1b0ac)
+24.2.2023, 18:02:51 - ERROR - Cannot find tweets  | BSONError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer (userId: 63f89e94e64b25a44cb1b0ac)
+24.2.2023, 18:02:51 - ERROR - Failed to get tweets BSONError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer (userId: 63f89e94e64b25a44cb1b0ac)
+24.2.2023, 18:02:54 - ERROR - Cannot add tweet: -1 | MongoServerError: E11000 duplicate key error collection: tweet_db.tweet index: _id_ dup key: { _id: "-1" } (userId: 63f89e94e64b25a44cb1b0ac)
+24.2.2023, 18:02:54 - ERROR - Failed to add tweet MongoServerError: E11000 duplicate key error collection: tweet_db.tweet index: _id_ dup key: { _id: "-1" } (userId: 63f89e94e64b25a44cb1b0ac)
+24.2.2023, 18:03:09 - DEBUG - auth.service - login with username: vtomer 
+24.2.2023, 18:03:10 - INFO - User login:  | {"_id":"63f89e94e64b25a44cb1b0ac","username":"vtomer","firstName":"Tomer","lastName":"Vardi","about":"","profileImg":"","coverImg":"","follows":["63f8b32b266633812a3df72d"],"followers":[],"savedTweets":[],"isGuest":false,"createdAt":"2023-02-24T11:25:08.000Z"} 
+24.2.2023, 18:04:14 - DEBUG - user.service - getting users (userId: 63f89e94e64b25a44cb1b0ac)
+24.2.2023, 18:04:14 - ERROR - Failed to get tweets BSONError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer (userId: 63f89e94e64b25a44cb1b0ac)
+24.2.2023, 18:04:14 - ERROR - Cannot find tweets  | BSONError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer (userId: 63f89e94e64b25a44cb1b0ac)
+24.2.2023, 18:04:40 - DEBUG - user.service - getting users (userId: 63f89e94e64b25a44cb1b0ac)
+24.2.2023, 18:05:54 - INFO - Server is running on port: 3030 
+24.2.2023, 18:06:03 - INFO - Server is running on port: 3030 
+24.2.2023, 18:06:05 - DEBUG - user.service - getting users (userId: 63f89e94e64b25a44cb1b0ac)
+24.2.2023, 18:18:52 - INFO - Server is running on port: 3030 
+24.2.2023, 18:18:59 - DEBUG - user.service - getting users (userId: 63f89e94e64b25a44cb1b0ac)
+24.2.2023, 18:19:58 - INFO - Server is running on port: 3030 
+24.2.2023, 18:20:12 - DEBUG - user.service - getting users (userId: 63f89e94e64b25a44cb1b0ac)
+24.2.2023, 18:22:20 - INFO - Server is running on port: 3030 
+24.2.2023, 18:22:27 - DEBUG - user.service - getting users (userId: 63f89e94e64b25a44cb1b0ac)
+24.2.2023, 18:30:00 - INFO - Server is running on port: 3030 
+24.2.2023, 18:30:01 - DEBUG - user.service - getting users (userId: 63f89e94e64b25a44cb1b0ac)
+24.2.2023, 18:33:30 - INFO - Server is running on port: 3030 
+24.2.2023, 18:33:30 - DEBUG - user.service - getting users (userId: 63f89e94e64b25a44cb1b0ac)
+24.2.2023, 18:34:32 - INFO - Server is running on port: 3030 
+24.2.2023, 18:34:40 - DEBUG - user.service - getting users (userId: 63f89e94e64b25a44cb1b0ac)
+24.2.2023, 18:34:44 - ERROR - Cannot add tweet: 63f8e72418e64e8f8687a0a1 | TypeError: Class constructor ObjectId cannot be invoked without 'new' (userId: 63f89e94e64b25a44cb1b0ac)
+24.2.2023, 18:34:44 - ERROR - Failed to add tweet TypeError: Class constructor ObjectId cannot be invoked without 'new' (userId: 63f89e94e64b25a44cb1b0ac)
+24.2.2023, 18:36:00 - INFO - Server is running on port: 3030 
+24.2.2023, 18:36:00 - DEBUG - user.service - getting users (userId: 63f89e94e64b25a44cb1b0ac)
+24.2.2023, 18:36:01 - DEBUG - user.service - getting users (userId: 63f89e94e64b25a44cb1b0ac)
+24.2.2023, 18:37:33 - INFO - Server is running on port: 3030 
+24.2.2023, 18:37:36 - DEBUG - user.service - getting users (userId: 63f89e94e64b25a44cb1b0ac)
+24.2.2023, 18:39:02 - INFO - Server is running on port: 3030 
+24.2.2023, 18:39:15 - DEBUG - user.service - getting users (userId: 63f89e94e64b25a44cb1b0ac)
+24.2.2023, 18:39:41 - DEBUG - user.service - getting users (userId: 63f89e94e64b25a44cb1b0ac)
+24.2.2023, 18:42:25 - DEBUG - user.service - getting users (userId: 63f89e94e64b25a44cb1b0ac)
+24.2.2023, 18:42:40 - DEBUG - user.service - getting users (userId: 63f89e94e64b25a44cb1b0ac)
+24.2.2023, 18:45:20 - DEBUG - user.service - getting users (userId: 63f89e94e64b25a44cb1b0ac)
+24.2.2023, 18:47:41 - DEBUG - user.service - getting users (userId: 63f89e94e64b25a44cb1b0ac)
+24.2.2023, 18:48:18 - DEBUG - user.service - getting users (userId: 63f89e94e64b25a44cb1b0ac)
+24.2.2023, 18:52:41 - DEBUG - user.service - getting users (userId: 63f89e94e64b25a44cb1b0ac)
+24.2.2023, 18:53:07 - DEBUG - user.service - getting users (userId: 63f89e94e64b25a44cb1b0ac)
+25.2.2023, 9:21:47 - DEBUG - user.service - getting users (userId: 63f89e94e64b25a44cb1b0ac)
+25.2.2023, 9:29:53 - DEBUG - user.service - getting users (userId: 63f89e94e64b25a44cb1b0ac)
+25.2.2023, 9:29:57 - DEBUG - user.service - getting users (userId: 63f89e94e64b25a44cb1b0ac)
+25.2.2023, 9:31:00 - DEBUG - user.service - getting users (userId: 63f89e94e64b25a44cb1b0ac)
+25.2.2023, 9:31:11 - DEBUG - user.service - getting users (userId: 63f89e94e64b25a44cb1b0ac)
+25.2.2023, 9:52:08 - INFO - Server is running on port: 3030 
+25.2.2023, 9:52:45 - DEBUG - user.service - getting users (userId: 63f89e94e64b25a44cb1b0ac)
+25.2.2023, 9:53:41 - INFO - Server is running on port: 3030 
+25.2.2023, 9:55:26 - INFO - Server is running on port: 3030 
+25.2.2023, 9:55:35 - INFO - Server is running on port: 3030 
+25.2.2023, 9:55:35 - DEBUG - user.service - getting users (userId: 63f89e94e64b25a44cb1b0ac)
+25.2.2023, 9:56:27 - INFO - Server is running on port: 3030 
+25.2.2023, 9:56:33 - DEBUG - user.service - getting users (userId: 63f89e94e64b25a44cb1b0ac)
+25.2.2023, 9:57:57 - INFO - Server is running on port: 3030 
+25.2.2023, 9:57:57 - DEBUG - user.service - getting users (userId: 63f89e94e64b25a44cb1b0ac)
+25.2.2023, 10:04:06 - INFO - Server is running on port: 3030 
+25.2.2023, 10:04:06 - DEBUG - user.service - getting users (userId: 63f89e94e64b25a44cb1b0ac)
+25.2.2023, 10:04:21 - INFO - Server is running on port: 3030 
+25.2.2023, 10:04:23 - DEBUG - user.service - getting users (userId: 63f89e94e64b25a44cb1b0ac)
+25.2.2023, 10:05:07 - INFO - Server is running on port: 3030 
+25.2.2023, 10:05:10 - DEBUG - user.service - getting users (userId: 63f89e94e64b25a44cb1b0ac)
+25.2.2023, 10:05:30 - INFO - Server is running on port: 3030 
+25.2.2023, 10:06:58 - INFO - Server is running on port: 3030 
+25.2.2023, 10:07:07 - DEBUG - user.service - getting users (userId: 63f89e94e64b25a44cb1b0ac)
+25.2.2023, 10:07:35 - DEBUG - user.service - getting users (userId: 63f89e94e64b25a44cb1b0ac)
+25.2.2023, 10:07:38 - DEBUG - user.service - getting users (userId: 63f89e94e64b25a44cb1b0ac)
+25.2.2023, 10:07:41 - DEBUG - user.service - getting users (userId: 63f89e94e64b25a44cb1b0ac)
+25.2.2023, 10:07:54 - DEBUG - user.service - getting users (userId: 63f89e94e64b25a44cb1b0ac)
+25.2.2023, 10:10:03 - INFO - Server is running on port: 3030 
+25.2.2023, 10:10:03 - DEBUG - user.service - getting users (userId: 63f89e94e64b25a44cb1b0ac)
+25.2.2023, 10:10:28 - INFO - Server is running on port: 3030 
+25.2.2023, 10:10:32 - DEBUG - user.service - getting users (userId: 63f89e94e64b25a44cb1b0ac)
+25.2.2023, 10:10:43 - DEBUG - user.service - getting users (userId: 63f89e94e64b25a44cb1b0ac)
+25.2.2023, 10:11:22 - INFO - Server is running on port: 3030 
+25.2.2023, 10:26:27 - DEBUG - user.service - getting users (userId: 63f89e94e64b25a44cb1b0ac)
+25.2.2023, 10:27:10 - DEBUG - user.service - getting users (userId: 63f89e94e64b25a44cb1b0ac)
+25.2.2023, 10:27:49 - DEBUG - user.service - getting users (userId: 63f89e94e64b25a44cb1b0ac)
+25.2.2023, 10:29:48 - DEBUG - user.service - getting users (userId: 63f89e94e64b25a44cb1b0ac)
+25.2.2023, 10:29:53 - DEBUG - user.service - getting users (userId: 63f89e94e64b25a44cb1b0ac)
+25.2.2023, 10:31:01 - DEBUG - user.service - getting users (userId: 63f89e94e64b25a44cb1b0ac)
+25.2.2023, 10:31:36 - DEBUG - user.service - updating user: 63f89e94e64b25a44cb1b0ac (userId: 63f89e94e64b25a44cb1b0ac)
+25.2.2023, 10:31:36 - INFO - User updated:  | 63f89e94e64b25a44cb1b0ac (userId: 63f89e94e64b25a44cb1b0ac)
+25.2.2023, 10:31:42 - DEBUG - user.service - updating user: 63f89e94e64b25a44cb1b0ac (userId: 63f89e94e64b25a44cb1b0ac)
+25.2.2023, 10:31:42 - INFO - User updated:  | 63f89e94e64b25a44cb1b0ac (userId: 63f89e94e64b25a44cb1b0ac)
+25.2.2023, 10:32:08 - DEBUG - user.service - updating user: 63f89e94e64b25a44cb1b0ac (userId: 63f89e94e64b25a44cb1b0ac)
+25.2.2023, 10:32:08 - INFO - User updated:  | 63f89e94e64b25a44cb1b0ac (userId: 63f89e94e64b25a44cb1b0ac)
+25.2.2023, 10:32:38 - DEBUG - user.service - getting users (userId: 63f89e94e64b25a44cb1b0ac)
+25.2.2023, 10:33:05 - DEBUG - user.service - getting users (userId: 63f89e94e64b25a44cb1b0ac)
+25.2.2023, 10:33:12 - DEBUG - user.service - getting users (userId: 63f89e94e64b25a44cb1b0ac)
+25.2.2023, 10:33:47 - DEBUG - auth.service - login with username: b 
+25.2.2023, 10:33:47 - INFO - User login:  | {"_id":"63f8b32b266633812a3df72d","username":"b","firstName":"Boo","lastName":"Boo","about":"","profileImg":"","coverImg":"","follows":["63f89e94e64b25a44cb1b0ac"],"followers":[],"savedTweets":[],"isGuest":false,"createdAt":"2023-02-24T12:52:59.000Z"} 
+25.2.2023, 10:34:13 - DEBUG - auth.service - login with username: vtomer 
+25.2.2023, 10:34:13 - INFO - User login:  | {"_id":"63f89e94e64b25a44cb1b0ac","username":"vtomer","firstName":"Tomer","lastName":"Vardi","about":"","profileImg":"","coverImg":"","follows":["63f8b32b266633812a3df72d"],"followers":[],"savedTweets":[],"isGuest":false,"createdAt":"2023-02-24T11:25:08.000Z"} 
+25.2.2023, 10:35:17 - DEBUG - user.service - updating user: 63f89e94e64b25a44cb1b0ac (userId: 63f89e94e64b25a44cb1b0ac)
+25.2.2023, 10:35:17 - INFO - User updated:  | 63f89e94e64b25a44cb1b0ac (userId: 63f89e94e64b25a44cb1b0ac)
+25.2.2023, 10:35:28 - DEBUG - user.service - updating user: 63f89e94e64b25a44cb1b0ac (userId: 63f89e94e64b25a44cb1b0ac)
+25.2.2023, 10:35:28 - INFO - User updated:  | 63f89e94e64b25a44cb1b0ac (userId: 63f89e94e64b25a44cb1b0ac)
+25.2.2023, 10:35:42 - DEBUG - user.service - updating user: 63f89e94e64b25a44cb1b0ac (userId: 63f89e94e64b25a44cb1b0ac)
+25.2.2023, 10:35:42 - INFO - User updated:  | 63f89e94e64b25a44cb1b0ac (userId: 63f89e94e64b25a44cb1b0ac)
+25.2.2023, 10:35:43 - DEBUG - user.service - updating user: 63f89e94e64b25a44cb1b0ac (userId: 63f89e94e64b25a44cb1b0ac)
+25.2.2023, 10:35:43 - INFO - User updated:  | 63f89e94e64b25a44cb1b0ac (userId: 63f89e94e64b25a44cb1b0ac)
+25.2.2023, 10:35:46 - DEBUG - user.service - updating user: 63f89e94e64b25a44cb1b0ac (userId: 63f89e94e64b25a44cb1b0ac)
+25.2.2023, 10:35:46 - INFO - User updated:  | 63f89e94e64b25a44cb1b0ac (userId: 63f89e94e64b25a44cb1b0ac)
+25.2.2023, 10:35:47 - DEBUG - user.service - updating user: 63f89e94e64b25a44cb1b0ac (userId: 63f89e94e64b25a44cb1b0ac)
+25.2.2023, 10:35:47 - INFO - User updated:  | 63f89e94e64b25a44cb1b0ac (userId: 63f89e94e64b25a44cb1b0ac)
+25.2.2023, 10:36:01 - DEBUG - user.service - updating user: 63f89e94e64b25a44cb1b0ac (userId: 63f89e94e64b25a44cb1b0ac)
+25.2.2023, 10:36:01 - INFO - User updated:  | 63f89e94e64b25a44cb1b0ac (userId: 63f89e94e64b25a44cb1b0ac)
+25.2.2023, 10:37:16 - DEBUG - user.service - updating user: 63f89e94e64b25a44cb1b0ac (userId: 63f89e94e64b25a44cb1b0ac)
+25.2.2023, 10:37:16 - INFO - User updated:  | 63f89e94e64b25a44cb1b0ac (userId: 63f89e94e64b25a44cb1b0ac)
