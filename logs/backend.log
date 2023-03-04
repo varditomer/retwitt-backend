@@ -1246,3 +1246,166 @@
 1.3.2023, 21:07:02 - INFO - User updated:  | 63f89e94e64b25a44cb1b0ac (userId: 63f89e94e64b25a44cb1b0ac)
 2.3.2023, 9:42:09 - DEBUG - user.service - getting users (userId: 63f89e94e64b25a44cb1b0ac)
 2.3.2023, 16:42:28 - INFO - Server is running on port: 3030 
+2.3.2023, 16:46:35 - DEBUG - user.service - getting users (userId: 63f89e94e64b25a44cb1b0ac)
+2.3.2023, 16:46:52 - DEBUG - auth.service - login with username: vtomer (userId: 63f89e94e64b25a44cb1b0ac)
+2.3.2023, 16:46:52 - INFO - User login:  | {"_id":"63f89e94e64b25a44cb1b0ac","username":"vtomer","firstName":"Tomer","lastName":"Vardi","about":"","profileImg":"https://res.cloudinary.com/retwitt/image/upload/v1677604307/IMG-20161116-WA0012_t9xts8.jpg","coverImg":"https://res.cloudinary.com/retwitt/image/upload/v1677608322/twitter-header-3.jpg_oqrmjp.jpg","follows":["63f8b32b266633812a3df72d"],"followers":[],"savedTweets":[],"isGuest":false,"createdAt":"2023-02-24T11:25:08.000Z"} (userId: 63f89e94e64b25a44cb1b0ac)
+2.3.2023, 16:53:17 - DEBUG - user.service - getting users (userId: 63f89e94e64b25a44cb1b0ac)
+2.3.2023, 17:11:53 - DEBUG - user.service - getting users 
+2.3.2023, 17:13:26 - DEBUG - user.service - getting users 
+2.3.2023, 17:18:17 - DEBUG - user.service - getting users 
+2.3.2023, 18:13:46 - DEBUG - user.service - getting users 
+3.3.2023, 10:10:57 - DEBUG - user.service - getting users 
+3.3.2023, 11:58:18 - DEBUG - user.service - getting users 
+3.3.2023, 12:07:06 - DEBUG - user.service - getting users 
+3.3.2023, 12:33:59 - DEBUG - user.service - getting users 
+3.3.2023, 12:35:14 - DEBUG - auth.service - login with username: vtomer 
+3.3.2023, 12:35:14 - INFO - User login:  | {"_id":"63f89e94e64b25a44cb1b0ac","username":"vtomer","firstName":"Tomer","lastName":"Vardi","about":"","profileImg":"https://res.cloudinary.com/retwitt/image/upload/v1677604307/IMG-20161116-WA0012_t9xts8.jpg","coverImg":"https://res.cloudinary.com/retwitt/image/upload/v1677608322/twitter-header-3.jpg_oqrmjp.jpg","follows":["63f8b32b266633812a3df72d"],"followers":[],"savedTweets":[],"isGuest":false,"createdAt":"2023-02-24T11:25:08.000Z"} 
+3.3.2023, 15:40:58 - DEBUG - user.service - getting users 
+3.3.2023, 18:00:03 - INFO - Server is running on port: 3030 
+3.3.2023, 18:00:15 - INFO - Server is running on port: 3030 
+3.3.2023, 18:01:32 - INFO - Server is running on port: 3030 
+3.3.2023, 18:01:44 - INFO - Server is running on port: 3030 
+3.3.2023, 18:01:48 - DEBUG - user.service - getting users 
+3.3.2023, 18:01:55 - DEBUG - auth.service - login with username: vtomer 
+3.3.2023, 18:01:55 - INFO - User login:  | {"_id":"63f89e94e64b25a44cb1b0ac","username":"vtomer","firstName":"Tomer","lastName":"Vardi","about":"","profileImg":"https://res.cloudinary.com/retwitt/image/upload/v1677604307/IMG-20161116-WA0012_t9xts8.jpg","coverImg":"https://res.cloudinary.com/retwitt/image/upload/v1677608322/twitter-header-3.jpg_oqrmjp.jpg","follows":["63f8b32b266633812a3df72d"],"followers":[],"savedTweets":[],"isGuest":false,"createdAt":"2023-02-24T11:25:08.000Z"} 
+3.3.2023, 18:01:59 - ERROR - Failed to update tweet TypeError: tweetService.retweet is not a function (userId: 63f89e94e64b25a44cb1b0ac)
+3.3.2023, 18:02:44 - INFO - Server is running on port: 3030 
+3.3.2023, 18:03:21 - DEBUG - user.service - getting users (userId: 63f89e94e64b25a44cb1b0ac)
+3.3.2023, 18:13:37 - DEBUG - user.service - updating user: 63f89e94e64b25a44cb1b0ac (userId: 63f89e94e64b25a44cb1b0ac)
+3.3.2023, 18:13:37 - INFO - User updated:  | 63f89e94e64b25a44cb1b0ac (userId: 63f89e94e64b25a44cb1b0ac)
+3.3.2023, 18:13:38 - DEBUG - user.service - updating user: 63f89e94e64b25a44cb1b0ac (userId: 63f89e94e64b25a44cb1b0ac)
+3.3.2023, 18:13:38 - INFO - User updated:  | 63f89e94e64b25a44cb1b0ac (userId: 63f89e94e64b25a44cb1b0ac)
+3.3.2023, 18:13:47 - DEBUG - user.service - updating user: 63f89e94e64b25a44cb1b0ac (userId: 63f89e94e64b25a44cb1b0ac)
+3.3.2023, 18:13:47 - INFO - User updated:  | 63f89e94e64b25a44cb1b0ac (userId: 63f89e94e64b25a44cb1b0ac)
+3.3.2023, 18:13:47 - DEBUG - user.service - updating user: 63f89e94e64b25a44cb1b0ac (userId: 63f89e94e64b25a44cb1b0ac)
+3.3.2023, 18:13:48 - INFO - User updated:  | 63f89e94e64b25a44cb1b0ac (userId: 63f89e94e64b25a44cb1b0ac)
+3.3.2023, 18:19:39 - DEBUG - user.service - getting users (userId: 63f89e94e64b25a44cb1b0ac)
+3.3.2023, 18:26:20 - INFO - Server is running on port: 3030 
+3.3.2023, 18:30:00 - INFO - Server is running on port: 3030 
+3.3.2023, 18:30:55 - INFO - Server is running on port: 3030 
+3.3.2023, 18:31:15 - ERROR - Failed to add tweet function () { [native code] } (userId: 63f89e94e64b25a44cb1b0ac)
+3.3.2023, 18:31:55 - INFO - Server is running on port: 3030 
+3.3.2023, 18:34:19 - INFO - Server is running on port: 3030 
+3.3.2023, 18:34:29 - DEBUG - user.service - getting users (userId: 63f89e94e64b25a44cb1b0ac)
+3.3.2023, 18:34:35 - DEBUG - user.service - getting users (userId: 63f89e94e64b25a44cb1b0ac)
+3.3.2023, 18:34:39 - DEBUG - user.service - getting users (userId: 63f89e94e64b25a44cb1b0ac)
+3.3.2023, 18:37:23 - DEBUG - user.service - getting users (userId: 63f89e94e64b25a44cb1b0ac)
+3.3.2023, 18:37:36 - DEBUG - user.service - getting users (userId: 63f89e94e64b25a44cb1b0ac)
+3.3.2023, 18:38:51 - DEBUG - user.service - getting users (userId: 63f89e94e64b25a44cb1b0ac)
+3.3.2023, 18:39:39 - DEBUG - user.service - getting users (userId: 63f89e94e64b25a44cb1b0ac)
+3.3.2023, 18:42:06 - DEBUG - user.service - getting users (userId: 63f89e94e64b25a44cb1b0ac)
+3.3.2023, 19:09:39 - DEBUG - user.service - getting users (userId: 63f89e94e64b25a44cb1b0ac)
+3.3.2023, 19:11:00 - DEBUG - user.service - getting users (userId: 63f89e94e64b25a44cb1b0ac)
+3.3.2023, 19:11:14 - DEBUG - user.service - getting users (userId: 63f89e94e64b25a44cb1b0ac)
+3.3.2023, 19:12:28 - DEBUG - user.service - getting users (userId: 63f89e94e64b25a44cb1b0ac)
+3.3.2023, 19:13:01 - DEBUG - user.service - getting users (userId: 63f89e94e64b25a44cb1b0ac)
+3.3.2023, 19:15:54 - INFO - Server is running on port: 3030 
+3.3.2023, 19:17:03 - DEBUG - user.service - getting users (userId: 63f89e94e64b25a44cb1b0ac)
+3.3.2023, 19:18:15 - INFO - Server is running on port: 3030 
+3.3.2023, 19:21:48 - INFO - Server is running on port: 3030 
+3.3.2023, 19:22:19 - INFO - Server is running on port: 3030 
+3.3.2023, 19:22:30 - DEBUG - user.service - getting users (userId: 63f89e94e64b25a44cb1b0ac)
+3.3.2023, 19:24:03 - DEBUG - user.service - getting users (userId: 63f89e94e64b25a44cb1b0ac)
+3.3.2023, 19:24:06 - DEBUG - user.service - getting users (userId: 63f89e94e64b25a44cb1b0ac)
+3.3.2023, 19:41:24 - DEBUG - user.service - getting users (userId: 63f89e94e64b25a44cb1b0ac)
+3.3.2023, 19:45:11 - DEBUG - user.service - getting users (userId: 63f89e94e64b25a44cb1b0ac)
+3.3.2023, 20:59:37 - DEBUG - user.service - getting users (userId: 63f89e94e64b25a44cb1b0ac)
+3.3.2023, 21:02:14 - DEBUG - user.service - getting users (userId: 63f89e94e64b25a44cb1b0ac)
+3.3.2023, 21:38:37 - DEBUG - user.service - getting users (userId: 63f89e94e64b25a44cb1b0ac)
+3.3.2023, 21:40:34 - DEBUG - user.service - getting users (userId: 63f89e94e64b25a44cb1b0ac)
+3.3.2023, 21:41:11 - DEBUG - user.service - getting users (userId: 63f89e94e64b25a44cb1b0ac)
+3.3.2023, 21:43:54 - DEBUG - user.service - getting users (userId: 63f89e94e64b25a44cb1b0ac)
+3.3.2023, 21:44:53 - DEBUG - user.service - getting users (userId: 63f89e94e64b25a44cb1b0ac)
+3.3.2023, 21:45:57 - DEBUG - user.service - getting users (userId: 63f89e94e64b25a44cb1b0ac)
+3.3.2023, 21:46:19 - DEBUG - user.service - getting users (userId: 63f89e94e64b25a44cb1b0ac)
+3.3.2023, 21:55:58 - INFO - Server is running on port: 3030 
+3.3.2023, 21:56:32 - DEBUG - user.service - getting users (userId: 63f89e94e64b25a44cb1b0ac)
+3.3.2023, 21:56:59 - DEBUG - user.service - getting users (userId: 63f89e94e64b25a44cb1b0ac)
+3.3.2023, 21:57:33 - INFO - Server is running on port: 3030 
+3.3.2023, 21:57:43 - DEBUG - user.service - getting users (userId: 63f89e94e64b25a44cb1b0ac)
+3.3.2023, 21:58:51 - DEBUG - user.service - getting users (userId: 63f89e94e64b25a44cb1b0ac)
+3.3.2023, 21:59:24 - DEBUG - user.service - getting users (userId: 63f89e94e64b25a44cb1b0ac)
+3.3.2023, 22:00:58 - DEBUG - user.service - getting users (userId: 63f89e94e64b25a44cb1b0ac)
+3.3.2023, 22:02:21 - DEBUG - user.service - getting users (userId: 63f89e94e64b25a44cb1b0ac)
+3.3.2023, 22:05:36 - DEBUG - user.service - getting users (userId: 63f89e94e64b25a44cb1b0ac)
+3.3.2023, 22:06:00 - DEBUG - user.service - getting users (userId: 63f89e94e64b25a44cb1b0ac)
+3.3.2023, 22:06:34 - DEBUG - user.service - getting users (userId: 63f89e94e64b25a44cb1b0ac)
+3.3.2023, 22:08:18 - DEBUG - user.service - getting users (userId: 63f89e94e64b25a44cb1b0ac)
+3.3.2023, 22:09:50 - DEBUG - user.service - getting users (userId: 63f89e94e64b25a44cb1b0ac)
+3.3.2023, 22:11:28 - DEBUG - user.service - getting users (userId: 63f89e94e64b25a44cb1b0ac)
+3.3.2023, 22:11:54 - DEBUG - user.service - getting users (userId: 63f89e94e64b25a44cb1b0ac)
+3.3.2023, 22:12:54 - DEBUG - auth.service - signup with username: t, fullName: tt vv 
+3.3.2023, 22:12:54 - DEBUG - user.service - adding user: t 
+3.3.2023, 22:12:54 - DEBUG - auth.service - login with username: t 
+3.3.2023, 22:12:54 - DEBUG - auth.route - new account created: {"password":"$2b$10$lWaq9p8LE69wT8oFwqxcWOeZHtCHikE1t20pgftYnQ0AELR8SS5k6","username":"t","firstName":"tt","lastName":"vv","about":"","profileImg":"","coverImg":"","follows":[],"followers":[],"savedTweets":[],"isGuest":false,"_id":"640254c66d743c3a8bad00bd"} 
+3.3.2023, 22:12:54 - INFO - User signup:  | {"_id":"640254c66d743c3a8bad00bd","username":"t","firstName":"tt","lastName":"vv","about":"","profileImg":"","coverImg":"","follows":[],"followers":[],"savedTweets":[],"isGuest":false,"createdAt":"2023-03-03T20:12:54.000Z"} 
+3.3.2023, 22:13:06 - DEBUG - user.service - updating user: 640254c66d743c3a8bad00bd (userId: 640254c66d743c3a8bad00bd)
+3.3.2023, 22:13:06 - INFO - User updated:  | 640254c66d743c3a8bad00bd (userId: 640254c66d743c3a8bad00bd)
+3.3.2023, 22:16:05 - DEBUG - user.service - getting users (userId: 640254c66d743c3a8bad00bd)
+3.3.2023, 22:16:09 - DEBUG - user.service - getting users (userId: 640254c66d743c3a8bad00bd)
+3.3.2023, 22:16:16 - DEBUG - user.service - getting users (userId: 640254c66d743c3a8bad00bd)
+3.3.2023, 22:16:40 - DEBUG - user.service - getting users (userId: 640254c66d743c3a8bad00bd)
+3.3.2023, 22:18:23 - DEBUG - user.service - getting users (userId: 640254c66d743c3a8bad00bd)
+3.3.2023, 22:18:28 - DEBUG - user.service - getting users (userId: 640254c66d743c3a8bad00bd)
+3.3.2023, 22:18:56 - DEBUG - user.service - getting users (userId: 640254c66d743c3a8bad00bd)
+3.3.2023, 22:19:38 - DEBUG - user.service - getting users (userId: 640254c66d743c3a8bad00bd)
+3.3.2023, 22:19:44 - DEBUG - user.service - getting users (userId: 640254c66d743c3a8bad00bd)
+3.3.2023, 22:22:02 - DEBUG - user.service - getting users (userId: 640254c66d743c3a8bad00bd)
+3.3.2023, 22:22:07 - DEBUG - user.service - getting users (userId: 640254c66d743c3a8bad00bd)
+3.3.2023, 22:23:08 - DEBUG - user.service - getting users (userId: 640254c66d743c3a8bad00bd)
+3.3.2023, 22:23:21 - DEBUG - user.service - getting users (userId: 640254c66d743c3a8bad00bd)
+3.3.2023, 22:26:31 - DEBUG - auth.service - login with username: vtomer 
+3.3.2023, 22:26:31 - INFO - User login:  | {"_id":"63f89e94e64b25a44cb1b0ac","username":"vtomer","firstName":"Tomer","lastName":"Vardi","about":"","profileImg":"https://res.cloudinary.com/retwitt/image/upload/v1677604307/IMG-20161116-WA0012_t9xts8.jpg","coverImg":"https://res.cloudinary.com/retwitt/image/upload/v1677608322/twitter-header-3.jpg_oqrmjp.jpg","follows":["63f8b32b266633812a3df72d"],"followers":[],"savedTweets":[],"isGuest":false,"createdAt":"2023-02-24T11:25:08.000Z"} 
+3.3.2023, 22:26:40 - WARN - undefined attempted to delete not owned tweet (userId: 63f89e94e64b25a44cb1b0ac)
+3.3.2023, 22:26:53 - DEBUG - user.service - getting users (userId: 63f89e94e64b25a44cb1b0ac)
+3.3.2023, 22:26:56 - DEBUG - user.service - getting users (userId: 63f89e94e64b25a44cb1b0ac)
+3.3.2023, 22:27:24 - DEBUG - user.service - getting users (userId: 63f89e94e64b25a44cb1b0ac)
+4.3.2023, 10:52:53 - DEBUG - user.service - getting users (userId: 63f89e94e64b25a44cb1b0ac)
+4.3.2023, 10:55:16 - DEBUG - user.service - getting users (userId: 63f89e94e64b25a44cb1b0ac)
+4.3.2023, 10:55:20 - DEBUG - user.service - getting users (userId: 63f89e94e64b25a44cb1b0ac)
+4.3.2023, 10:57:21 - DEBUG - user.service - getting users (userId: 63f89e94e64b25a44cb1b0ac)
+4.3.2023, 10:58:02 - DEBUG - user.service - getting users (userId: 63f89e94e64b25a44cb1b0ac)
+4.3.2023, 11:02:24 - DEBUG - user.service - getting users (userId: 63f89e94e64b25a44cb1b0ac)
+4.3.2023, 11:02:41 - DEBUG - user.service - getting users (userId: 63f89e94e64b25a44cb1b0ac)
+4.3.2023, 11:03:11 - DEBUG - user.service - getting users (userId: 63f89e94e64b25a44cb1b0ac)
+4.3.2023, 11:11:21 - DEBUG - user.service - getting users (userId: 63f89e94e64b25a44cb1b0ac)
+4.3.2023, 11:26:13 - DEBUG - user.service - getting users (userId: 63f89e94e64b25a44cb1b0ac)
+4.3.2023, 11:26:55 - DEBUG - auth.service - login with username: vtomer 
+4.3.2023, 11:26:55 - INFO - User login:  | {"_id":"63f89e94e64b25a44cb1b0ac","username":"vtomer","firstName":"Tomer","lastName":"Vardi","about":"","profileImg":"https://res.cloudinary.com/retwitt/image/upload/v1677604307/IMG-20161116-WA0012_t9xts8.jpg","coverImg":"https://res.cloudinary.com/retwitt/image/upload/v1677608322/twitter-header-3.jpg_oqrmjp.jpg","follows":["63f8b32b266633812a3df72d"],"followers":[],"savedTweets":[],"isGuest":false,"createdAt":"2023-02-24T11:25:08.000Z"} 
+4.3.2023, 11:27:05 - DEBUG - auth.service - login with username: vtomer 
+4.3.2023, 11:27:05 - INFO - User login:  | {"_id":"63f89e94e64b25a44cb1b0ac","username":"vtomer","firstName":"Tomer","lastName":"Vardi","about":"","profileImg":"https://res.cloudinary.com/retwitt/image/upload/v1677604307/IMG-20161116-WA0012_t9xts8.jpg","coverImg":"https://res.cloudinary.com/retwitt/image/upload/v1677608322/twitter-header-3.jpg_oqrmjp.jpg","follows":["63f8b32b266633812a3df72d"],"followers":[],"savedTweets":[],"isGuest":false,"createdAt":"2023-02-24T11:25:08.000Z"} 
+4.3.2023, 11:31:47 - DEBUG - user.service - getting users (userId: 63f89e94e64b25a44cb1b0ac)
+4.3.2023, 11:35:36 - DEBUG - user.service - getting users (userId: 63f89e94e64b25a44cb1b0ac)
+4.3.2023, 11:37:25 - DEBUG - user.service - getting users (userId: 63f89e94e64b25a44cb1b0ac)
+4.3.2023, 11:37:57 - DEBUG - user.service - getting users (userId: 63f89e94e64b25a44cb1b0ac)
+4.3.2023, 11:39:58 - DEBUG - user.service - getting users (userId: 63f89e94e64b25a44cb1b0ac)
+4.3.2023, 11:40:07 - DEBUG - user.service - getting users (userId: 63f89e94e64b25a44cb1b0ac)
+4.3.2023, 11:41:40 - DEBUG - user.service - getting users (userId: 63f89e94e64b25a44cb1b0ac)
+4.3.2023, 11:41:54 - DEBUG - user.service - getting users (userId: 63f89e94e64b25a44cb1b0ac)
+4.3.2023, 11:42:52 - DEBUG - user.service - getting users (userId: 63f89e94e64b25a44cb1b0ac)
+4.3.2023, 11:45:38 - DEBUG - user.service - getting users (userId: 63f89e94e64b25a44cb1b0ac)
+4.3.2023, 11:46:19 - INFO - Server is running on port: 3030 
+4.3.2023, 11:50:14 - DEBUG - user.service - getting users (userId: 63f89e94e64b25a44cb1b0ac)
+4.3.2023, 11:53:28 - INFO - Server is running on port: 3030 
+4.3.2023, 11:53:43 - DEBUG - user.service - getting users (userId: 63f89e94e64b25a44cb1b0ac)
+4.3.2023, 11:54:10 - DEBUG - user.service - getting users (userId: 63f89e94e64b25a44cb1b0ac)
+4.3.2023, 11:54:40 - DEBUG - user.service - getting users (userId: 63f89e94e64b25a44cb1b0ac)
+4.3.2023, 11:55:47 - INFO - Server is running on port: 3030 
+4.3.2023, 11:56:11 - DEBUG - user.service - getting users (userId: 63f89e94e64b25a44cb1b0ac)
+4.3.2023, 11:56:20 - DEBUG - user.service - getting users (userId: 63f89e94e64b25a44cb1b0ac)
+4.3.2023, 11:59:15 - DEBUG - user.service - getting users (userId: 63f89e94e64b25a44cb1b0ac)
+4.3.2023, 11:59:36 - DEBUG - user.service - updating user: 63f89e94e64b25a44cb1b0ac (userId: 63f89e94e64b25a44cb1b0ac)
+4.3.2023, 11:59:37 - INFO - User updated:  | 63f89e94e64b25a44cb1b0ac (userId: 63f89e94e64b25a44cb1b0ac)
+4.3.2023, 11:59:51 - DEBUG - user.service - getting users (userId: 63f89e94e64b25a44cb1b0ac)
+4.3.2023, 12:00:00 - DEBUG - user.service - getting users (userId: 63f89e94e64b25a44cb1b0ac)
+4.3.2023, 12:00:58 - DEBUG - user.service - getting users (userId: 63f89e94e64b25a44cb1b0ac)
+4.3.2023, 12:01:04 - DEBUG - user.service - getting users (userId: 63f89e94e64b25a44cb1b0ac)
+4.3.2023, 12:01:25 - DEBUG - user.service - getting users (userId: 63f89e94e64b25a44cb1b0ac)
+4.3.2023, 12:01:28 - DEBUG - user.service - getting users (userId: 63f89e94e64b25a44cb1b0ac)
+4.3.2023, 12:05:11 - DEBUG - user.service - getting users (userId: 63f89e94e64b25a44cb1b0ac)
+4.3.2023, 12:05:37 - DEBUG - user.service - updating user: 63f89e94e64b25a44cb1b0ac (userId: 63f89e94e64b25a44cb1b0ac)
+4.3.2023, 12:05:37 - INFO - User updated:  | 63f89e94e64b25a44cb1b0ac (userId: 63f89e94e64b25a44cb1b0ac)
+4.3.2023, 12:05:39 - DEBUG - user.service - updating user: 63f89e94e64b25a44cb1b0ac (userId: 63f89e94e64b25a44cb1b0ac)
+4.3.2023, 12:05:39 - INFO - User updated:  | 63f89e94e64b25a44cb1b0ac (userId: 63f89e94e64b25a44cb1b0ac)
+4.3.2023, 12:15:15 - DEBUG - auth.service - login with username: vtomer 
+4.3.2023, 12:15:15 - INFO - User login:  | {"_id":"63f89e94e64b25a44cb1b0ac","username":"vtomer","firstName":"Tomer","lastName":"Vardi","about":"","profileImg":"https://res.cloudinary.com/retwitt/image/upload/v1677604307/IMG-20161116-WA0012_t9xts8.jpg","coverImg":"https://res.cloudinary.com/retwitt/image/upload/v1677608322/twitter-header-3.jpg_oqrmjp.jpg","follows":["63f8b32b266633812a3df72d"],"followers":[],"savedTweets":[],"isGuest":false,"createdAt":"2023-02-24T11:25:08.000Z"} 

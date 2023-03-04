@@ -1,4 +1,4 @@
-import { Tweet } from "../../Interfaces/tweet.interface"
+import { Retweet, Tweet } from "../../Interfaces/tweet.interface"
 
 // External Dependencies
 const logger = require('../../services/logger.service')
@@ -8,7 +8,7 @@ const ObjectId = require('mongodb').ObjectId
 async function query() {
     try {
         const tweetCollection = await dbService.getCollection('tweet')
-        let tweets: Tweet[] = await tweetCollection.find().sort({ _id : -1 }).toArray() 
+        let tweets: Tweet[] = await tweetCollection.find().sort({ _id: -1 }).toArray()
         tweets = tweets.map((tweet: Tweet) => {
             tweet.createdAt = new ObjectId(tweet._id).getTimestamp()
             return tweet
@@ -53,7 +53,7 @@ async function updateTweet(tweetToUpdate: Tweet) {
         const tweetToSave = {
             _id: new ObjectId(tweetToUpdate._id), // needed for the returned obj
             replies: tweetToUpdate.replies,
-            reTweetedBy: tweetToUpdate.reTweetedBy,
+            retweetedBy: tweetToUpdate.retweetedBy,
             savedBy: tweetToUpdate.savedBy,
             likes: tweetToUpdate.likes
         }
@@ -78,10 +78,28 @@ async function remove(tweetId: string) {
     }
 }
 
+async function retweet(newRetweet: Retweet) {
+    try {
+        const tweetCollection = await dbService.getCollection('tweet')
+        const mongoRes: any = await tweetCollection.insertOne(newRetweet)
+
+        newRetweet._id = mongoRes.insertedId.toString()
+        newRetweet.createdAt = new ObjectId(newRetweet._id).getTimestamp()
+
+        const addedRetweet = structuredClone(newRetweet)
+        return addedRetweet
+    } catch (err) {
+        logger.error(`Cannot retweet tweet: ${newRetweet.retweetedTweetId}`, err)
+        throw err
+    }
+
+}
+
 module.exports = {
     query,
     getById,
     addTweet,
     updateTweet,
-    remove
+    remove,
+    retweet
 }

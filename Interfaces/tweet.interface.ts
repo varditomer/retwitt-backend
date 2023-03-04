@@ -10,20 +10,31 @@ export interface Reply {
     likes: string[],
 }
 
-export interface Tweet extends NewTweetFields {
+export interface Tweet  {
     _id?: ObjectId,
     createdAt?: number,
     hashtags: string[],
     replies: Reply[],
-    reTweetedBy: string[],
+    retweetedBy: [
+        {
+            retweeterId: string,
+            retweetId: string
+        }?
+    ]
     savedBy: string[],
     likes: string[],
-}
 
-export interface NewTweetFields {
     createdBy: string,
     imgUrl: string,
     isEveryOneCanReply: boolean,
-    retweet: boolean,
+    isRetweet: boolean,
     content: string,
+}
+
+export interface Retweet {
+    _id?: string,
+    createdAt?: number,
+    createdBy: string,
+    retweetedTweetId: string
+    isRetweet: boolean
 }

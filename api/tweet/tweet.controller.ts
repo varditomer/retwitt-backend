@@ -1,7 +1,7 @@
 const tweetService = require('./tweet.service')
 const logger = require('../../services/logger.service')
 import { Request, Response } from 'express'
-import { NewTweetFields, Tweet } from '../../Interfaces/tweet.interface'
+import { Retweet, Tweet } from '../../Interfaces/tweet.interface'
 
 async function getTweets(req: Request, res: Response) {
     try {
@@ -26,7 +26,7 @@ async function getTweet(req: Request, res: Response) {
 
 async function addTweet(req: Request, res: Response) {
     try {
-        const tweetToAdd: NewTweetFields = req.body
+        const tweetToAdd: Tweet = req.body
         const addedTweet: Tweet = await tweetService.addTweet(tweetToAdd)
         res.send(addedTweet)
     } catch (err) {
@@ -57,10 +57,22 @@ async function deleteTweet(req: Request, res: Response) {
     }
 }
 
+async function retweet(req: Request, res: Response) {
+    try {
+        const newRetweet: Retweet = req.body
+        const retweet: Retweet = await tweetService.retweet(newRetweet)
+        res.send(retweet)
+    } catch (err) {
+        logger.error('Failed to update tweet ' + err)
+        res.status(500).send({ err: 'Failed to update tweet' })
+    }
+}
+
 module.exports = {
     getTweets,
     getTweet,
     addTweet,
     updateTweet,
     deleteTweet,
+    retweet
 }
