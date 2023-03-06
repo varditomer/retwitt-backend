@@ -1,7 +1,7 @@
 const tweetService = require('./tweet.service')
 const logger = require('../../services/logger.service')
 import { Request, Response } from 'express'
-import { Retweet, Tweet } from '../../Interfaces/tweet.interface'
+import { hashtags, Retweet, Tweet } from '../../Interfaces/tweet.interface'
 
 async function getTweets(req: Request, res: Response) {
     try {
@@ -68,11 +68,34 @@ async function retweet(req: Request, res: Response) {
     }
 }
 
+async function getHashtags(req: Request, res: Response) {
+    try {
+        const hashtags: hashtags = await tweetService.queryHashtags()
+        res.send(hashtags)
+    } catch (err) {
+        logger.error('Failed to get tweets ' + err)
+        res.status(500).send({ err: 'Failed to get tweets' })
+    }
+}
+
+async function updateHashtags(req: Request, res: Response) {
+    try {
+        const hashtags: hashtags = req.body
+        const updatedHashtags: hashtags = await tweetService.updateHashtags(hashtags)
+        res.send(updatedHashtags)
+    } catch (err) {
+        logger.error('Failed to update hashtags ' + err)
+        res.status(500).send({ err: 'Failed to update hashtags' })
+    }
+}
+
 module.exports = {
     getTweets,
     getTweet,
     addTweet,
     updateTweet,
     deleteTweet,
-    retweet
+    retweet,
+    getHashtags,
+    updateHashtags,
 }

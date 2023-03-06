@@ -1409,3 +1409,186 @@
 4.3.2023, 12:05:39 - INFO - User updated:  | 63f89e94e64b25a44cb1b0ac (userId: 63f89e94e64b25a44cb1b0ac)
 4.3.2023, 12:15:15 - DEBUG - auth.service - login with username: vtomer 
 4.3.2023, 12:15:15 - INFO - User login:  | {"_id":"63f89e94e64b25a44cb1b0ac","username":"vtomer","firstName":"Tomer","lastName":"Vardi","about":"","profileImg":"https://res.cloudinary.com/retwitt/image/upload/v1677604307/IMG-20161116-WA0012_t9xts8.jpg","coverImg":"https://res.cloudinary.com/retwitt/image/upload/v1677608322/twitter-header-3.jpg_oqrmjp.jpg","follows":["63f8b32b266633812a3df72d"],"followers":[],"savedTweets":[],"isGuest":false,"createdAt":"2023-02-24T11:25:08.000Z"} 
+4.3.2023, 12:18:48 - INFO - Server is running on port: 3030 
+4.3.2023, 12:20:12 - DEBUG - user.service - getting users 
+4.3.2023, 12:20:16 - DEBUG - auth.service - login with username: vtomer 
+4.3.2023, 12:20:16 - ERROR - Failed to Login Invalid username or password 
+4.3.2023, 12:20:58 - DEBUG - auth.service - signup with username: vtomer, fullName: Tomer Vardi 
+4.3.2023, 12:20:58 - DEBUG - user.service - adding user: vtomer 
+4.3.2023, 12:20:58 - DEBUG - auth.route - new account created: {"password":"$2b$10$So/jMQbH4RzgTLWhBJ0lF.Csf.AbAJ9UMHe45ZLpSS2AOvd7t/IS6","username":"vtomer","firstName":"Tomer","lastName":"Vardi","about":"","profileImg":"","coverImg":"","follows":[],"followers":[],"savedTweets":[],"isGuest":false,"_id":"64031b8a9508385a06ae375b"} 
+4.3.2023, 12:20:58 - DEBUG - auth.service - login with username: vtomer 
+4.3.2023, 12:20:58 - INFO - User signup:  | {"_id":"64031b8a9508385a06ae375b","username":"vtomer","firstName":"Tomer","lastName":"Vardi","about":"","profileImg":"","coverImg":"","follows":[],"followers":[],"savedTweets":[],"isGuest":false,"createdAt":"2023-03-04T10:20:58.000Z"} 
+4.3.2023, 12:22:57 - DEBUG - user.service - getting users (userId: 64031b8a9508385a06ae375b)
+4.3.2023, 12:24:33 - DEBUG - user.service - getting users (userId: 64031b8a9508385a06ae375b)
+4.3.2023, 12:32:00 - DEBUG - auth.service - login with username: vtomer 
+4.3.2023, 12:32:00 - INFO - User login:  | {"_id":"64031b8a9508385a06ae375b","username":"vtomer","firstName":"Tomer","lastName":"Vardi","about":"","profileImg":"","coverImg":"","follows":[],"followers":[],"savedTweets":[],"isGuest":false,"createdAt":"2023-03-04T10:20:58.000Z"} 
+4.3.2023, 12:34:17 - DEBUG - user.service - getting users 
+4.3.2023, 12:39:25 - DEBUG - auth.service - login with username: vtomer 
+4.3.2023, 12:39:25 - INFO - User login:  | {"_id":"64031b8a9508385a06ae375b","username":"vtomer","firstName":"Tomer","lastName":"Vardi","about":"","profileImg":"","coverImg":"","follows":[],"followers":[],"savedTweets":[],"isGuest":false,"createdAt":"2023-03-04T10:20:58.000Z"} 
+4.3.2023, 12:41:48 - DEBUG - user.service - getting users 
+4.3.2023, 12:42:13 - DEBUG - auth.service - login with username: vtomer 
+4.3.2023, 12:42:14 - INFO - User login:  | {"_id":"64031b8a9508385a06ae375b","username":"vtomer","firstName":"Tomer","lastName":"Vardi","about":"","profileImg":"","coverImg":"","follows":[],"followers":[],"savedTweets":[],"isGuest":false,"createdAt":"2023-03-04T10:20:58.000Z"} 
+4.3.2023, 13:45:48 - DEBUG - user.service - getting users 
+4.3.2023, 13:45:50 - DEBUG - user.service - getting users (userId: 64031b8a9508385a06ae375b)
+4.3.2023, 13:46:37 - DEBUG - user.service - getting users (userId: 64031b8a9508385a06ae375b)
+4.3.2023, 13:51:05 - DEBUG - user.service - getting users (userId: 64031b8a9508385a06ae375b)
+4.3.2023, 14:09:05 - DEBUG - user.service - getting users (userId: 64031b8a9508385a06ae375b)
+4.3.2023, 14:09:06 - DEBUG - user.service - getting users 
+4.3.2023, 14:10:48 - DEBUG - user.service - getting users (userId: 64031b8a9508385a06ae375b)
+4.3.2023, 14:10:50 - DEBUG - user.service - getting users 
+4.3.2023, 14:11:05 - DEBUG - user.service - getting users (userId: 64031b8a9508385a06ae375b)
+4.3.2023, 14:11:07 - DEBUG - user.service - getting users 
+4.3.2023, 14:12:07 - DEBUG - user.service - getting users (userId: 64031b8a9508385a06ae375b)
+4.3.2023, 14:12:08 - DEBUG - user.service - getting users 
+4.3.2023, 14:16:03 - INFO - Server is running on port: 3030 
+4.3.2023, 14:20:51 - INFO - Server is running on port: 3030 
+4.3.2023, 14:27:41 - INFO - Server is running on port: 3030 
+4.3.2023, 14:27:51 - INFO - Server is running on port: 3030 
+4.3.2023, 14:30:03 - INFO - Server is running on port: 3030 
+4.3.2023, 14:34:20 - DEBUG - user.service - getting users 
+4.3.2023, 14:34:20 - DEBUG - user.service - getting users (userId: 64031b8a9508385a06ae375b)
+4.3.2023, 14:43:59 - DEBUG - user.service - getting users (userId: 64031b8a9508385a06ae375b)
+4.3.2023, 14:44:00 - DEBUG - user.service - getting users 
+4.3.2023, 14:50:07 - DEBUG - user.service - getting users (userId: 64031b8a9508385a06ae375b)
+4.3.2023, 14:50:07 - DEBUG - user.service - getting users 
+4.3.2023, 14:51:05 - DEBUG - user.service - getting users (userId: 64031b8a9508385a06ae375b)
+4.3.2023, 14:51:07 - DEBUG - user.service - getting users (userId: 64031b8a9508385a06ae375b)
+4.3.2023, 14:51:07 - DEBUG - user.service - getting users 
+4.3.2023, 14:51:16 - DEBUG - user.service - getting users (userId: 64031b8a9508385a06ae375b)
+4.3.2023, 14:53:27 - INFO - Server is running on port: 3030 
+4.3.2023, 14:53:28 - DEBUG - tweet.service - getting tweets (userId: 64031b8a9508385a06ae375b)
+4.3.2023, 14:53:27 - DEBUG - tweet.service - getting hashtags (userId: 64031b8a9508385a06ae375b)
+4.3.2023, 14:53:27 - DEBUG - user.service - getting users (userId: 64031b8a9508385a06ae375b)
+4.3.2023, 14:54:10 - INFO - Server is running on port: 3030 
+4.3.2023, 14:54:23 - DEBUG - user.service - getting users (userId: 64031b8a9508385a06ae375b)
+4.3.2023, 14:54:23 - DEBUG - tweet.service - getting tweets (userId: 64031b8a9508385a06ae375b)
+4.3.2023, 14:54:23 - DEBUG - tweet.service - getting hashtags (userId: 64031b8a9508385a06ae375b)
+4.3.2023, 14:56:13 - INFO - Server is running on port: 3030 
+4.3.2023, 14:56:17 - DEBUG - tweet.service - getting tweets (userId: 64031b8a9508385a06ae375b)
+4.3.2023, 14:56:17 - DEBUG - user.service - getting users (userId: 64031b8a9508385a06ae375b)
+4.3.2023, 14:56:17 - DEBUG - tweet.service - getting hashtags (userId: 64031b8a9508385a06ae375b)
+4.3.2023, 14:57:59 - INFO - Server is running on port: 3030 
+4.3.2023, 14:58:04 - DEBUG - user.service - getting users (userId: 64031b8a9508385a06ae375b)
+4.3.2023, 14:58:05 - DEBUG - tweet.service - getting tweets (userId: 64031b8a9508385a06ae375b)
+4.3.2023, 14:58:05 - DEBUG - tweet.service - getting hashtags (userId: 64031b8a9508385a06ae375b)
+4.3.2023, 16:12:14 - DEBUG - user.service - getting users (userId: 64031b8a9508385a06ae375b)
+4.3.2023, 16:12:14 - DEBUG - tweet.service - getting tweets (userId: 64031b8a9508385a06ae375b)
+4.3.2023, 16:12:15 - DEBUG - tweet.service - getting hashtags (userId: 64031b8a9508385a06ae375b)
+4.3.2023, 16:38:06 - INFO - Server is running on port: 3030 
+4.3.2023, 16:38:22 - DEBUG - user.service - getting users (userId: 64031b8a9508385a06ae375b)
+4.3.2023, 16:38:23 - DEBUG - tweet.service - getting tweets (userId: 64031b8a9508385a06ae375b)
+4.3.2023, 16:38:23 - DEBUG - tweet.service - getting hashtags (userId: 64031b8a9508385a06ae375b)
+4.3.2023, 16:39:49 - DEBUG - tweet.service - getting tweets (userId: 64031b8a9508385a06ae375b)
+4.3.2023, 16:39:49 - DEBUG - user.service - getting users (userId: 64031b8a9508385a06ae375b)
+4.3.2023, 16:39:50 - DEBUG - tweet.service - getting hashtags (userId: 64031b8a9508385a06ae375b)
+4.3.2023, 16:40:13 - INFO - Server is running on port: 3030 
+4.3.2023, 16:40:15 - DEBUG - tweet.service - getting tweets (userId: 64031b8a9508385a06ae375b)
+4.3.2023, 16:40:15 - DEBUG - tweet.service - getting hashtags (userId: 64031b8a9508385a06ae375b)
+4.3.2023, 16:40:15 - DEBUG - user.service - getting users (userId: 64031b8a9508385a06ae375b)
+4.3.2023, 16:41:47 - DEBUG - tweet.service - getting tweets (userId: 64031b8a9508385a06ae375b)
+4.3.2023, 16:41:47 - DEBUG - user.service - getting users (userId: 64031b8a9508385a06ae375b)
+4.3.2023, 16:41:47 - DEBUG - tweet.service - getting hashtags (userId: 64031b8a9508385a06ae375b)
+4.3.2023, 16:42:28 - DEBUG - tweet.service - getting tweets (userId: 64031b8a9508385a06ae375b)
+4.3.2023, 16:42:28 - DEBUG - user.service - getting users (userId: 64031b8a9508385a06ae375b)
+4.3.2023, 16:42:28 - DEBUG - tweet.service - getting hashtags (userId: 64031b8a9508385a06ae375b)
+5.3.2023, 11:49:25 - DEBUG - tweet.service - getting tweets (userId: 64031b8a9508385a06ae375b)
+5.3.2023, 11:49:25 - DEBUG - user.service - getting users (userId: 64031b8a9508385a06ae375b)
+5.3.2023, 11:49:26 - DEBUG - tweet.service - getting hashtags (userId: 64031b8a9508385a06ae375b)
+5.3.2023, 18:41:20 - INFO - Server is running on port: 3030 
+5.3.2023, 18:41:50 - DEBUG - user.service - getting users (userId: 64031b8a9508385a06ae375b)
+5.3.2023, 18:41:50 - DEBUG - tweet.service - getting hashtags (userId: 64031b8a9508385a06ae375b)
+5.3.2023, 18:41:50 - DEBUG - tweet.service - getting tweets (userId: 64031b8a9508385a06ae375b)
+5.3.2023, 18:41:53 - DEBUG - auth.service - login with username: vtomer (userId: 64031b8a9508385a06ae375b)
+5.3.2023, 18:41:53 - INFO - User login:  | {"_id":"64031b8a9508385a06ae375b","username":"vtomer","firstName":"Tomer","lastName":"Vardi","about":"","profileImg":"","coverImg":"","follows":[],"followers":[],"savedTweets":[],"isGuest":false,"createdAt":"2023-03-04T10:20:58.000Z"} (userId: 64031b8a9508385a06ae375b)
+5.3.2023, 18:42:57 - DEBUG - user.service - getting users (userId: 64031b8a9508385a06ae375b)
+5.3.2023, 18:42:57 - DEBUG - tweet.service - getting hashtags (userId: 64031b8a9508385a06ae375b)
+5.3.2023, 18:42:57 - DEBUG - tweet.service - getting tweets (userId: 64031b8a9508385a06ae375b)
+5.3.2023, 18:43:35 - DEBUG - user.service - getting users (userId: 64031b8a9508385a06ae375b)
+5.3.2023, 18:43:36 - DEBUG - tweet.service - getting tweets (userId: 64031b8a9508385a06ae375b)
+5.3.2023, 18:43:36 - DEBUG - tweet.service - getting hashtags (userId: 64031b8a9508385a06ae375b)
+5.3.2023, 18:43:52 - DEBUG - user.service - getting users (userId: 64031b8a9508385a06ae375b)
+5.3.2023, 18:43:52 - DEBUG - tweet.service - getting tweets (userId: 64031b8a9508385a06ae375b)
+5.3.2023, 18:43:52 - DEBUG - tweet.service - getting hashtags (userId: 64031b8a9508385a06ae375b)
+5.3.2023, 18:47:30 - DEBUG - user.service - getting users (userId: 64031b8a9508385a06ae375b)
+5.3.2023, 18:47:30 - DEBUG - tweet.service - getting tweets (userId: 64031b8a9508385a06ae375b)
+5.3.2023, 18:47:31 - DEBUG - tweet.service - getting hashtags (userId: 64031b8a9508385a06ae375b)
+5.3.2023, 18:49:49 - DEBUG - user.service - getting users (userId: 64031b8a9508385a06ae375b)
+5.3.2023, 18:49:49 - DEBUG - tweet.service - getting tweets (userId: 64031b8a9508385a06ae375b)
+5.3.2023, 18:49:49 - DEBUG - tweet.service - getting hashtags (userId: 64031b8a9508385a06ae375b)
+5.3.2023, 18:50:02 - DEBUG - user.service - getting users (userId: 64031b8a9508385a06ae375b)
+5.3.2023, 18:50:02 - DEBUG - tweet.service - getting tweets (userId: 64031b8a9508385a06ae375b)
+5.3.2023, 18:50:02 - DEBUG - tweet.service - getting hashtags (userId: 64031b8a9508385a06ae375b)
+5.3.2023, 18:59:02 - DEBUG - user.service - getting users (userId: 64031b8a9508385a06ae375b)
+5.3.2023, 18:59:02 - DEBUG - tweet.service - getting tweets (userId: 64031b8a9508385a06ae375b)
+5.3.2023, 18:59:02 - DEBUG - tweet.service - getting hashtags (userId: 64031b8a9508385a06ae375b)
+5.3.2023, 19:06:41 - DEBUG - user.service - getting users (userId: 64031b8a9508385a06ae375b)
+5.3.2023, 19:06:41 - DEBUG - tweet.service - getting tweets (userId: 64031b8a9508385a06ae375b)
+5.3.2023, 19:06:41 - DEBUG - tweet.service - getting hashtags (userId: 64031b8a9508385a06ae375b)
+5.3.2023, 19:07:33 - DEBUG - user.service - getting users (userId: 64031b8a9508385a06ae375b)
+5.3.2023, 19:07:33 - DEBUG - tweet.service - getting tweets (userId: 64031b8a9508385a06ae375b)
+5.3.2023, 19:07:33 - DEBUG - tweet.service - getting hashtags (userId: 64031b8a9508385a06ae375b)
+5.3.2023, 19:08:30 - INFO - Server is running on port: 3030 
+5.3.2023, 19:09:32 - DEBUG - tweet.service - getting tweets (userId: 64031b8a9508385a06ae375b)
+5.3.2023, 19:09:33 - DEBUG - user.service - getting users (userId: 64031b8a9508385a06ae375b)
+5.3.2023, 19:09:33 - DEBUG - tweet.service - getting hashtags (userId: 64031b8a9508385a06ae375b)
+5.3.2023, 19:09:46 - DEBUG - user.service - getting users (userId: 64031b8a9508385a06ae375b)
+5.3.2023, 19:09:46 - DEBUG - tweet.service - getting tweets (userId: 64031b8a9508385a06ae375b)
+5.3.2023, 19:09:46 - DEBUG - tweet.service - getting hashtags (userId: 64031b8a9508385a06ae375b)
+5.3.2023, 19:09:56 - DEBUG - user.service - getting users (userId: 64031b8a9508385a06ae375b)
+5.3.2023, 19:09:56 - DEBUG - tweet.service - getting tweets (userId: 64031b8a9508385a06ae375b)
+5.3.2023, 19:09:56 - DEBUG - tweet.service - getting hashtags (userId: 64031b8a9508385a06ae375b)
+5.3.2023, 19:11:17 - INFO - Server is running on port: 3030 
+5.3.2023, 19:11:53 - INFO - Server is running on port: 3030 
+5.3.2023, 19:12:25 - INFO - Server is running on port: 3030 
+5.3.2023, 19:14:13 - INFO - Server is running on port: 3030 
+5.3.2023, 19:14:26 - DEBUG - user.service - getting users (userId: 64031b8a9508385a06ae375b)
+5.3.2023, 19:14:26 - DEBUG - tweet.service - getting tweets (userId: 64031b8a9508385a06ae375b)
+5.3.2023, 19:14:27 - DEBUG - tweet.service - getting hashtags (userId: 64031b8a9508385a06ae375b)
+5.3.2023, 19:15:00 - INFO - Server is running on port: 3030 
+5.3.2023, 19:15:07 - DEBUG - user.service - getting users (userId: 64031b8a9508385a06ae375b)
+5.3.2023, 19:15:07 - DEBUG - tweet.service - getting tweets (userId: 64031b8a9508385a06ae375b)
+5.3.2023, 19:15:07 - DEBUG - tweet.service - getting hashtags (userId: 64031b8a9508385a06ae375b)
+5.3.2023, 19:15:30 - DEBUG - user.service - getting users (userId: 64031b8a9508385a06ae375b)
+5.3.2023, 19:15:30 - DEBUG - tweet.service - getting tweets (userId: 64031b8a9508385a06ae375b)
+5.3.2023, 19:15:30 - DEBUG - tweet.service - getting hashtags (userId: 64031b8a9508385a06ae375b)
+5.3.2023, 19:22:06 - DEBUG - tweet.service - getting tweets (userId: 64031b8a9508385a06ae375b)
+5.3.2023, 19:22:06 - DEBUG - user.service - getting users (userId: 64031b8a9508385a06ae375b)
+5.3.2023, 19:22:06 - DEBUG - tweet.service - getting hashtags (userId: 64031b8a9508385a06ae375b)
+5.3.2023, 19:23:38 - DEBUG - user.service - getting users (userId: 64031b8a9508385a06ae375b)
+5.3.2023, 19:23:38 - DEBUG - tweet.service - getting hashtags (userId: 64031b8a9508385a06ae375b)
+5.3.2023, 19:23:38 - DEBUG - tweet.service - getting tweets (userId: 64031b8a9508385a06ae375b)
+5.3.2023, 19:26:23 - DEBUG - user.service - getting users (userId: 64031b8a9508385a06ae375b)
+5.3.2023, 19:26:23 - DEBUG - tweet.service - getting tweets (userId: 64031b8a9508385a06ae375b)
+5.3.2023, 19:26:23 - DEBUG - tweet.service - getting hashtags (userId: 64031b8a9508385a06ae375b)
+5.3.2023, 20:16:32 - DEBUG - tweet.service - getting tweets (userId: 64031b8a9508385a06ae375b)
+5.3.2023, 20:16:32 - DEBUG - user.service - getting users (userId: 64031b8a9508385a06ae375b)
+5.3.2023, 20:16:32 - DEBUG - tweet.service - getting hashtags (userId: 64031b8a9508385a06ae375b)
+5.3.2023, 20:17:32 - DEBUG - user.service - getting users (userId: 64031b8a9508385a06ae375b)
+5.3.2023, 20:17:32 - DEBUG - tweet.service - getting tweets (userId: 64031b8a9508385a06ae375b)
+5.3.2023, 20:17:33 - DEBUG - tweet.service - getting hashtags (userId: 64031b8a9508385a06ae375b)
+5.3.2023, 20:17:41 - DEBUG - user.service - getting users (userId: 64031b8a9508385a06ae375b)
+5.3.2023, 20:17:41 - DEBUG - tweet.service - getting tweets (userId: 64031b8a9508385a06ae375b)
+5.3.2023, 20:17:41 - DEBUG - tweet.service - getting hashtags (userId: 64031b8a9508385a06ae375b)
+5.3.2023, 20:19:23 - DEBUG - user.service - getting users (userId: 64031b8a9508385a06ae375b)
+5.3.2023, 20:19:23 - DEBUG - tweet.service - getting tweets (userId: 64031b8a9508385a06ae375b)
+5.3.2023, 20:19:23 - DEBUG - tweet.service - getting hashtags (userId: 64031b8a9508385a06ae375b)
+5.3.2023, 20:19:33 - DEBUG - user.service - getting users (userId: 64031b8a9508385a06ae375b)
+5.3.2023, 20:19:33 - DEBUG - tweet.service - getting tweets (userId: 64031b8a9508385a06ae375b)
+5.3.2023, 20:19:33 - DEBUG - tweet.service - getting hashtags (userId: 64031b8a9508385a06ae375b)
+5.3.2023, 20:19:55 - DEBUG - user.service - getting users (userId: 64031b8a9508385a06ae375b)
+5.3.2023, 20:19:55 - DEBUG - tweet.service - getting tweets (userId: 64031b8a9508385a06ae375b)
+5.3.2023, 20:19:55 - DEBUG - tweet.service - getting hashtags (userId: 64031b8a9508385a06ae375b)
+5.3.2023, 20:20:26 - DEBUG - user.service - getting users (userId: 64031b8a9508385a06ae375b)
+5.3.2023, 20:20:27 - DEBUG - tweet.service - getting hashtags (userId: 64031b8a9508385a06ae375b)
+5.3.2023, 20:20:26 - DEBUG - tweet.service - getting tweets (userId: 64031b8a9508385a06ae375b)
+5.3.2023, 21:13:07 - DEBUG - tweet.service - getting hashtags (userId: 64031b8a9508385a06ae375b)
+5.3.2023, 21:13:07 - DEBUG - tweet.service - getting tweets (userId: 64031b8a9508385a06ae375b)
+5.3.2023, 21:13:07 - DEBUG - user.service - getting users (userId: 64031b8a9508385a06ae375b)
+5.3.2023, 21:17:26 - DEBUG - tweet.service - getting tweets (userId: 64031b8a9508385a06ae375b)
+5.3.2023, 21:17:26 - DEBUG - tweet.service - getting hashtags (userId: 64031b8a9508385a06ae375b)
+5.3.2023, 21:17:26 - DEBUG - user.service - getting users (userId: 64031b8a9508385a06ae375b)
+6.3.2023, 11:02:51 - DEBUG - user.service - getting users (userId: 64031b8a9508385a06ae375b)
+6.3.2023, 11:02:51 - DEBUG - tweet.service - getting tweets (userId: 64031b8a9508385a06ae375b)
+6.3.2023, 11:02:52 - DEBUG - tweet.service - getting hashtags (userId: 64031b8a9508385a06ae375b)
+6.3.2023, 17:25:25 - INFO - Server is running on port: 3030 
+6.3.2023, 17:27:24 - INFO - Server is running on port: 3030 
