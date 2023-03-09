@@ -58,14 +58,9 @@ function _connectToDatabase() {
     return __awaiter(this, void 0, void 0, function* () {
         if (dbConn)
             return dbConn;
-        dotenv.config()
+        dotenv.config();
         try {
-            let client
-            if (process.env.NODE_ENV === 'production') {
-                client = new mongoDB.MongoClient(process.env.DB_CONN_STRING)
-            } else {
-                client = new mongoDB.MongoClient(process.env.DB_CONN_STRING_PROD)
-            }
+            const client = new mongoDB.MongoClient(process.env.DB_CONN_STRING);
             yield client.connect();
             const db = client.db(process.env.DB_NAME);
             dbConn = db;

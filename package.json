@@ -5,8 +5,8 @@
   "scripts": {
     "start": "set NODE_ENV=development&&npx nodemon",
     "server:dev": "set NODE_ENV=development&&npx nodemon",
-    "server:prod": "set NODE_ENV=production && node build/server.js",
-    "build": "rimraf ./build && tsc"
+    "server:prod": "set NODE_ENV=production && node dist/server.js",
+    "build": "rimraf ./dist && tsc"
   },
   "keywords": [
     "Backend",
