@@ -61,10 +61,14 @@ function _connectToDatabase() {
         dotenv.config();
         try {
             let client;
-            if (process.env.NODE_ENV === 'production')
+            if (process.env.NODE_ENV === 'production') {
+                logger.info('getting mongo for prod: ' + process.env.NODE_ENV);
                 client = new mongoDB.MongoClient(process.env.DB_CONN_STRING_PROD);
-            else
-                client = new mongoDB.MongoClient(process.env.DB_CONN_STRING);
+            }
+            else {
+                logger.info('getting mongo for dev: ' + process.env.NODE_ENV);
+                client = new mongoDB.MongoClient(process.env.DB_CONN_STRING_PROD);
+            }
             yield client.connect();
             const db = client.db(process.env.DB_NAME);
             dbConn = db;
