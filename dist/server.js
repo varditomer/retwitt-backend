@@ -34,7 +34,7 @@ const http = require('http').createServer(app);
 app.use(cookieParser());
 app.use(express.json());
 if (process.env.NODE_ENV === 'production') {
-    app.use(express.static(path.resolve(__dirname, 'build')));
+    app.use(express.static(path.resolve(__dirname, 'public')));
 }
 else {
     const corsOptions = {
@@ -60,7 +60,7 @@ app.use('/api/tweet', tweetRoutes);
 // so when requesting http://localhost:3030/index.html/car/123 it will still respond with
 // our SPA (single page app) (the index.html file) and allow vue/react-router to take it from there
 app.get('/**', (req, res) => {
-    res.sendFile(path.join(__dirname, 'build', 'index.html'));
+    res.sendFile(path.join(__dirname, 'public', 'index.html'));
 });
 dotenv.config();
 const logger = require('./services/logger.service');

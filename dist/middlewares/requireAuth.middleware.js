@@ -10,15 +10,15 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
 };
 const authService = require('../api/auth/auth.service');
 const logger = require('../services/logger.service');
-const config = require('../config');
+// const config = require('../config')
 const tweetService = require('../api/tweet/tweet.service');
 function requireAuth(req, res, next) {
-    var _a, _b;
-    if (config.isGuestMode && !((_a = req === null || req === void 0 ? void 0 : req.cookies) === null || _a === void 0 ? void 0 : _a.loginToken)) {
-        req.loggedinUser = { _id: '', fullname: 'Guest' };
-        return next();
-    }
-    if (!((_b = req === null || req === void 0 ? void 0 : req.cookies) === null || _b === void 0 ? void 0 : _b.loginToken))
+    // if (config.isGuestMode && !req?.cookies?.loginToken) {
+    //   req.loggedinUser = { _id: '', fullname: 'Guest' }
+    //   return next()
+    // }
+    var _a;
+    if (!((_a = req === null || req === void 0 ? void 0 : req.cookies) === null || _a === void 0 ? void 0 : _a.loginToken))
         return res.status(401).send('Not Authenticated');
     const loggedinUser = authService.validateToken(req.cookies.loginToken);
     if (!loggedinUser)
