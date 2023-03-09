@@ -1700,3 +1700,6 @@
 9.3.2023, 14:07:29 - DEBUG - auth.service - login with username: vtomer 
 9.3.2023, 14:07:29 - INFO - User login:  | {"_id":"64031b8a9508385a06ae375b","username":"vtomer","firstName":"Tomer","lastName":"Vardi","about":"","profileImg":"https://res.cloudinary.com/retwitt/image/upload/v1678201446/people_nature_svixog.jpg","coverImg":"https://res.cloudinary.com/retwitt/image/upload/v1678201867/people_nature_cvsxeh.jpg","follows":[],"followers":[],"savedTweets":[],"isGuest":false,"createdAt":"2023-03-04T10:20:58.000Z"} 
 9.3.2023, 14:10:45 - INFO - Server is running on port: 3030 
+9.3.2023, 14:33:21 - INFO - Server is running on port: 3030 
+9.3.2023, 15:00:49 - INFO - Server is running on port: 3030 
+9.3.2023, 15:01:46 - INFO - Server is running on port: 3030 
