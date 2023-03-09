@@ -25,7 +25,9 @@ async function _connectToDatabase() {
     if (dbConn) return dbConn
     dotenv.config()
     try {
-        const client: mongoDB.MongoClient = new mongoDB.MongoClient(process.env.DB_CONN_STRING!)
+        let client: mongoDB.MongoClient
+        if (process.env.NODE_ENV === 'production') client = new mongoDB.MongoClient(process.env.DB_CONN_STRING_PROD!)
+        else client = new mongoDB.MongoClient(process.env.DB_CONN_STRING!)
         await client.connect()
         const db: mongoDB.Db = client.db(process.env.DB_NAME)
         dbConn = db
