@@ -31,6 +31,7 @@ function signup(req, res) {
     return __awaiter(this, void 0, void 0, function* () {
         try {
             const credentials = req.body;
+            console.log(`credentials:`, credentials);
             const account = yield authService.signup(credentials);
             logger.debug(`auth.route - new account created: ` + JSON.stringify(account));
             const user = yield authService.login(credentials.username, credentials.password);

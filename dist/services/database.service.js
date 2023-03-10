@@ -67,7 +67,7 @@ function _connectToDatabase() {
             }
             else {
                 logger.info('getting mongo for dev: ' + process.env.NODE_ENV);
-                client = new mongoDB.MongoClient(process.env.DB_CONN_STRING_PROD);
+                client = new mongoDB.MongoClient(process.env.DB_CONN_STRING);
             }
             yield client.connect();
             const db = client.db(process.env.DB_NAME);
