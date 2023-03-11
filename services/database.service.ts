@@ -25,11 +25,11 @@ async function _connectToDatabase() {
     try {
         let client: mongoDB.MongoClient
         if (process.env.NODE_ENV === 'production') {
-            logger.info('getting mongo for prod: ' + process.env.NODE_ENV);
+            logger.info(`getting mongoDB for ${process.env.NODE_ENV}`)
             client = new mongoDB.MongoClient(process.env.DB_CONN_STRING_PROD!)
         }
         else {
-            logger.info('getting mongo for dev: ' + process.env.NODE_ENV);
+            logger.info(`getting mongoDB for ${process.env.NODE_ENV}`)
             client = new mongoDB.MongoClient(process.env.DB_CONN_STRING!)
         }
         await client.connect()

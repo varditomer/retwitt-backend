@@ -4,6 +4,7 @@ const logger = require('../services/logger.service')
 const tweetService = require('../api/tweet/tweet.service')
 
 function requireAuth(req, res, next) {
+  console.log(`1:`, )
 
   // if (config.isGuestMode && !req?.cookies?.loginToken) {
   //   req.loggedinUser = { _id: '', fullname: 'Guest' }
