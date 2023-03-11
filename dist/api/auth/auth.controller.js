@@ -9,6 +9,7 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
     });
 };
 Object.defineProperty(exports, "__esModule", { value: true });
+// Internal Dependencies
 const authService = require('./auth.service');
 const logger = require('../../services/logger.service');
 function login(req, res) {
@@ -31,7 +32,6 @@ function signup(req, res) {
     return __awaiter(this, void 0, void 0, function* () {
         try {
             const credentials = req.body;
-            console.log(`credentials:`, credentials);
             const account = yield authService.signup(credentials);
             logger.debug(`auth.route - new account created: ` + JSON.stringify(account));
             const user = yield authService.login(credentials.username, credentials.password);

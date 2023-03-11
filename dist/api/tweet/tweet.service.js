@@ -111,18 +111,6 @@ function retweet(newRetweet) {
         }
     });
 }
-// async function addTweet(tweetToAdd: Tweet) {
-//     try {
-//         const tweetCollection = await dbService.getCollection('tweet')
-//         const mongoRes: any = await tweetCollection.insertOne(tweetToAdd)
-//         tweetToAdd._id = mongoRes.insertedId.toString()
-//         tweetToAdd.createdAt = new ObjectId(tweetToAdd._id).getTimestamp()
-//         return tweetToAdd
-//     } catch (err) {
-//         logger.error(`Cannot add tweet: ${tweetToAdd._id}`, err)
-//         throw err
-//     }
-// }
 function queryHashtags() {
     return __awaiter(this, void 0, void 0, function* () {
         logger.debug(`tweet.service - getting hashtags`);

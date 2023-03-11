@@ -9,9 +9,10 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
     });
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-const ObjectId = require('mongodb').ObjectId;
 const logger = require('../../services/logger.service');
 const dbService = require('../../services/database.service');
+// External Dependencies
+const ObjectId = require('mongodb').ObjectId;
 function query() {
     return __awaiter(this, void 0, void 0, function* () {
         logger.debug(`user.service - getting users`);

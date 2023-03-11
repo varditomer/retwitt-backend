@@ -32,13 +32,11 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
     });
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.collections = void 0;
+// Internal Dependencies
+const logger = require('../services/logger.service');
 // External Dependencies
 const mongoDB = __importStar(require("mongodb"));
 const dotenv = __importStar(require("dotenv"));
-const logger = require('../services/logger.service');
-// Global Variables
-exports.collections = {};
 // Initialize Connection
 let dbConn = null;
 function getCollection(collectionName) {

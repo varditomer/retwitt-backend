@@ -9,6 +9,7 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
     });
 };
 Object.defineProperty(exports, "__esModule", { value: true });
+// Internal Dependencies
 const userService = require('./user.service');
 const logger = require('../../services/logger.service');
 function getUsers(req, res) {

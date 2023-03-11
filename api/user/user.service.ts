@@ -1,8 +1,10 @@
+// Internal Dependencies
 import { User, UserCredentials } from "../../Interfaces/user.interface"
-const ObjectId = require('mongodb').ObjectId
-
 const logger = require('../../services/logger.service')
 const dbService = require('../../services/database.service')
+
+// External Dependencies
+const ObjectId = require('mongodb').ObjectId
 
 async function query() {
     logger.debug(`user.service - getting users`)
@@ -48,7 +50,6 @@ async function getById(userId: string) {
 
 async function remove(userId: string) {
     logger.debug(`user.service - removing user: ${userId}`)
-
     try {
         const userCollection = await dbService.getCollection('user')
         await userCollection.deleteOne({ _id: ObjectId(userId) })

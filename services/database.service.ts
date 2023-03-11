@@ -1,11 +1,9 @@
+// Internal Dependencies
+const logger = require('../services/logger.service')
+
 // External Dependencies
 import * as mongoDB from "mongodb"
 import * as dotenv from "dotenv"
-const logger = require('../services/logger.service')
-
-
-// Global Variables
-export const collections: { users?: mongoDB.Collection } = {}
 
 // Initialize Connection
 let dbConn: any = null

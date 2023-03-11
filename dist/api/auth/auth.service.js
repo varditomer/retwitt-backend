@@ -9,10 +9,12 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
     });
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-const Cryptr = require('cryptr');
-const bcrypt = require('bcrypt');
+// Internal Dependencies
 const userService = require('../user/user.service');
 const logger = require('../../services/logger.service');
+// External Dependencies
+const Cryptr = require('cryptr');
+const bcrypt = require('bcrypt');
 const cryptr = new Cryptr(process.env.SECRET1 || 'Secret-Tomer-1234');
 function login(username, password) {
     return __awaiter(this, void 0, void 0, function* () {
@@ -48,7 +50,6 @@ function getLoginToken(user) {
 }
 function validateToken(loginToken) {
     try {
-        console.log(`loginToken:`, loginToken);
         const json = cryptr.decrypt(loginToken);
         const loggedinUser = JSON.parse(json);
         return loggedinUser;

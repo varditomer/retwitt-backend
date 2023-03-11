@@ -9,6 +9,7 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
     });
 };
 Object.defineProperty(exports, "__esModule", { value: true });
+// Internal Dependencies
 const tweetService = require('./tweet.service');
 const logger = require('../../services/logger.service');
 function getTweets(req, res) {
@@ -41,6 +42,7 @@ function addTweet(req, res) {
         try {
             const tweetToAdd = req.body;
             const addedTweet = yield tweetService.addTweet(tweetToAdd);
+            logger.info('Tweet added: ', addedTweet._id);
             res.send(addedTweet);
         }
         catch (err) {
@@ -54,6 +56,7 @@ function updateTweet(req, res) {
         try {
             const tweetToUpdate = req.body;
             const updatedTweet = yield tweetService.updateTweet(tweetToUpdate);
+            logger.info('Tweet updated: ', updatedTweet._id);
             res.send(updatedTweet);
         }
         catch (err) {
@@ -67,6 +70,7 @@ function deleteTweet(req, res) {
         try {
             const tweetId = req.params.id;
             yield tweetService.remove(tweetId);
+            logger.info('Tweet removed: ', tweetId);
             res.send({ msg: 'Deleted successfully' });
         }
         catch (err) {
@@ -80,6 +84,7 @@ function retweet(req, res) {
         try {
             const newRetweet = req.body;
             const retweet = yield tweetService.retweet(newRetweet);
+            logger.info('Retweet added: ', newRetweet._id);
             res.send(retweet);
         }
         catch (err) {

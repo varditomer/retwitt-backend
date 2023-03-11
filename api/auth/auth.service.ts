@@ -1,9 +1,12 @@
-const Cryptr = require('cryptr')
-const bcrypt = require('bcrypt')
+// Internal Dependencies
 const userService = require('../user/user.service')
 const logger = require('../../services/logger.service')
-const cryptr = new Cryptr(process.env.SECRET1 || 'Secret-Tomer-1234')
 import { User, UserCredentials } from "../../Interfaces/user.interface"
+
+// External Dependencies
+const Cryptr = require('cryptr')
+const bcrypt = require('bcrypt')
+const cryptr = new Cryptr(process.env.SECRET1 || 'Secret-Tomer-1234')
 
 async function login(username: string, password: string) {
     logger.debug(`auth.service - login with username: ${username}`)
@@ -38,7 +41,6 @@ function getLoginToken(user: User) {
 
 function validateToken(loginToken: any) {
     try {
-        console.log(`loginToken:`, loginToken)
         const json = cryptr.decrypt(loginToken)
         const loggedinUser = JSON.parse(json)
         return loggedinUser
