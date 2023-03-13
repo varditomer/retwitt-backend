@@ -48,7 +48,7 @@ function requireOwnership(req, res, next) {
             return res.status(401).send('Not Authenticated');
         const tweet = yield tweetService.getById(req.params.id);
         const createdBy = tweet.createdBy;
-        if (loggedinUser._id !== createdBy) {
+        if (loggedinUser._id !== createdBy && !tweet.isRetweet) {
             logger.warn(loggedinUser.fullname + ' ' + 'attempted to delete not owned tweet');
             res.status(403).end('Not Authorized');
             return;

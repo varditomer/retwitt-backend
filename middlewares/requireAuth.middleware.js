@@ -3,6 +3,7 @@ const logger = require('../services/logger.service')
 // const config = require('../config')
 const tweetService = require('../api/tweet/tweet.service')
 
+
 function requireAuth(req, res, next) {
 
   // if (config.isGuestMode && !req?.cookies?.loginToken) {
@@ -45,7 +46,7 @@ async function requireOwnership(req, res, next) {
   const tweet = await tweetService.getById(req.params.id)
   const createdBy = tweet.createdBy
 
-  if (loggedinUser._id !== createdBy) {
+  if (loggedinUser._id !== createdBy && !tweet.isRetweet) {
     logger.warn(loggedinUser.fullname + ' ' + 'attempted to delete not owned tweet')
     res.status(403).end('Not Authorized')
     return

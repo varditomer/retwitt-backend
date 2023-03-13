@@ -138,3 +138,200 @@
 13.3.2023, 18:05:28 - DEBUG - user.service - updating user: 640f2c7bee70de69262fefaa (userId: 640f2c7bee70de69262fefaa)
 13.3.2023, 18:05:28 - INFO - User updated:  | 640f2c7bee70de69262fefaa (userId: 640f2c7bee70de69262fefaa)
 13.3.2023, 18:05:29 - INFO - Tweet updated:  | 640f3504ee70de69262fefb2 (userId: 640f2c7bee70de69262fefaa)
+13.3.2023, 18:40:06 - INFO - Server is running on port: 3030 
+13.3.2023, 18:40:23 - DEBUG - tweet.service - getting hashtags (userId: 640f2c7bee70de69262fefaa)
+13.3.2023, 18:40:23 - INFO - getting mongoDB for development (userId: 640f2c7bee70de69262fefaa)
+13.3.2023, 18:40:23 - DEBUG - user.service - getting users (userId: 640f2c7bee70de69262fefaa)
+13.3.2023, 18:40:23 - INFO - getting mongoDB for development (userId: 640f2c7bee70de69262fefaa)
+13.3.2023, 18:40:24 - DEBUG - tweet.service - getting tweets (userId: 640f2c7bee70de69262fefaa)
+13.3.2023, 18:40:24 - INFO - getting mongoDB for development (userId: 640f2c7bee70de69262fefaa)
+13.3.2023, 18:40:24 - DEBUG - user.service - getting users (userId: 640f2c7bee70de69262fefaa)
+13.3.2023, 18:40:24 - DEBUG - tweet.service - getting tweets (userId: 640f2c7bee70de69262fefaa)
+13.3.2023, 18:40:25 - DEBUG - tweet.service - getting hashtags (userId: 640f2c7bee70de69262fefaa)
+13.3.2023, 18:40:35 - DEBUG - auth.service - login with username: vtomer (userId: 640f2c7bee70de69262fefaa)
+13.3.2023, 18:40:35 - ERROR - Failed to Login Invalid username or password (userId: 640f2c7bee70de69262fefaa)
+13.3.2023, 18:40:41 - DEBUG - auth.service - login with username: vtomer (userId: 640f2c7bee70de69262fefaa)
+13.3.2023, 18:40:41 - ERROR - Failed to Login Invalid username or password (userId: 640f2c7bee70de69262fefaa)
+13.3.2023, 18:41:00 - DEBUG - auth.service - signup with username: vtomer, fullName: Tomer Vardi (userId: 640f2c7bee70de69262fefaa)
+13.3.2023, 18:41:00 - DEBUG - user.service - adding user: vtomer (userId: 640f2c7bee70de69262fefaa)
+13.3.2023, 18:41:00 - DEBUG - auth.service - login with username: vtomer (userId: 640f2c7bee70de69262fefaa)
+13.3.2023, 18:41:00 - DEBUG - auth.route - new account created: {"password":"$2b$10$/CRp3nh1M5PtShTdFKrCou9el2OkzNSmUw7YLrO5rZLEO.qKc/Gd2","username":"vtomer","firstName":"Tomer","lastName":"Vardi","about":"","profileImg":"","coverImg":"","follows":[],"followers":[],"savedTweets":[],"isGuest":false,"_id":"640f521cfc393d54b5e36b1f"} (userId: 640f2c7bee70de69262fefaa)
+13.3.2023, 18:41:00 - INFO - User signup:  | {"_id":"640f521cfc393d54b5e36b1f","username":"vtomer","firstName":"Tomer","lastName":"Vardi","about":"","profileImg":"","coverImg":"","follows":[],"followers":[],"savedTweets":[],"isGuest":false,"createdAt":"2023-03-13T16:41:00.000Z"} (userId: 640f2c7bee70de69262fefaa)
+13.3.2023, 18:45:12 - INFO - Tweet added:  | 640f5318fc393d54b5e36b20 (userId: 640f521cfc393d54b5e36b1f)
+13.3.2023, 18:45:20 - INFO - Tweet updated:  | 640f5318fc393d54b5e36b20 (userId: 640f521cfc393d54b5e36b1f)
+13.3.2023, 18:45:20 - INFO - Retweet added:  | 640f5320fc393d54b5e36b21 (userId: 640f521cfc393d54b5e36b1f)
+13.3.2023, 18:45:21 - INFO - Tweet updated:  | 640f5318fc393d54b5e36b20 (userId: 640f521cfc393d54b5e36b1f)
+13.3.2023, 18:50:46 - INFO - Tweet removed:  | 640f5320fc393d54b5e36b21 (userId: 640f521cfc393d54b5e36b1f)
+13.3.2023, 18:50:47 - INFO - Tweet updated:  | 640f5318fc393d54b5e36b20 (userId: 640f521cfc393d54b5e36b1f)
+13.3.2023, 18:50:50 - INFO - Tweet updated:  | 640f5318fc393d54b5e36b20 (userId: 640f521cfc393d54b5e36b1f)
+13.3.2023, 18:50:50 - INFO - Retweet added:  | 640f546afc393d54b5e36b22 (userId: 640f521cfc393d54b5e36b1f)
+13.3.2023, 18:50:51 - INFO - Tweet updated:  | 640f5318fc393d54b5e36b20 (userId: 640f521cfc393d54b5e36b1f)
+13.3.2023, 18:50:52 - INFO - Tweet removed:  | 640f546afc393d54b5e36b22 (userId: 640f521cfc393d54b5e36b1f)
+13.3.2023, 18:50:53 - INFO - Tweet updated:  | 640f5318fc393d54b5e36b20 (userId: 640f521cfc393d54b5e36b1f)
+13.3.2023, 18:50:55 - INFO - Tweet updated:  | 640f5318fc393d54b5e36b20 (userId: 640f521cfc393d54b5e36b1f)
+13.3.2023, 18:50:55 - INFO - Retweet added:  | 640f546ffc393d54b5e36b23 (userId: 640f521cfc393d54b5e36b1f)
+13.3.2023, 18:50:56 - INFO - Tweet updated:  | 640f5318fc393d54b5e36b20 (userId: 640f521cfc393d54b5e36b1f)
+13.3.2023, 18:51:03 - DEBUG - auth.service - login with username: guest 
+13.3.2023, 18:51:03 - INFO - User login:  | {"_id":"640f2c7bee70de69262fefaa","username":"guest","firstName":"Guest","lastName":"Guest","about":"","profileImg":"https://res.cloudinary.com/retwitt/image/upload/v1678722767/people_nature_scqvfe.jpg","coverImg":"https://res.cloudinary.com/retwitt/image/upload/v1678722799/map_notebook_e0pzjp.jpg","follows":[],"followers":[],"savedTweets":[],"isGuest":false,"createdAt":"2023-03-13T14:00:27.000Z"} 
+13.3.2023, 18:51:08 - DEBUG - user.service - updating user: 640f2c7bee70de69262fefaa (userId: 640f2c7bee70de69262fefaa)
+13.3.2023, 18:51:08 - INFO - User updated:  | 640f2c7bee70de69262fefaa (userId: 640f2c7bee70de69262fefaa)
+13.3.2023, 18:51:18 - INFO - Tweet updated:  | 640f5318fc393d54b5e36b20 (userId: 640f2c7bee70de69262fefaa)
+13.3.2023, 18:51:18 - INFO - Retweet added:  | 640f5486fc393d54b5e36b24 (userId: 640f2c7bee70de69262fefaa)
+13.3.2023, 18:51:19 - INFO - Tweet updated:  | 640f5318fc393d54b5e36b20 (userId: 640f2c7bee70de69262fefaa)
+13.3.2023, 18:51:26 - DEBUG - auth.service - login with username: vtomer 
+13.3.2023, 18:51:26 - INFO - User login:  | {"_id":"640f521cfc393d54b5e36b1f","username":"vtomer","firstName":"Tomer","lastName":"Vardi","about":"","profileImg":"","coverImg":"","follows":[],"followers":[],"savedTweets":[],"isGuest":false,"createdAt":"2023-03-13T16:41:00.000Z"} 
+13.3.2023, 18:51:35 - WARN - undefined attempted to delete not owned tweet (userId: 640f521cfc393d54b5e36b1f)
+13.3.2023, 18:51:35 - INFO - Tweet removed:  | 640f546ffc393d54b5e36b23 (userId: 640f521cfc393d54b5e36b1f)
+13.3.2023, 18:51:35 - INFO - Tweet removed:  | 640f5318fc393d54b5e36b20 (userId: 640f521cfc393d54b5e36b1f)
+13.3.2023, 18:52:31 - DEBUG - auth.service - login with username: guest 
+13.3.2023, 18:52:31 - INFO - User login:  | {"_id":"640f2c7bee70de69262fefaa","username":"guest","firstName":"Guest","lastName":"Guest","about":"","profileImg":"https://res.cloudinary.com/retwitt/image/upload/v1678722767/people_nature_scqvfe.jpg","coverImg":"https://res.cloudinary.com/retwitt/image/upload/v1678722799/map_notebook_e0pzjp.jpg","follows":["640f521cfc393d54b5e36b1f"],"followers":[],"savedTweets":[],"isGuest":false,"createdAt":"2023-03-13T14:00:27.000Z"} 
+13.3.2023, 18:57:42 - INFO - Server is running on port: 3030 
+13.3.2023, 18:58:11 - INFO - Server is running on port: 3030 
+13.3.2023, 18:58:53 - DEBUG - user.service - getting users 
+13.3.2023, 18:58:53 - INFO - getting mongoDB for development 
+13.3.2023, 18:58:53 - DEBUG - tweet.service - getting tweets 
+13.3.2023, 18:58:53 - INFO - getting mongoDB for development 
+13.3.2023, 18:58:53 - DEBUG - tweet.service - getting hashtags 
+13.3.2023, 18:58:53 - INFO - getting mongoDB for development 
+13.3.2023, 18:59:32 - DEBUG - auth.service - signup with username: guest, fullName: Guest Guest 
+13.3.2023, 18:59:32 - DEBUG - user.service - adding user: guest 
+13.3.2023, 18:59:32 - DEBUG - auth.route - new account created: {"password":"$2b$10$Lk6ycDyd64y5meOexfkHqOrRCmNUDMwN6m.tsxlROFcW12uyyrB9G","username":"guest","firstName":"Guest","lastName":"Guest","about":"","profileImg":"","coverImg":"","follows":[],"followers":[],"savedTweets":[],"isGuest":false,"_id":"640f5674f0c839aa9bce9bf8"} 
+13.3.2023, 18:59:32 - DEBUG - auth.service - login with username: guest 
+13.3.2023, 18:59:32 - INFO - User signup:  | {"_id":"640f5674f0c839aa9bce9bf8","username":"guest","firstName":"Guest","lastName":"Guest","about":"","profileImg":"","coverImg":"","follows":[],"followers":[],"savedTweets":[],"isGuest":false,"createdAt":"2023-03-13T16:59:32.000Z"} 
+13.3.2023, 19:01:48 - INFO - Tweet added:  | 640f56fcf0c839aa9bce9bf9 (userId: 640f5674f0c839aa9bce9bf8)
+13.3.2023, 19:01:51 - INFO - Tweet added:  | 640f56fff0c839aa9bce9bfa (userId: 640f5674f0c839aa9bce9bf8)
+13.3.2023, 19:02:12 - DEBUG - auth.service - signup with username: vtomer, fullName: Tomer Vardi 
+13.3.2023, 19:02:12 - DEBUG - user.service - adding user: vtomer 
+13.3.2023, 19:02:12 - DEBUG - auth.route - new account created: {"password":"$2b$10$cGVcLAJV2Jaz71o1envfO.iZaAccWbzIPFzg9PWLFCBZrIM9wt2oa","username":"vtomer","firstName":"Tomer","lastName":"Vardi","about":"","profileImg":"","coverImg":"","follows":[],"followers":[],"savedTweets":[],"isGuest":false,"_id":"640f5714f0c839aa9bce9bfb"} 
+13.3.2023, 19:02:12 - DEBUG - auth.service - login with username: vtomer 
+13.3.2023, 19:02:12 - INFO - User signup:  | {"_id":"640f5714f0c839aa9bce9bfb","username":"vtomer","firstName":"Tomer","lastName":"Vardi","about":"","profileImg":"","coverImg":"","follows":[],"followers":[],"savedTweets":[],"isGuest":false,"createdAt":"2023-03-13T17:02:12.000Z"} 
+13.3.2023, 19:02:19 - INFO - Tweet added:  | 640f571bf0c839aa9bce9bfc (userId: 640f5714f0c839aa9bce9bfb)
+13.3.2023, 19:02:25 - DEBUG - user.service - updating user: 640f5714f0c839aa9bce9bfb (userId: 640f5714f0c839aa9bce9bfb)
+13.3.2023, 19:02:25 - INFO - User updated:  | 640f5714f0c839aa9bce9bfb (userId: 640f5714f0c839aa9bce9bfb)
+13.3.2023, 19:02:27 - INFO - Tweet updated:  | 640f56fff0c839aa9bce9bfa (userId: 640f5714f0c839aa9bce9bfb)
+13.3.2023, 19:02:27 - INFO - Retweet added:  | 640f5723f0c839aa9bce9bfd (userId: 640f5714f0c839aa9bce9bfb)
+13.3.2023, 19:02:28 - INFO - Tweet updated:  | 640f56fff0c839aa9bce9bfa (userId: 640f5714f0c839aa9bce9bfb)
+13.3.2023, 19:02:34 - DEBUG - auth.service - login with username: guest 
+13.3.2023, 19:02:35 - INFO - User login:  | {"_id":"640f5674f0c839aa9bce9bf8","username":"guest","firstName":"Guest","lastName":"Guest","about":"","profileImg":"","coverImg":"","follows":[],"followers":[],"savedTweets":[],"isGuest":false,"createdAt":"2023-03-13T16:59:32.000Z"} 
+13.3.2023, 19:03:03 - DEBUG - tweet.service - getting tweets (userId: 640f5674f0c839aa9bce9bf8)
+13.3.2023, 19:03:03 - DEBUG - user.service - getting users (userId: 640f5674f0c839aa9bce9bf8)
+13.3.2023, 19:03:04 - DEBUG - tweet.service - getting hashtags (userId: 640f5674f0c839aa9bce9bf8)
+13.3.2023, 19:04:44 - DEBUG - user.service - getting users (userId: 640f5674f0c839aa9bce9bf8)
+13.3.2023, 19:04:44 - DEBUG - tweet.service - getting tweets (userId: 640f5674f0c839aa9bce9bf8)
+13.3.2023, 19:04:44 - DEBUG - tweet.service - getting hashtags (userId: 640f5674f0c839aa9bce9bf8)
+13.3.2023, 19:04:53 - DEBUG - user.service - getting users (userId: 640f5674f0c839aa9bce9bf8)
+13.3.2023, 19:04:53 - DEBUG - tweet.service - getting tweets (userId: 640f5674f0c839aa9bce9bf8)
+13.3.2023, 19:04:53 - DEBUG - tweet.service - getting hashtags (userId: 640f5674f0c839aa9bce9bf8)
+13.3.2023, 19:06:39 - DEBUG - user.service - getting users (userId: 640f5674f0c839aa9bce9bf8)
+13.3.2023, 19:06:39 - DEBUG - tweet.service - getting tweets (userId: 640f5674f0c839aa9bce9bf8)
+13.3.2023, 19:06:39 - DEBUG - tweet.service - getting hashtags (userId: 640f5674f0c839aa9bce9bf8)
+13.3.2023, 19:06:58 - DEBUG - user.service - getting users (userId: 640f5674f0c839aa9bce9bf8)
+13.3.2023, 19:06:58 - DEBUG - tweet.service - getting tweets (userId: 640f5674f0c839aa9bce9bf8)
+13.3.2023, 19:06:58 - DEBUG - tweet.service - getting hashtags (userId: 640f5674f0c839aa9bce9bf8)
+13.3.2023, 19:07:25 - DEBUG - user.service - getting users (userId: 640f5674f0c839aa9bce9bf8)
+13.3.2023, 19:07:25 - DEBUG - tweet.service - getting tweets (userId: 640f5674f0c839aa9bce9bf8)
+13.3.2023, 19:07:25 - DEBUG - tweet.service - getting hashtags (userId: 640f5674f0c839aa9bce9bf8)
+13.3.2023, 19:07:35 - DEBUG - user.service - getting users (userId: 640f5674f0c839aa9bce9bf8)
+13.3.2023, 19:07:35 - DEBUG - tweet.service - getting tweets (userId: 640f5674f0c839aa9bce9bf8)
+13.3.2023, 19:07:36 - DEBUG - tweet.service - getting hashtags (userId: 640f5674f0c839aa9bce9bf8)
+13.3.2023, 19:07:53 - DEBUG - user.service - getting users (userId: 640f5674f0c839aa9bce9bf8)
+13.3.2023, 19:07:54 - DEBUG - tweet.service - getting tweets (userId: 640f5674f0c839aa9bce9bf8)
+13.3.2023, 19:07:54 - DEBUG - tweet.service - getting hashtags (userId: 640f5674f0c839aa9bce9bf8)
+13.3.2023, 19:08:04 - DEBUG - user.service - getting users (userId: 640f5674f0c839aa9bce9bf8)
+13.3.2023, 19:08:04 - DEBUG - tweet.service - getting tweets (userId: 640f5674f0c839aa9bce9bf8)
+13.3.2023, 19:08:04 - DEBUG - tweet.service - getting hashtags (userId: 640f5674f0c839aa9bce9bf8)
+13.3.2023, 19:08:13 - DEBUG - user.service - getting users (userId: 640f5674f0c839aa9bce9bf8)
+13.3.2023, 19:08:14 - DEBUG - tweet.service - getting tweets (userId: 640f5674f0c839aa9bce9bf8)
+13.3.2023, 19:08:14 - DEBUG - tweet.service - getting hashtags (userId: 640f5674f0c839aa9bce9bf8)
+13.3.2023, 19:08:28 - DEBUG - tweet.service - getting tweets (userId: 640f5674f0c839aa9bce9bf8)
+13.3.2023, 19:08:28 - DEBUG - user.service - getting users (userId: 640f5674f0c839aa9bce9bf8)
+13.3.2023, 19:08:28 - DEBUG - tweet.service - getting hashtags (userId: 640f5674f0c839aa9bce9bf8)
+13.3.2023, 19:08:58 - DEBUG - user.service - getting users (userId: 640f5674f0c839aa9bce9bf8)
+13.3.2023, 19:08:58 - DEBUG - tweet.service - getting tweets (userId: 640f5674f0c839aa9bce9bf8)
+13.3.2023, 19:08:58 - DEBUG - tweet.service - getting hashtags (userId: 640f5674f0c839aa9bce9bf8)
+13.3.2023, 19:09:54 - DEBUG - user.service - getting users (userId: 640f5674f0c839aa9bce9bf8)
+13.3.2023, 19:09:54 - DEBUG - tweet.service - getting tweets (userId: 640f5674f0c839aa9bce9bf8)
+13.3.2023, 19:09:55 - DEBUG - tweet.service - getting hashtags (userId: 640f5674f0c839aa9bce9bf8)
+13.3.2023, 19:10:00 - DEBUG - user.service - getting users (userId: 640f5674f0c839aa9bce9bf8)
+13.3.2023, 19:10:00 - DEBUG - tweet.service - getting tweets (userId: 640f5674f0c839aa9bce9bf8)
+13.3.2023, 19:10:00 - DEBUG - tweet.service - getting hashtags (userId: 640f5674f0c839aa9bce9bf8)
+13.3.2023, 19:10:12 - DEBUG - user.service - getting users (userId: 640f5674f0c839aa9bce9bf8)
+13.3.2023, 19:10:12 - DEBUG - tweet.service - getting tweets (userId: 640f5674f0c839aa9bce9bf8)
+13.3.2023, 19:10:12 - DEBUG - tweet.service - getting hashtags (userId: 640f5674f0c839aa9bce9bf8)
+13.3.2023, 19:10:34 - DEBUG - user.service - getting users (userId: 640f5674f0c839aa9bce9bf8)
+13.3.2023, 19:10:35 - DEBUG - tweet.service - getting tweets (userId: 640f5674f0c839aa9bce9bf8)
+13.3.2023, 19:10:35 - DEBUG - tweet.service - getting hashtags (userId: 640f5674f0c839aa9bce9bf8)
+13.3.2023, 19:12:43 - DEBUG - user.service - getting users (userId: 640f5674f0c839aa9bce9bf8)
+13.3.2023, 19:12:44 - DEBUG - tweet.service - getting hashtags (userId: 640f5674f0c839aa9bce9bf8)
+13.3.2023, 19:12:44 - DEBUG - tweet.service - getting tweets (userId: 640f5674f0c839aa9bce9bf8)
+13.3.2023, 19:13:59 - DEBUG - user.service - getting users (userId: 640f5674f0c839aa9bce9bf8)
+13.3.2023, 19:13:59 - DEBUG - tweet.service - getting tweets (userId: 640f5674f0c839aa9bce9bf8)
+13.3.2023, 19:14:00 - DEBUG - tweet.service - getting hashtags (userId: 640f5674f0c839aa9bce9bf8)
+13.3.2023, 19:14:43 - DEBUG - user.service - getting users (userId: 640f5674f0c839aa9bce9bf8)
+13.3.2023, 19:14:43 - DEBUG - tweet.service - getting hashtags (userId: 640f5674f0c839aa9bce9bf8)
+13.3.2023, 19:14:43 - DEBUG - tweet.service - getting tweets (userId: 640f5674f0c839aa9bce9bf8)
+13.3.2023, 19:15:39 - DEBUG - user.service - getting users (userId: 640f5674f0c839aa9bce9bf8)
+13.3.2023, 19:15:39 - DEBUG - tweet.service - getting tweets (userId: 640f5674f0c839aa9bce9bf8)
+13.3.2023, 19:15:39 - DEBUG - tweet.service - getting hashtags (userId: 640f5674f0c839aa9bce9bf8)
+13.3.2023, 19:17:01 - DEBUG - tweet.service - getting hashtags (userId: 640f5674f0c839aa9bce9bf8)
+13.3.2023, 19:17:02 - DEBUG - user.service - getting users (userId: 640f5674f0c839aa9bce9bf8)
+13.3.2023, 19:17:02 - DEBUG - tweet.service - getting tweets (userId: 640f5674f0c839aa9bce9bf8)
+13.3.2023, 19:17:52 - DEBUG - user.service - getting users (userId: 640f5674f0c839aa9bce9bf8)
+13.3.2023, 19:17:52 - DEBUG - tweet.service - getting tweets (userId: 640f5674f0c839aa9bce9bf8)
+13.3.2023, 19:17:53 - DEBUG - tweet.service - getting hashtags (userId: 640f5674f0c839aa9bce9bf8)
+13.3.2023, 19:28:58 - DEBUG - user.service - getting users (userId: 640f5674f0c839aa9bce9bf8)
+13.3.2023, 19:28:59 - DEBUG - tweet.service - getting tweets (userId: 640f5674f0c839aa9bce9bf8)
+13.3.2023, 19:28:59 - DEBUG - tweet.service - getting hashtags (userId: 640f5674f0c839aa9bce9bf8)
+13.3.2023, 19:33:01 - DEBUG - user.service - getting users 
+13.3.2023, 19:33:01 - DEBUG - tweet.service - getting tweets 
+13.3.2023, 19:33:01 - DEBUG - tweet.service - getting hashtags 
+13.3.2023, 19:33:13 - DEBUG - user.service - getting users 
+13.3.2023, 19:33:13 - DEBUG - tweet.service - getting tweets 
+13.3.2023, 19:33:13 - DEBUG - tweet.service - getting hashtags 
+13.3.2023, 19:33:28 - DEBUG - auth.service - signup with username: guest, fullName: Guest Guest 
+13.3.2023, 19:33:29 - DEBUG - user.service - adding user: guest 
+13.3.2023, 19:33:29 - DEBUG - auth.route - new account created: {"password":"$2b$10$K6X7kcScO15hwbnmOMAXwO9tVxueINQ58gbVu0OHfPx7Hf9moGQ36","username":"guest","firstName":"Guest","lastName":"Guest","about":"","profileImg":"","coverImg":"","follows":[],"followers":[],"savedTweets":[],"isGuest":false,"_id":"640f5e69f0c839aa9bce9bff"} 
+13.3.2023, 19:33:29 - DEBUG - auth.service - login with username: guest 
+13.3.2023, 19:33:29 - INFO - User signup:  | {"_id":"640f5e69f0c839aa9bce9bff","username":"guest","firstName":"Guest","lastName":"Guest","about":"","profileImg":"","coverImg":"","follows":[],"followers":[],"savedTweets":[],"isGuest":false,"createdAt":"2023-03-13T17:33:29.000Z"} 
+13.3.2023, 19:33:40 - INFO - Tweet added:  | 640f5e74f0c839aa9bce9c00 (userId: 640f5e69f0c839aa9bce9bff)
+13.3.2023, 19:33:45 - INFO - Tweet updated:  | 640f5e74f0c839aa9bce9c00 (userId: 640f5e69f0c839aa9bce9bff)
+13.3.2023, 19:33:45 - INFO - Retweet added:  | 640f5e79f0c839aa9bce9c01 (userId: 640f5e69f0c839aa9bce9bff)
+13.3.2023, 19:33:46 - INFO - Tweet updated:  | 640f5e74f0c839aa9bce9c00 (userId: 640f5e69f0c839aa9bce9bff)
+13.3.2023, 19:33:50 - INFO - Tweet removed:  | 640f5e79f0c839aa9bce9c01 (userId: 640f5e69f0c839aa9bce9bff)
+13.3.2023, 19:33:50 - INFO - Tweet updated:  | 640f5e74f0c839aa9bce9c00 (userId: 640f5e69f0c839aa9bce9bff)
+13.3.2023, 19:33:52 - INFO - Tweet updated:  | 640f5e74f0c839aa9bce9c00 (userId: 640f5e69f0c839aa9bce9bff)
+13.3.2023, 19:33:52 - INFO - Retweet added:  | 640f5e80f0c839aa9bce9c02 (userId: 640f5e69f0c839aa9bce9bff)
+13.3.2023, 19:33:53 - INFO - Tweet updated:  | 640f5e74f0c839aa9bce9c00 (userId: 640f5e69f0c839aa9bce9bff)
+13.3.2023, 19:34:08 - DEBUG - auth.service - signup with username: vtomer, fullName: Tomer Vardi 
+13.3.2023, 19:34:08 - DEBUG - user.service - adding user: vtomer 
+13.3.2023, 19:34:08 - DEBUG - auth.route - new account created: {"password":"$2b$10$LU1sQfDsEcuJTqExJuApqubv766.cZs0fNzhby0De9DFaphkkhlCy","username":"vtomer","firstName":"Tomer","lastName":"Vardi","about":"","profileImg":"","coverImg":"","follows":[],"followers":[],"savedTweets":[],"isGuest":false,"_id":"640f5e90f0c839aa9bce9c03"} 
+13.3.2023, 19:34:08 - DEBUG - auth.service - login with username: vtomer 
+13.3.2023, 19:34:08 - INFO - User signup:  | {"_id":"640f5e90f0c839aa9bce9c03","username":"vtomer","firstName":"Tomer","lastName":"Vardi","about":"","profileImg":"","coverImg":"","follows":[],"followers":[],"savedTweets":[],"isGuest":false,"createdAt":"2023-03-13T17:34:08.000Z"} 
+13.3.2023, 19:34:17 - INFO - Tweet updated:  | 640f5e74f0c839aa9bce9c00 (userId: 640f5e90f0c839aa9bce9c03)
+13.3.2023, 19:34:17 - INFO - Retweet added:  | 640f5e99f0c839aa9bce9c04 (userId: 640f5e90f0c839aa9bce9c03)
+13.3.2023, 19:34:17 - INFO - Tweet updated:  | 640f5e74f0c839aa9bce9c00 (userId: 640f5e90f0c839aa9bce9c03)
+13.3.2023, 20:10:41 - DEBUG - tweet.service - getting hashtags (userId: 640f5e90f0c839aa9bce9c03)
+13.3.2023, 20:10:41 - DEBUG - user.service - getting users (userId: 640f5e90f0c839aa9bce9c03)
+13.3.2023, 20:10:41 - DEBUG - tweet.service - getting tweets (userId: 640f5e90f0c839aa9bce9c03)
+13.3.2023, 20:11:22 - DEBUG - user.service - getting users (userId: 640f5e90f0c839aa9bce9c03)
+13.3.2023, 20:11:22 - DEBUG - tweet.service - getting tweets (userId: 640f5e90f0c839aa9bce9c03)
+13.3.2023, 20:11:22 - DEBUG - tweet.service - getting hashtags (userId: 640f5e90f0c839aa9bce9c03)
+13.3.2023, 20:11:32 - DEBUG - user.service - getting users (userId: 640f5e90f0c839aa9bce9c03)
+13.3.2023, 20:11:33 - DEBUG - tweet.service - getting tweets (userId: 640f5e90f0c839aa9bce9c03)
+13.3.2023, 20:11:33 - DEBUG - tweet.service - getting hashtags (userId: 640f5e90f0c839aa9bce9c03)
+13.3.2023, 20:18:07 - DEBUG - user.service - getting users (userId: 640f5e90f0c839aa9bce9c03)
+13.3.2023, 20:18:07 - DEBUG - tweet.service - getting tweets (userId: 640f5e90f0c839aa9bce9c03)
+13.3.2023, 20:18:08 - DEBUG - tweet.service - getting hashtags (userId: 640f5e90f0c839aa9bce9c03)
+13.3.2023, 20:29:11 - DEBUG - user.service - getting users (userId: 640f5e90f0c839aa9bce9c03)
+13.3.2023, 20:29:12 - DEBUG - tweet.service - getting tweets (userId: 640f5e90f0c839aa9bce9c03)
+13.3.2023, 20:29:12 - DEBUG - tweet.service - getting hashtags (userId: 640f5e90f0c839aa9bce9c03)
+13.3.2023, 20:31:19 - INFO - Tweet updated:  | 640f5e74f0c839aa9bce9c00 (userId: 640f5e90f0c839aa9bce9c03)
+13.3.2023, 20:31:32 - INFO - Tweet updated:  | 640f5e74f0c839aa9bce9c00 (userId: 640f5e90f0c839aa9bce9c03)
+13.3.2023, 20:31:56 - INFO - Tweet updated:  | 640f5e74f0c839aa9bce9c00 (userId: 640f5e90f0c839aa9bce9c03)
+13.3.2023, 20:32:24 - DEBUG - auth.service - login with username: guest 
+13.3.2023, 20:32:25 - INFO - User login:  | {"_id":"640f5e69f0c839aa9bce9bff","username":"guest","firstName":"Guest","lastName":"Guest","about":"","profileImg":"","coverImg":"","follows":[],"followers":[],"savedTweets":[],"isGuest":false,"createdAt":"2023-03-13T17:33:29.000Z"} 
+13.3.2023, 20:32:39 - INFO - Tweet removed:  | 640f5e80f0c839aa9bce9c02 (userId: 640f5e69f0c839aa9bce9bff)
+13.3.2023, 20:32:39 - INFO - Tweet removed:  | 640f5e99f0c839aa9bce9c04 (userId: 640f5e69f0c839aa9bce9bff)
+13.3.2023, 20:32:39 - INFO - Tweet removed:  | 640f5e74f0c839aa9bce9c00 (userId: 640f5e69f0c839aa9bce9bff)
+13.3.2023, 20:32:50 - DEBUG - auth.service - login with username: vtomer 
+13.3.2023, 20:32:51 - INFO - User login:  | {"_id":"640f5e90f0c839aa9bce9c03","username":"vtomer","firstName":"Tomer","lastName":"Vardi","about":"","profileImg":"","coverImg":"","follows":[],"followers":[],"savedTweets":[],"isGuest":false,"createdAt":"2023-03-13T17:34:08.000Z"} 

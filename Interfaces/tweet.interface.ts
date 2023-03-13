@@ -38,6 +38,7 @@ export interface Retweet {
     retweetedTweetId: string
     isRetweet: boolean
 }
+
 export interface hashtags {
     _id?: string,
     hashtags: hashtag[]
