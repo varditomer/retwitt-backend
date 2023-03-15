@@ -85,7 +85,8 @@ function update(user) {
                 lastName: user.lastName,
                 profileImg: user.profileImg,
                 coverImg: user.coverImg,
-                follows: user.follows
+                follows: user.follows,
+                followers: user.followers
             };
             const userCollection = yield dbService.getCollection('user');
             yield userCollection.updateOne({ _id: userToSave._id }, { $set: userToSave });

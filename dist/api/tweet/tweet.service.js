@@ -102,7 +102,6 @@ function retweet(newRetweet) {
             const mongoRes = yield tweetCollection.insertOne(newRetweet);
             newRetweet._id = mongoRes.insertedId.toString();
             newRetweet.createdAt = new ObjectId(newRetweet._id).getTimestamp();
-            console.log(`newRetweet:`, newRetweet);
             const addedRetweet = JSON.parse(JSON.stringify(newRetweet));
             return addedRetweet;
         }
