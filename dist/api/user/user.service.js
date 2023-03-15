@@ -123,7 +123,11 @@ function _getEmptyUser() {
         about: '',
         profileImg: '',
         coverImg: '',
-        follows: [],
+        follows: [
+            "6411fbf8f91c439d905a9190",
+            "6411fbf8f91c439d905a9190",
+            "64120085f91c439d905a9196"
+        ],
         followers: [],
         savedTweets: [],
         isGuest: false

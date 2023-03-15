@@ -1678,3 +1678,14 @@
 15.3.2023, 18:51:42 - INFO - User updated:  | 6410be1820a0f03a31501a74 (userId: 6410be1820a0f03a31501a74)
 15.3.2023, 18:51:47 - DEBUG - auth.service - login with username: guest 
 15.3.2023, 18:51:48 - INFO - User login:  | {"_id":"6410be2c20a0f03a31501a75","username":"guest","firstName":"Guest","lastName":"Guest","about":"","profileImg":"","coverImg":"","follows":["6410be5520a0f03a31501a76","6411d610d5f65dc9d5212ca3","6411d601d5f65dc9d5212ca2"],"followers":["6410be1820a0f03a31501a74"],"savedTweets":[],"isGuest":false,"createdAt":"2023-03-14T18:34:20.000Z"} 
+15.3.2023, 19:50:30 - INFO - Server is running on port: 3030 
+15.3.2023, 19:50:43 - INFO - getting mongoDB for development (userId: 6410be2c20a0f03a31501a75)
+15.3.2023, 19:50:43 - DEBUG - user.service - getting users (userId: 6410be2c20a0f03a31501a75)
+15.3.2023, 19:50:43 - DEBUG - tweet.service - getting tweets (userId: 6410be2c20a0f03a31501a75)
+15.3.2023, 19:50:43 - INFO - getting mongoDB for development (userId: 6410be2c20a0f03a31501a75)
+15.3.2023, 19:50:43 - DEBUG - tweet.service - getting hashtags (userId: 6410be2c20a0f03a31501a75)
+15.3.2023, 19:50:43 - INFO - getting mongoDB for development (userId: 6410be2c20a0f03a31501a75)
+15.3.2023, 19:50:47 - DEBUG - auth.service - login with username: vtomer (userId: 6410be2c20a0f03a31501a75)
+15.3.2023, 19:50:48 - INFO - User login:  | {"_id":"6410be1820a0f03a31501a74","username":"vtomer","firstName":"Tomer","lastName":"Vardi","about":"","profileImg":"https://res.cloudinary.com/retwitt/image/upload/v1678899095/tomer-avatar_tjeoiq.png","coverImg":"https://res.cloudinary.com/retwitt/image/upload/v1678899100/backpacker-cliff_hkpudz.jpg","follows":[],"followers":[],"savedTweets":[],"isGuest":false,"createdAt":"2023-03-14T18:34:00.000Z"} (userId: 6410be2c20a0f03a31501a75)
+15.3.2023, 19:51:28 - INFO - Tweet added:  | 641205a0b2df084840f388e2 (userId: 6410be1820a0f03a31501a74)
+15.3.2023, 20:03:46 - INFO - Server is running on port: 3030 
