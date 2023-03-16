@@ -85,6 +85,7 @@ function update(user) {
                 lastName: user.lastName,
                 profileImg: user.profileImg,
                 coverImg: user.coverImg,
+                about: user.about,
                 follows: user.follows,
                 followers: user.followers
             };
