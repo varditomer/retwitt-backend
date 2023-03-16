@@ -1,0 +1,1 @@
+import{r as t}from"./index-06d198fb.js";const a=e=>t.createElement("svg",{xmlns:"http://www.w3.org/2000/svg",height:24,width:24,...e},t.createElement("path",{d:"M5 21V5q0-.825.588-1.413Q6.175 3 7 3h10q.825 0 1.413.587Q19 4.175 19 5v16l-7-3Z"})),s="/assets/bookmark_filled-f8813703.svg";export{a as ReactComponent,s as default};
