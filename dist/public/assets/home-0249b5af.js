@@ -1,1 +1,0 @@
-import{r as e}from"./index-06d198fb.js";const o=t=>e.createElement("svg",{xmlns:"http://www.w3.org/2000/svg",height:24,width:24,...t},e.createElement("path",{d:"M4 21V9l8-6 8 6v12h-6v-7h-4v7Z"})),a="/assets/home-d7766e72.svg";export{o as ReactComponent,a as default};
