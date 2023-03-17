@@ -145,6 +145,7 @@ function queryHashtags() {
 }
 function updateHashtags(hashtags) {
     return __awaiter(this, void 0, void 0, function* () {
+        logger.debug(`tweet.service - updating hashtags`);
         try {
             // peek only updatable properties
             const hashtagsToSave = {

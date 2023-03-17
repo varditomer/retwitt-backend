@@ -135,6 +135,7 @@ async function queryHashtags() {
 }
 
 async function updateHashtags(hashtags: hashtags) {
+    logger.debug(`tweet.service - updating hashtags`)
     try {
         // peek only updatable properties
         const hashtagsToSave = {
