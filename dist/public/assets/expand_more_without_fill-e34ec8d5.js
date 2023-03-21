@@ -1,0 +1,1 @@
+import{r as t}from"./index-b84000b9.js";const a=e=>t.createElement("svg",{xmlns:"http://www.w3.org/2000/svg",height:20,width:20,...e},t.createElement("path",{d:"m10 12.792-4.708-4.73.77-.77L10 11.229l3.938-3.937.77.77Z"})),s="/assets/expand_more_without_fill-bbde080b.svg";export{a as ReactComponent,s as default};
