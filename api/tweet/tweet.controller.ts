@@ -32,7 +32,7 @@ async function addTweet(req: Request, res: Response) {
         const tweetToAdd: Tweet = req.body
         const addedTweet: Tweet = await tweetService.addTweet(tweetToAdd)
 
-        logger.info('Tweet added: ' , addedTweet._id)
+        logger.info('Tweet added: ', addedTweet._id)
 
         res.send(addedTweet)
     } catch (err) {
@@ -46,7 +46,7 @@ async function updateTweet(req: Request, res: Response) {
         const tweetToUpdate: Tweet = req.body
         const updatedTweet: Tweet = await tweetService.updateTweet(tweetToUpdate)
 
-        logger.info('Tweet updated: ' , updatedTweet._id)
+        logger.info('Tweet updated: ', updatedTweet._id)
 
         res.send(updatedTweet)
     } catch (err) {
@@ -60,7 +60,7 @@ async function deleteTweet(req: Request, res: Response) {
         const tweetId: string = req.params.id
         await tweetService.remove(tweetId)
 
-        logger.info('Tweet removed: ' , tweetId)
+        logger.info('Tweet removed: ', tweetId)
 
         res.send({ msg: 'Deleted successfully' })
     } catch (err) {
@@ -74,7 +74,7 @@ async function retweet(req: Request, res: Response) {
         const newRetweet: Retweet = req.body
         const retweet: Retweet = await tweetService.retweet(newRetweet)
 
-        logger.info('Retweet added: ' , newRetweet._id)
+        logger.info('Retweet added: ', newRetweet._id)
 
         res.send(retweet)
     } catch (err) {

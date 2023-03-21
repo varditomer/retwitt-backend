@@ -121,18 +121,18 @@ function queryHashtags() {
             if (hashtagsDocuments.length) {
                 hashtagsToReturn = {
                     _id: hashtagsDocuments[0]._id,
-                    hashtags: hashtagsDocuments[0].hashtags,
+                    hashtagsList: hashtagsDocuments[0].hashtagsList || [],
                 };
             }
             else {
                 const newHashtags = {
-                    hashtags: []
+                    hashtagsList: []
                 };
                 yield hashtagCollection.insertOne(newHashtags);
                 const newHashtagsDocuments = yield hashtagCollection.find().toArray();
                 hashtagsToReturn = {
                     _id: newHashtagsDocuments[0]._id,
-                    hashtags: newHashtagsDocuments[0].hashtags,
+                    hashtagsList: newHashtagsDocuments[0].hashtagsList,
                 };
             }
             return hashtagsToReturn;
@@ -150,7 +150,7 @@ function updateHashtags(hashtags) {
             // peek only updatable properties
             const hashtagsToSave = {
                 _id: new ObjectId(hashtags._id),
-                hashtags: hashtags.hashtags
+                hashtagsList: hashtags.hashtagsList
             };
             const hashtagCollection = yield dbService.getCollection('hashtag');
             yield hashtagCollection.updateOne({ _id: hashtagsToSave._id }, { $set: hashtagsToSave });

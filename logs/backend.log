@@ -2806,3 +2806,512 @@
 20.3.2023, 18:05:05 - DEBUG - user.service - getting users (userId: 6410be1820a0f03a31501a74)
 20.3.2023, 18:05:05 - DEBUG - tweet.service - getting tweets (userId: 6410be1820a0f03a31501a74)
 20.3.2023, 18:05:05 - DEBUG - tweet.service - getting hashtags (userId: 6410be1820a0f03a31501a74)
+20.3.2023, 18:11:39 - INFO - Server is running on port: 3030 
+20.3.2023, 18:12:03 - DEBUG - user.service - getting users (userId: 6410be1820a0f03a31501a74)
+20.3.2023, 18:12:03 - INFO - getting mongoDB for development (userId: 6410be1820a0f03a31501a74)
+20.3.2023, 18:12:03 - DEBUG - tweet.service - getting tweets (userId: 6410be1820a0f03a31501a74)
+20.3.2023, 18:12:03 - INFO - getting mongoDB for development (userId: 6410be1820a0f03a31501a74)
+20.3.2023, 18:12:03 - DEBUG - tweet.service - getting hashtags (userId: 6410be1820a0f03a31501a74)
+20.3.2023, 18:12:03 - INFO - getting mongoDB for development (userId: 6410be1820a0f03a31501a74)
+20.3.2023, 18:12:41 - DEBUG - user.service - getting users (userId: 6410be1820a0f03a31501a74)
+20.3.2023, 18:12:41 - DEBUG - tweet.service - getting hashtags (userId: 6410be1820a0f03a31501a74)
+20.3.2023, 18:12:41 - DEBUG - tweet.service - getting tweets (userId: 6410be1820a0f03a31501a74)
+20.3.2023, 18:13:09 - DEBUG - auth.service - signup with username: vtomer, fullName: Tomer Vardi 
+20.3.2023, 18:13:09 - DEBUG - user.service - adding user: vtomer 
+20.3.2023, 18:13:09 - DEBUG - auth.service - login with username: vtomer 
+20.3.2023, 18:13:09 - DEBUG - auth.route - new account created: {"password":"$2b$10$3IjnPATK8f0hIL1JWf37ZOp.rusO4O5AmZfeUzrdIZHCCI/wwGhDe","username":"vtomer","firstName":"Tomer","lastName":"Vardi","about":"","profileImg":"","coverImg":"","follows":["6411fbf8f91c439d905a9190","6411fbf8f91c439d905a9190","64120085f91c439d905a9196"],"followers":[],"savedTweets":[],"isGuest":false,"_id":"641886150e863d702a3e3301"} 
+20.3.2023, 18:13:09 - INFO - User signup:  | {"_id":"641886150e863d702a3e3301","username":"vtomer","firstName":"Tomer","lastName":"Vardi","about":"","profileImg":"","coverImg":"","follows":["6411fbf8f91c439d905a9190","6411fbf8f91c439d905a9190","64120085f91c439d905a9196"],"followers":[],"savedTweets":[],"isGuest":false,"createdAt":"2023-03-20T16:13:09.000Z"} 
+20.3.2023, 18:13:56 - DEBUG - user.service - getting users (userId: 641886150e863d702a3e3301)
+20.3.2023, 18:13:57 - DEBUG - tweet.service - getting tweets (userId: 641886150e863d702a3e3301)
+20.3.2023, 18:13:57 - DEBUG - tweet.service - getting hashtags (userId: 641886150e863d702a3e3301)
+20.3.2023, 18:14:15 - DEBUG - auth.service - login with username: vtomer 
+20.3.2023, 18:14:15 - INFO - User login:  | {"_id":"641886150e863d702a3e3301","username":"vtomer","firstName":"Tomer","lastName":"Vardi","about":"","profileImg":"","coverImg":"","follows":[],"followers":[],"savedTweets":[],"isGuest":false,"createdAt":"2023-03-20T16:13:09.000Z"} 
+20.3.2023, 18:14:36 - DEBUG - tweet.service - updating hashtags (userId: 641886150e863d702a3e3301)
+20.3.2023, 18:14:37 - INFO - Tweet added:  | 6418866c0e863d702a3e3302 (userId: 641886150e863d702a3e3301)
+20.3.2023, 18:15:06 - DEBUG - user.service - getting users 
+20.3.2023, 18:15:06 - DEBUG - tweet.service - getting tweets 
+20.3.2023, 18:15:06 - DEBUG - tweet.service - getting hashtags 
+20.3.2023, 18:15:23 - DEBUG - auth.service - login with username: vtomer 
+20.3.2023, 18:15:23 - INFO - User login:  | {"_id":"641886150e863d702a3e3301","username":"vtomer","firstName":"Tomer","lastName":"Vardi","about":"","profileImg":"","coverImg":"","follows":[],"followers":[],"savedTweets":[],"isGuest":false,"createdAt":"2023-03-20T16:13:09.000Z"} 
+20.3.2023, 18:17:36 - DEBUG - user.service - getting users (userId: 641886150e863d702a3e3301)
+20.3.2023, 18:17:36 - DEBUG - tweet.service - getting tweets (userId: 641886150e863d702a3e3301)
+20.3.2023, 18:17:37 - DEBUG - tweet.service - getting hashtags (userId: 641886150e863d702a3e3301)
+20.3.2023, 18:19:06 - DEBUG - user.service - getting users (userId: 641886150e863d702a3e3301)
+20.3.2023, 18:19:06 - DEBUG - tweet.service - getting tweets (userId: 641886150e863d702a3e3301)
+20.3.2023, 18:19:06 - DEBUG - tweet.service - getting hashtags (userId: 641886150e863d702a3e3301)
+20.3.2023, 18:20:35 - DEBUG - user.service - getting users (userId: 641886150e863d702a3e3301)
+20.3.2023, 18:20:35 - DEBUG - tweet.service - getting tweets (userId: 641886150e863d702a3e3301)
+20.3.2023, 18:20:35 - DEBUG - tweet.service - getting hashtags (userId: 641886150e863d702a3e3301)
+20.3.2023, 18:20:43 - DEBUG - user.service - getting users (userId: 641886150e863d702a3e3301)
+20.3.2023, 18:20:43 - DEBUG - tweet.service - getting tweets (userId: 641886150e863d702a3e3301)
+20.3.2023, 18:20:43 - DEBUG - tweet.service - getting hashtags (userId: 641886150e863d702a3e3301)
+20.3.2023, 18:22:33 - INFO - Server is running on port: 3030 
+20.3.2023, 18:22:33 - DEBUG - user.service - getting users (userId: 641886150e863d702a3e3301)
+20.3.2023, 18:22:33 - INFO - getting mongoDB for development (userId: 641886150e863d702a3e3301)
+20.3.2023, 18:22:33 - INFO - getting mongoDB for development (userId: 641886150e863d702a3e3301)
+20.3.2023, 18:22:33 - DEBUG - tweet.service - getting tweets (userId: 641886150e863d702a3e3301)
+20.3.2023, 18:22:33 - DEBUG - tweet.service - getting hashtags (userId: 641886150e863d702a3e3301)
+20.3.2023, 18:22:33 - INFO - getting mongoDB for development (userId: 641886150e863d702a3e3301)
+20.3.2023, 18:23:59 - INFO - Server is running on port: 3030 
+20.3.2023, 18:23:59 - DEBUG - user.service - getting users (userId: 641886150e863d702a3e3301)
+20.3.2023, 18:23:59 - INFO - getting mongoDB for development (userId: 641886150e863d702a3e3301)
+20.3.2023, 18:23:59 - INFO - getting mongoDB for development (userId: 641886150e863d702a3e3301)
+20.3.2023, 18:23:59 - DEBUG - tweet.service - getting hashtags (userId: 641886150e863d702a3e3301)
+20.3.2023, 18:23:59 - DEBUG - tweet.service - getting tweets (userId: 641886150e863d702a3e3301)
+20.3.2023, 18:23:59 - INFO - getting mongoDB for development (userId: 641886150e863d702a3e3301)
+20.3.2023, 18:25:02 - INFO - Server is running on port: 3030 
+20.3.2023, 18:25:02 - INFO - getting mongoDB for development (userId: 641886150e863d702a3e3301)
+20.3.2023, 18:25:02 - DEBUG - user.service - getting users (userId: 641886150e863d702a3e3301)
+20.3.2023, 18:25:03 - DEBUG - tweet.service - getting tweets (userId: 641886150e863d702a3e3301)
+20.3.2023, 18:25:03 - INFO - getting mongoDB for development (userId: 641886150e863d702a3e3301)
+20.3.2023, 18:25:03 - DEBUG - tweet.service - getting hashtags (userId: 641886150e863d702a3e3301)
+20.3.2023, 18:25:03 - INFO - getting mongoDB for development (userId: 641886150e863d702a3e3301)
+20.3.2023, 18:26:25 - INFO - Server is running on port: 3030 
+20.3.2023, 18:26:26 - DEBUG - user.service - getting users (userId: 641886150e863d702a3e3301)
+20.3.2023, 18:26:26 - INFO - getting mongoDB for development (userId: 641886150e863d702a3e3301)
+20.3.2023, 18:26:26 - DEBUG - tweet.service - getting hashtags (userId: 641886150e863d702a3e3301)
+20.3.2023, 18:26:26 - INFO - getting mongoDB for development (userId: 641886150e863d702a3e3301)
+20.3.2023, 18:26:26 - DEBUG - tweet.service - getting tweets (userId: 641886150e863d702a3e3301)
+20.3.2023, 18:26:26 - INFO - getting mongoDB for development (userId: 641886150e863d702a3e3301)
+20.3.2023, 18:27:36 - DEBUG - user.service - getting users (userId: 641886150e863d702a3e3301)
+20.3.2023, 18:27:36 - DEBUG - tweet.service - getting tweets (userId: 641886150e863d702a3e3301)
+20.3.2023, 18:27:36 - DEBUG - tweet.service - getting hashtags (userId: 641886150e863d702a3e3301)
+20.3.2023, 18:27:40 - DEBUG - user.service - getting users (userId: 641886150e863d702a3e3301)
+20.3.2023, 18:27:40 - DEBUG - tweet.service - getting tweets (userId: 641886150e863d702a3e3301)
+20.3.2023, 18:27:40 - DEBUG - tweet.service - getting hashtags (userId: 641886150e863d702a3e3301)
+20.3.2023, 18:28:01 - DEBUG - user.service - getting users (userId: 641886150e863d702a3e3301)
+20.3.2023, 18:28:01 - DEBUG - tweet.service - getting tweets (userId: 641886150e863d702a3e3301)
+20.3.2023, 18:28:01 - DEBUG - tweet.service - getting hashtags (userId: 641886150e863d702a3e3301)
+20.3.2023, 18:28:04 - DEBUG - user.service - getting users (userId: 641886150e863d702a3e3301)
+20.3.2023, 18:28:04 - DEBUG - tweet.service - getting tweets (userId: 641886150e863d702a3e3301)
+20.3.2023, 18:28:04 - DEBUG - tweet.service - getting hashtags (userId: 641886150e863d702a3e3301)
+20.3.2023, 18:28:59 - INFO - Server is running on port: 3030 
+20.3.2023, 18:28:59 - DEBUG - user.service - getting users (userId: 641886150e863d702a3e3301)
+20.3.2023, 18:28:59 - INFO - getting mongoDB for development (userId: 641886150e863d702a3e3301)
+20.3.2023, 18:29:00 - DEBUG - tweet.service - getting tweets (userId: 641886150e863d702a3e3301)
+20.3.2023, 18:29:00 - INFO - getting mongoDB for development (userId: 641886150e863d702a3e3301)
+20.3.2023, 18:29:00 - DEBUG - tweet.service - getting hashtags (userId: 641886150e863d702a3e3301)
+20.3.2023, 18:29:00 - INFO - getting mongoDB for development (userId: 641886150e863d702a3e3301)
+20.3.2023, 18:31:01 - DEBUG - user.service - getting users (userId: 641886150e863d702a3e3301)
+20.3.2023, 18:31:02 - DEBUG - tweet.service - getting tweets (userId: 641886150e863d702a3e3301)
+20.3.2023, 18:31:02 - DEBUG - tweet.service - getting hashtags (userId: 641886150e863d702a3e3301)
+20.3.2023, 18:31:52 - INFO - Server is running on port: 3030 
+20.3.2023, 18:32:02 - DEBUG - user.service - getting users (userId: 641886150e863d702a3e3301)
+20.3.2023, 18:32:02 - INFO - getting mongoDB for development (userId: 641886150e863d702a3e3301)
+20.3.2023, 18:32:02 - INFO - getting mongoDB for development (userId: 641886150e863d702a3e3301)
+20.3.2023, 18:32:02 - DEBUG - tweet.service - getting tweets (userId: 641886150e863d702a3e3301)
+20.3.2023, 18:32:02 - DEBUG - tweet.service - getting hashtags (userId: 641886150e863d702a3e3301)
+20.3.2023, 18:32:02 - INFO - getting mongoDB for development (userId: 641886150e863d702a3e3301)
+20.3.2023, 18:42:19 - DEBUG - tweet.service - getting tweets (userId: 641886150e863d702a3e3301)
+20.3.2023, 18:42:19 - DEBUG - user.service - getting users (userId: 641886150e863d702a3e3301)
+20.3.2023, 18:42:19 - DEBUG - tweet.service - getting hashtags (userId: 641886150e863d702a3e3301)
+20.3.2023, 18:43:03 - INFO - Server is running on port: 3030 
+20.3.2023, 18:43:31 - INFO - Server is running on port: 3030 
+20.3.2023, 18:43:40 - DEBUG - user.service - getting users (userId: 641886150e863d702a3e3301)
+20.3.2023, 18:43:40 - INFO - getting mongoDB for development (userId: 641886150e863d702a3e3301)
+20.3.2023, 18:43:41 - DEBUG - tweet.service - getting tweets (userId: 641886150e863d702a3e3301)
+20.3.2023, 18:43:41 - INFO - getting mongoDB for development (userId: 641886150e863d702a3e3301)
+20.3.2023, 18:43:41 - DEBUG - tweet.service - getting hashtags (userId: 641886150e863d702a3e3301)
+20.3.2023, 18:43:41 - INFO - getting mongoDB for development (userId: 641886150e863d702a3e3301)
+20.3.2023, 18:45:20 - INFO - Server is running on port: 3030 
+20.3.2023, 18:46:19 - DEBUG - tweet.service - getting tweets (userId: 641886150e863d702a3e3301)
+20.3.2023, 18:46:19 - INFO - getting mongoDB for development (userId: 641886150e863d702a3e3301)
+20.3.2023, 18:46:20 - INFO - getting mongoDB for development (userId: 641886150e863d702a3e3301)
+20.3.2023, 18:46:20 - DEBUG - user.service - getting users (userId: 641886150e863d702a3e3301)
+20.3.2023, 18:46:21 - DEBUG - tweet.service - getting hashtags (userId: 641886150e863d702a3e3301)
+20.3.2023, 18:46:21 - INFO - getting mongoDB for development (userId: 641886150e863d702a3e3301)
+20.3.2023, 18:46:23 - DEBUG - user.service - getting users (userId: 641886150e863d702a3e3301)
+20.3.2023, 18:46:23 - DEBUG - tweet.service - getting tweets (userId: 641886150e863d702a3e3301)
+20.3.2023, 18:46:24 - DEBUG - tweet.service - getting hashtags (userId: 641886150e863d702a3e3301)
+20.3.2023, 18:46:36 - DEBUG - user.service - getting users (userId: 641886150e863d702a3e3301)
+20.3.2023, 18:46:37 - DEBUG - tweet.service - getting tweets (userId: 641886150e863d702a3e3301)
+20.3.2023, 18:46:37 - DEBUG - tweet.service - getting hashtags (userId: 641886150e863d702a3e3301)
+20.3.2023, 18:47:51 - DEBUG - user.service - getting users (userId: 641886150e863d702a3e3301)
+20.3.2023, 18:47:52 - DEBUG - tweet.service - getting tweets (userId: 641886150e863d702a3e3301)
+20.3.2023, 18:47:52 - DEBUG - tweet.service - getting hashtags (userId: 641886150e863d702a3e3301)
+20.3.2023, 18:48:47 - DEBUG - user.service - getting users (userId: 641886150e863d702a3e3301)
+20.3.2023, 18:48:47 - DEBUG - tweet.service - getting tweets (userId: 641886150e863d702a3e3301)
+20.3.2023, 18:48:47 - DEBUG - tweet.service - getting hashtags (userId: 641886150e863d702a3e3301)
+20.3.2023, 18:48:52 - DEBUG - user.service - getting users (userId: 641886150e863d702a3e3301)
+20.3.2023, 18:48:52 - DEBUG - tweet.service - getting tweets (userId: 641886150e863d702a3e3301)
+20.3.2023, 18:48:53 - DEBUG - tweet.service - getting hashtags (userId: 641886150e863d702a3e3301)
+20.3.2023, 18:48:56 - DEBUG - user.service - getting users (userId: 641886150e863d702a3e3301)
+20.3.2023, 18:48:56 - DEBUG - tweet.service - getting tweets (userId: 641886150e863d702a3e3301)
+20.3.2023, 18:48:57 - DEBUG - tweet.service - getting hashtags (userId: 641886150e863d702a3e3301)
+20.3.2023, 18:49:31 - DEBUG - user.service - getting users (userId: 641886150e863d702a3e3301)
+20.3.2023, 18:49:32 - DEBUG - tweet.service - getting hashtags (userId: 641886150e863d702a3e3301)
+20.3.2023, 18:49:32 - DEBUG - tweet.service - getting tweets (userId: 641886150e863d702a3e3301)
+20.3.2023, 18:50:00 - DEBUG - user.service - getting users (userId: 641886150e863d702a3e3301)
+20.3.2023, 18:50:01 - DEBUG - tweet.service - getting tweets (userId: 641886150e863d702a3e3301)
+20.3.2023, 18:50:01 - DEBUG - tweet.service - getting hashtags (userId: 641886150e863d702a3e3301)
+20.3.2023, 18:53:52 - DEBUG - tweet.service - getting tweets (userId: 641886150e863d702a3e3301)
+20.3.2023, 18:53:53 - DEBUG - tweet.service - getting hashtags (userId: 641886150e863d702a3e3301)
+20.3.2023, 18:53:54 - DEBUG - user.service - getting users (userId: 641886150e863d702a3e3301)
+20.3.2023, 18:58:22 - INFO - Server is running on port: 3030 
+20.3.2023, 18:59:18 - DEBUG - user.service - getting users 
+20.3.2023, 18:59:18 - INFO - getting mongoDB for development 
+20.3.2023, 18:59:18 - DEBUG - tweet.service - getting tweets 
+20.3.2023, 18:59:18 - INFO - getting mongoDB for development 
+20.3.2023, 18:59:18 - DEBUG - tweet.service - getting hashtags 
+20.3.2023, 18:59:19 - INFO - getting mongoDB for development 
+20.3.2023, 19:03:01 - INFO - Server is running on port: 3030 
+20.3.2023, 19:03:09 - DEBUG - user.service - getting users 
+20.3.2023, 19:03:09 - INFO - getting mongoDB for development 
+20.3.2023, 19:03:09 - DEBUG - tweet.service - getting tweets 
+20.3.2023, 19:03:09 - INFO - getting mongoDB for development 
+20.3.2023, 19:03:09 - DEBUG - tweet.service - getting hashtags 
+20.3.2023, 19:03:09 - INFO - getting mongoDB for development 
+20.3.2023, 19:05:25 - DEBUG - user.service - getting users 
+20.3.2023, 19:05:25 - DEBUG - tweet.service - getting hashtags 
+20.3.2023, 19:05:25 - DEBUG - tweet.service - getting tweets 
+20.3.2023, 19:06:19 - DEBUG - user.service - getting users 
+20.3.2023, 19:06:19 - DEBUG - tweet.service - getting hashtags 
+20.3.2023, 19:06:19 - DEBUG - tweet.service - getting tweets 
+20.3.2023, 19:06:31 - DEBUG - auth.service - login with username: vtomer 
+20.3.2023, 19:06:31 - INFO - User login:  | {"_id":"641886150e863d702a3e3301","username":"vtomer","firstName":"Tomer","lastName":"Vardi","about":"","profileImg":"","coverImg":"","follows":[],"followers":[],"savedTweets":[],"isGuest":false,"createdAt":"2023-03-20T16:13:09.000Z"} 
+20.3.2023, 19:07:19 - DEBUG - user.service - getting users (userId: 641886150e863d702a3e3301)
+20.3.2023, 19:07:19 - DEBUG - tweet.service - getting tweets (userId: 641886150e863d702a3e3301)
+20.3.2023, 19:07:19 - DEBUG - tweet.service - getting hashtags (userId: 641886150e863d702a3e3301)
+20.3.2023, 19:08:17 - DEBUG - user.service - getting users (userId: 641886150e863d702a3e3301)
+20.3.2023, 19:08:18 - DEBUG - tweet.service - getting hashtags (userId: 641886150e863d702a3e3301)
+20.3.2023, 19:08:19 - DEBUG - tweet.service - getting tweets (userId: 641886150e863d702a3e3301)
+20.3.2023, 19:08:28 - DEBUG - tweet.service - updating hashtags (userId: 641886150e863d702a3e3301)
+20.3.2023, 19:08:28 - INFO - Tweet added:  | 6418930c201744204cf22a66 (userId: 641886150e863d702a3e3301)
+20.3.2023, 19:10:17 - DEBUG - user.service - getting users (userId: 641886150e863d702a3e3301)
+20.3.2023, 19:10:17 - DEBUG - tweet.service - getting tweets (userId: 641886150e863d702a3e3301)
+20.3.2023, 19:10:18 - DEBUG - tweet.service - getting hashtags (userId: 641886150e863d702a3e3301)
+20.3.2023, 19:10:20 - DEBUG - tweet.service - updating hashtags (userId: 641886150e863d702a3e3301)
+20.3.2023, 19:10:21 - INFO - Tweet added:  | 6418937d201744204cf22a67 (userId: 641886150e863d702a3e3301)
+20.3.2023, 19:11:49 - INFO - Server is running on port: 3030 
+20.3.2023, 19:12:14 - DEBUG - user.service - getting users (userId: 641886150e863d702a3e3301)
+20.3.2023, 19:12:14 - INFO - getting mongoDB for development (userId: 641886150e863d702a3e3301)
+20.3.2023, 19:12:14 - DEBUG - tweet.service - getting hashtags (userId: 641886150e863d702a3e3301)
+20.3.2023, 19:12:14 - INFO - getting mongoDB for development (userId: 641886150e863d702a3e3301)
+20.3.2023, 19:12:14 - DEBUG - tweet.service - getting tweets (userId: 641886150e863d702a3e3301)
+20.3.2023, 19:12:14 - INFO - getting mongoDB for development (userId: 641886150e863d702a3e3301)
+20.3.2023, 19:12:18 - DEBUG - user.service - getting users (userId: 641886150e863d702a3e3301)
+20.3.2023, 19:12:18 - DEBUG - tweet.service - getting tweets (userId: 641886150e863d702a3e3301)
+20.3.2023, 19:12:18 - DEBUG - tweet.service - getting hashtags (userId: 641886150e863d702a3e3301)
+20.3.2023, 19:12:45 - DEBUG - user.service - getting users (userId: 641886150e863d702a3e3301)
+20.3.2023, 19:12:45 - DEBUG - tweet.service - getting tweets (userId: 641886150e863d702a3e3301)
+20.3.2023, 19:12:45 - DEBUG - tweet.service - getting hashtags (userId: 641886150e863d702a3e3301)
+20.3.2023, 19:12:47 - DEBUG - auth.service - login with username: vtomer (userId: 641886150e863d702a3e3301)
+20.3.2023, 19:12:48 - INFO - User login:  | {"_id":"641886150e863d702a3e3301","username":"vtomer","firstName":"Tomer","lastName":"Vardi","about":"","profileImg":"","coverImg":"","follows":[],"followers":[],"savedTweets":[],"isGuest":false,"createdAt":"2023-03-20T16:13:09.000Z"} (userId: 641886150e863d702a3e3301)
+20.3.2023, 19:12:57 - DEBUG - tweet.service - updating hashtags (userId: 641886150e863d702a3e3301)
+20.3.2023, 19:12:58 - INFO - Tweet added:  | 6418941a6f429678e7d5f97c (userId: 641886150e863d702a3e3301)
+20.3.2023, 19:15:01 - INFO - Server is running on port: 3030 
+20.3.2023, 19:15:31 - DEBUG - auth.service - login with username: vtomer 
+20.3.2023, 19:15:31 - INFO - getting mongoDB for development 
+20.3.2023, 19:15:32 - INFO - User login:  | {"_id":"641886150e863d702a3e3301","username":"vtomer","firstName":"Tomer","lastName":"Vardi","about":"","profileImg":"","coverImg":"","follows":[],"followers":[],"savedTweets":[],"isGuest":false,"createdAt":"2023-03-20T16:13:09.000Z"} 
+20.3.2023, 19:15:55 - DEBUG - tweet.service - getting tweets 
+20.3.2023, 19:15:55 - DEBUG - user.service - getting users 
+20.3.2023, 19:15:55 - DEBUG - tweet.service - getting hashtags 
+20.3.2023, 19:15:57 - DEBUG - auth.service - login with username: vtomer 
+20.3.2023, 19:15:57 - INFO - User login:  | {"_id":"641886150e863d702a3e3301","username":"vtomer","firstName":"Tomer","lastName":"Vardi","about":"","profileImg":"","coverImg":"","follows":[],"followers":[],"savedTweets":[],"isGuest":false,"createdAt":"2023-03-20T16:13:09.000Z"} 
+20.3.2023, 19:16:03 - DEBUG - user.service - getting users (userId: 641886150e863d702a3e3301)
+20.3.2023, 19:16:03 - DEBUG - tweet.service - getting tweets (userId: 641886150e863d702a3e3301)
+20.3.2023, 19:16:04 - DEBUG - tweet.service - getting hashtags (userId: 641886150e863d702a3e3301)
+20.3.2023, 19:16:19 - DEBUG - user.service - getting users (userId: 641886150e863d702a3e3301)
+20.3.2023, 19:16:19 - DEBUG - tweet.service - getting tweets (userId: 641886150e863d702a3e3301)
+20.3.2023, 19:16:20 - DEBUG - tweet.service - getting hashtags (userId: 641886150e863d702a3e3301)
+20.3.2023, 19:16:21 - DEBUG - auth.service - login with username: vtomer (userId: 641886150e863d702a3e3301)
+20.3.2023, 19:16:21 - INFO - User login:  | {"_id":"641886150e863d702a3e3301","username":"vtomer","firstName":"Tomer","lastName":"Vardi","about":"","profileImg":"","coverImg":"","follows":[],"followers":[],"savedTweets":[],"isGuest":false,"createdAt":"2023-03-20T16:13:09.000Z"} (userId: 641886150e863d702a3e3301)
+20.3.2023, 19:16:31 - DEBUG - tweet.service - updating hashtags (userId: 641886150e863d702a3e3301)
+20.3.2023, 19:16:32 - INFO - Tweet added:  | 641894f0b899492349837e48 (userId: 641886150e863d702a3e3301)
+20.3.2023, 19:18:37 - INFO - Server is running on port: 3030 
+20.3.2023, 19:19:07 - DEBUG - user.service - getting users 
+20.3.2023, 19:19:07 - INFO - getting mongoDB for development 
+20.3.2023, 19:19:07 - DEBUG - tweet.service - getting tweets 
+20.3.2023, 19:19:07 - INFO - getting mongoDB for development 
+20.3.2023, 19:19:07 - DEBUG - tweet.service - getting hashtags 
+20.3.2023, 19:19:07 - INFO - getting mongoDB for development 
+20.3.2023, 19:19:24 - DEBUG - user.service - getting users 
+20.3.2023, 19:19:24 - DEBUG - tweet.service - getting tweets 
+20.3.2023, 19:19:24 - DEBUG - tweet.service - getting hashtags 
+20.3.2023, 19:21:37 - DEBUG - auth.service - login with username: vtomer 
+20.3.2023, 19:21:37 - INFO - User login:  | {"_id":"641886150e863d702a3e3301","username":"vtomer","firstName":"Tomer","lastName":"Vardi","about":"","profileImg":"","coverImg":"","follows":[],"followers":[],"savedTweets":[],"isGuest":false,"createdAt":"2023-03-20T16:13:09.000Z"} 
+20.3.2023, 19:21:46 - DEBUG - tweet.service - updating hashtags (userId: 641886150e863d702a3e3301)
+20.3.2023, 19:21:46 - INFO - Tweet added:  | 6418962926921f7dac316315 (userId: 641886150e863d702a3e3301)
+20.3.2023, 19:22:29 - INFO - Server is running on port: 3030 
+20.3.2023, 19:23:34 - INFO - Server is running on port: 3030 
+20.3.2023, 19:23:35 - DEBUG - auth.service - login with username: vtomer 
+20.3.2023, 19:23:35 - INFO - getting mongoDB for development 
+20.3.2023, 19:23:35 - INFO - User login:  | {"_id":"641886150e863d702a3e3301","username":"vtomer","firstName":"Tomer","lastName":"Vardi","about":"","profileImg":"","coverImg":"","follows":[],"followers":[],"savedTweets":[],"isGuest":false,"createdAt":"2023-03-20T16:13:09.000Z"} 
+20.3.2023, 19:23:51 - DEBUG - user.service - getting users 
+20.3.2023, 19:23:51 - DEBUG - tweet.service - getting tweets 
+20.3.2023, 19:23:51 - DEBUG - tweet.service - getting hashtags 
+20.3.2023, 19:23:53 - DEBUG - auth.service - login with username: vtomer 
+20.3.2023, 19:23:54 - INFO - User login:  | {"_id":"641886150e863d702a3e3301","username":"vtomer","firstName":"Tomer","lastName":"Vardi","about":"","profileImg":"","coverImg":"","follows":[],"followers":[],"savedTweets":[],"isGuest":false,"createdAt":"2023-03-20T16:13:09.000Z"} 
+20.3.2023, 19:24:05 - DEBUG - user.service - getting users (userId: 641886150e863d702a3e3301)
+20.3.2023, 19:24:05 - DEBUG - tweet.service - getting tweets (userId: 641886150e863d702a3e3301)
+20.3.2023, 19:24:05 - DEBUG - tweet.service - getting hashtags (userId: 641886150e863d702a3e3301)
+20.3.2023, 19:24:06 - DEBUG - auth.service - login with username: vtomer (userId: 641886150e863d702a3e3301)
+20.3.2023, 19:24:06 - INFO - User login:  | {"_id":"641886150e863d702a3e3301","username":"vtomer","firstName":"Tomer","lastName":"Vardi","about":"","profileImg":"","coverImg":"","follows":[],"followers":[],"savedTweets":[],"isGuest":false,"createdAt":"2023-03-20T16:13:09.000Z"} (userId: 641886150e863d702a3e3301)
+20.3.2023, 19:24:13 - DEBUG - tweet.service - updating hashtags (userId: 641886150e863d702a3e3301)
+20.3.2023, 19:24:13 - INFO - Tweet added:  | 641896bd881a64db7f6427b3 (userId: 641886150e863d702a3e3301)
+20.3.2023, 19:25:50 - DEBUG - user.service - getting users 
+20.3.2023, 19:25:50 - DEBUG - tweet.service - getting tweets 
+20.3.2023, 19:25:50 - DEBUG - tweet.service - getting hashtags 
+20.3.2023, 19:26:22 - INFO - Server is running on port: 3030 
+20.3.2023, 19:26:26 - DEBUG - user.service - getting users 
+20.3.2023, 19:26:26 - INFO - getting mongoDB for development 
+20.3.2023, 19:26:26 - DEBUG - tweet.service - getting tweets 
+20.3.2023, 19:26:26 - INFO - getting mongoDB for development 
+20.3.2023, 19:26:26 - DEBUG - tweet.service - getting hashtags 
+20.3.2023, 19:26:26 - INFO - getting mongoDB for development 
+20.3.2023, 19:26:35 - DEBUG - auth.service - login with username: vtomer 
+20.3.2023, 19:26:35 - INFO - User login:  | {"_id":"641886150e863d702a3e3301","username":"vtomer","firstName":"Tomer","lastName":"Vardi","about":"","profileImg":"","coverImg":"","follows":[],"followers":[],"savedTweets":[],"isGuest":false,"createdAt":"2023-03-20T16:13:09.000Z"} 
+20.3.2023, 19:26:40 - DEBUG - tweet.service - updating hashtags (userId: 641886150e863d702a3e3301)
+20.3.2023, 19:26:40 - INFO - Tweet added:  | 6418975002dc6eaa17cbc86e (userId: 641886150e863d702a3e3301)
+20.3.2023, 19:27:35 - DEBUG - user.service - getting users (userId: 641886150e863d702a3e3301)
+20.3.2023, 19:27:35 - DEBUG - tweet.service - getting tweets (userId: 641886150e863d702a3e3301)
+20.3.2023, 19:27:35 - DEBUG - tweet.service - getting hashtags (userId: 641886150e863d702a3e3301)
+20.3.2023, 19:28:49 - DEBUG - user.service - getting users (userId: 641886150e863d702a3e3301)
+20.3.2023, 19:28:50 - DEBUG - tweet.service - getting tweets (userId: 641886150e863d702a3e3301)
+20.3.2023, 19:28:50 - DEBUG - tweet.service - getting hashtags (userId: 641886150e863d702a3e3301)
+20.3.2023, 19:29:13 - DEBUG - tweet.service - updating hashtags (userId: 641886150e863d702a3e3301)
+20.3.2023, 19:29:13 - INFO - Tweet added:  | 641897e902dc6eaa17cbc86f (userId: 641886150e863d702a3e3301)
+20.3.2023, 19:29:29 - DEBUG - user.service - getting users (userId: 641886150e863d702a3e3301)
+20.3.2023, 19:29:29 - DEBUG - tweet.service - getting tweets (userId: 641886150e863d702a3e3301)
+20.3.2023, 19:29:29 - DEBUG - tweet.service - getting hashtags (userId: 641886150e863d702a3e3301)
+20.3.2023, 19:31:32 - INFO - Server is running on port: 3030 
+20.3.2023, 19:31:38 - DEBUG - user.service - getting users (userId: 641886150e863d702a3e3301)
+20.3.2023, 19:31:38 - INFO - getting mongoDB for development (userId: 641886150e863d702a3e3301)
+20.3.2023, 19:31:39 - DEBUG - tweet.service - getting tweets (userId: 641886150e863d702a3e3301)
+20.3.2023, 19:31:39 - INFO - getting mongoDB for development (userId: 641886150e863d702a3e3301)
+20.3.2023, 19:31:39 - DEBUG - tweet.service - getting hashtags (userId: 641886150e863d702a3e3301)
+20.3.2023, 19:31:39 - INFO - getting mongoDB for development (userId: 641886150e863d702a3e3301)
+20.3.2023, 19:31:46 - DEBUG - tweet.service - updating hashtags (userId: 641886150e863d702a3e3301)
+20.3.2023, 19:31:47 - INFO - Tweet added:  | 64189883267a008e9506f62e (userId: 641886150e863d702a3e3301)
+20.3.2023, 19:47:14 - DEBUG - user.service - getting users (userId: 641886150e863d702a3e3301)
+20.3.2023, 19:47:14 - DEBUG - tweet.service - getting tweets (userId: 641886150e863d702a3e3301)
+20.3.2023, 19:47:14 - DEBUG - tweet.service - getting hashtags (userId: 641886150e863d702a3e3301)
+20.3.2023, 19:48:22 - DEBUG - user.service - getting users 
+20.3.2023, 19:48:22 - DEBUG - tweet.service - getting hashtags 
+20.3.2023, 19:48:22 - DEBUG - tweet.service - getting tweets 
+20.3.2023, 19:48:32 - DEBUG - auth.service - login with username: vtomer 
+20.3.2023, 19:48:32 - INFO - User login:  | {"_id":"641886150e863d702a3e3301","username":"vtomer","firstName":"Tomer","lastName":"Vardi","about":"","profileImg":"","coverImg":"","follows":[],"followers":[],"savedTweets":[],"isGuest":false,"createdAt":"2023-03-20T16:13:09.000Z"} 
+20.3.2023, 19:48:38 - DEBUG - tweet.service - updating hashtags (userId: 641886150e863d702a3e3301)
+20.3.2023, 19:48:38 - INFO - Tweet added:  | 64189c76267a008e9506f630 (userId: 641886150e863d702a3e3301)
+20.3.2023, 19:49:24 - DEBUG - user.service - getting users (userId: 641886150e863d702a3e3301)
+20.3.2023, 19:49:24 - DEBUG - tweet.service - getting tweets (userId: 641886150e863d702a3e3301)
+20.3.2023, 19:49:24 - DEBUG - tweet.service - getting hashtags (userId: 641886150e863d702a3e3301)
+20.3.2023, 19:50:09 - DEBUG - tweet.service - updating hashtags (userId: 641886150e863d702a3e3301)
+20.3.2023, 19:50:09 - INFO - Tweet added:  | 64189cd1267a008e9506f631 (userId: 641886150e863d702a3e3301)
+20.3.2023, 19:50:20 - DEBUG - user.service - getting users (userId: 641886150e863d702a3e3301)
+20.3.2023, 19:50:21 - DEBUG - tweet.service - getting tweets (userId: 641886150e863d702a3e3301)
+20.3.2023, 19:50:21 - DEBUG - tweet.service - getting hashtags (userId: 641886150e863d702a3e3301)
+20.3.2023, 19:51:38 - DEBUG - tweet.service - updating hashtags (userId: 641886150e863d702a3e3301)
+20.3.2023, 19:51:38 - INFO - Tweet added:  | 64189d2a267a008e9506f632 (userId: 641886150e863d702a3e3301)
+20.3.2023, 19:52:38 - DEBUG - tweet.service - getting tweets (userId: 641886150e863d702a3e3301)
+20.3.2023, 19:52:39 - DEBUG - user.service - getting users (userId: 641886150e863d702a3e3301)
+20.3.2023, 19:52:39 - DEBUG - tweet.service - getting hashtags (userId: 641886150e863d702a3e3301)
+20.3.2023, 19:52:46 - DEBUG - tweet.service - updating hashtags (userId: 641886150e863d702a3e3301)
+20.3.2023, 19:52:46 - INFO - Tweet added:  | 64189d6e267a008e9506f633 (userId: 641886150e863d702a3e3301)
+20.3.2023, 19:59:11 - DEBUG - user.service - getting users (userId: 641886150e863d702a3e3301)
+20.3.2023, 19:59:12 - DEBUG - tweet.service - getting tweets (userId: 641886150e863d702a3e3301)
+20.3.2023, 19:59:12 - DEBUG - tweet.service - getting hashtags (userId: 641886150e863d702a3e3301)
+20.3.2023, 19:59:23 - DEBUG - tweet.service - updating hashtags (userId: 641886150e863d702a3e3301)
+20.3.2023, 19:59:23 - INFO - Tweet added:  | 64189efb267a008e9506f634 (userId: 641886150e863d702a3e3301)
+20.3.2023, 20:00:08 - DEBUG - tweet.service - getting tweets (userId: 641886150e863d702a3e3301)
+20.3.2023, 20:00:08 - DEBUG - user.service - getting users (userId: 641886150e863d702a3e3301)
+20.3.2023, 20:00:08 - DEBUG - tweet.service - getting hashtags (userId: 641886150e863d702a3e3301)
+20.3.2023, 20:00:12 - DEBUG - user.service - getting users (userId: 641886150e863d702a3e3301)
+20.3.2023, 20:00:13 - DEBUG - tweet.service - getting tweets (userId: 641886150e863d702a3e3301)
+20.3.2023, 20:00:13 - DEBUG - tweet.service - getting hashtags (userId: 641886150e863d702a3e3301)
+20.3.2023, 20:00:15 - DEBUG - tweet.service - updating hashtags (userId: 641886150e863d702a3e3301)
+20.3.2023, 20:00:16 - INFO - Tweet added:  | 64189f30267a008e9506f635 (userId: 641886150e863d702a3e3301)
+20.3.2023, 20:00:40 - DEBUG - user.service - getting users (userId: 641886150e863d702a3e3301)
+20.3.2023, 20:00:41 - DEBUG - tweet.service - getting hashtags (userId: 641886150e863d702a3e3301)
+20.3.2023, 20:00:40 - DEBUG - tweet.service - getting tweets (userId: 641886150e863d702a3e3301)
+20.3.2023, 20:00:48 - INFO - Tweet added:  | 64189f50267a008e9506f636 (userId: 641886150e863d702a3e3301)
+20.3.2023, 20:00:48 - DEBUG - tweet.service - updating hashtags (userId: 641886150e863d702a3e3301)
+20.3.2023, 20:12:35 - DEBUG - tweet.service - getting tweets (userId: 641886150e863d702a3e3301)
+20.3.2023, 20:12:36 - DEBUG - user.service - getting users (userId: 641886150e863d702a3e3301)
+20.3.2023, 20:12:36 - DEBUG - tweet.service - getting hashtags (userId: 641886150e863d702a3e3301)
+20.3.2023, 20:12:56 - DEBUG - tweet.service - updating hashtags (userId: 641886150e863d702a3e3301)
+20.3.2023, 20:12:56 - INFO - Tweet added:  | 6418a227267a008e9506f637 (userId: 641886150e863d702a3e3301)
+20.3.2023, 20:13:37 - DEBUG - user.service - getting users (userId: 641886150e863d702a3e3301)
+20.3.2023, 20:13:37 - DEBUG - tweet.service - getting tweets (userId: 641886150e863d702a3e3301)
+20.3.2023, 20:13:37 - DEBUG - tweet.service - getting hashtags (userId: 641886150e863d702a3e3301)
+20.3.2023, 20:13:42 - DEBUG - tweet.service - updating hashtags (userId: 641886150e863d702a3e3301)
+20.3.2023, 20:13:42 - INFO - Tweet added:  | 6418a256267a008e9506f638 (userId: 641886150e863d702a3e3301)
+20.3.2023, 20:16:13 - DEBUG - user.service - getting users (userId: 641886150e863d702a3e3301)
+20.3.2023, 20:16:14 - DEBUG - tweet.service - getting hashtags (userId: 641886150e863d702a3e3301)
+20.3.2023, 20:16:13 - DEBUG - tweet.service - getting tweets (userId: 641886150e863d702a3e3301)
+20.3.2023, 20:16:21 - DEBUG - tweet.service - updating hashtags (userId: 641886150e863d702a3e3301)
+20.3.2023, 20:16:21 - INFO - Tweet added:  | 6418a2f4267a008e9506f639 (userId: 641886150e863d702a3e3301)
+20.3.2023, 20:16:59 - DEBUG - user.service - getting users (userId: 641886150e863d702a3e3301)
+20.3.2023, 20:16:59 - DEBUG - tweet.service - getting tweets (userId: 641886150e863d702a3e3301)
+20.3.2023, 20:16:59 - DEBUG - tweet.service - getting hashtags (userId: 641886150e863d702a3e3301)
+20.3.2023, 20:20:35 - DEBUG - tweet.service - updating hashtags (userId: 641886150e863d702a3e3301)
+20.3.2023, 20:20:35 - INFO - Tweet added:  | 6418a3f3267a008e9506f63a (userId: 641886150e863d702a3e3301)
+20.3.2023, 20:22:50 - DEBUG - tweet.service - updating hashtags (userId: 641886150e863d702a3e3301)
+20.3.2023, 20:22:51 - INFO - Tweet added:  | 6418a47b267a008e9506f63b (userId: 641886150e863d702a3e3301)
+20.3.2023, 20:24:02 - DEBUG - user.service - getting users (userId: 641886150e863d702a3e3301)
+20.3.2023, 20:24:05 - DEBUG - tweet.service - getting tweets (userId: 641886150e863d702a3e3301)
+20.3.2023, 20:24:05 - DEBUG - tweet.service - getting hashtags (userId: 641886150e863d702a3e3301)
+20.3.2023, 20:24:45 - DEBUG - tweet.service - updating hashtags (userId: 641886150e863d702a3e3301)
+20.3.2023, 20:24:45 - INFO - Tweet added:  | 6418a4ed267a008e9506f63c (userId: 641886150e863d702a3e3301)
+20.3.2023, 20:26:02 - DEBUG - user.service - getting users (userId: 641886150e863d702a3e3301)
+20.3.2023, 20:26:02 - DEBUG - tweet.service - getting tweets (userId: 641886150e863d702a3e3301)
+20.3.2023, 20:26:02 - DEBUG - tweet.service - getting hashtags (userId: 641886150e863d702a3e3301)
+20.3.2023, 20:26:15 - DEBUG - tweet.service - updating hashtags (userId: 641886150e863d702a3e3301)
+20.3.2023, 20:26:15 - INFO - Tweet added:  | 6418a547267a008e9506f63d (userId: 641886150e863d702a3e3301)
+20.3.2023, 20:26:37 - DEBUG - tweet.service - updating hashtags (userId: 641886150e863d702a3e3301)
+20.3.2023, 20:26:37 - INFO - Tweet added:  | 6418a55d267a008e9506f63e (userId: 641886150e863d702a3e3301)
+20.3.2023, 20:28:00 - DEBUG - tweet.service - getting tweets (userId: 641886150e863d702a3e3301)
+20.3.2023, 20:28:00 - DEBUG - user.service - getting users (userId: 641886150e863d702a3e3301)
+20.3.2023, 20:28:00 - DEBUG - tweet.service - getting hashtags (userId: 641886150e863d702a3e3301)
+20.3.2023, 20:28:25 - DEBUG - tweet.service - getting tweets (userId: 641886150e863d702a3e3301)
+20.3.2023, 20:28:25 - DEBUG - user.service - getting users (userId: 641886150e863d702a3e3301)
+20.3.2023, 20:28:25 - DEBUG - tweet.service - getting hashtags (userId: 641886150e863d702a3e3301)
+20.3.2023, 20:28:31 - DEBUG - user.service - getting users (userId: 641886150e863d702a3e3301)
+20.3.2023, 20:28:31 - DEBUG - tweet.service - getting tweets (userId: 641886150e863d702a3e3301)
+20.3.2023, 20:28:32 - DEBUG - tweet.service - getting hashtags (userId: 641886150e863d702a3e3301)
+20.3.2023, 20:28:48 - DEBUG - user.service - getting users (userId: 641886150e863d702a3e3301)
+20.3.2023, 20:28:49 - DEBUG - tweet.service - getting hashtags (userId: 641886150e863d702a3e3301)
+20.3.2023, 20:28:49 - DEBUG - tweet.service - getting tweets (userId: 641886150e863d702a3e3301)
+20.3.2023, 20:29:00 - DEBUG - user.service - getting users (userId: 641886150e863d702a3e3301)
+20.3.2023, 20:29:00 - DEBUG - tweet.service - getting tweets (userId: 641886150e863d702a3e3301)
+20.3.2023, 20:29:00 - DEBUG - tweet.service - getting hashtags (userId: 641886150e863d702a3e3301)
+20.3.2023, 20:29:26 - DEBUG - tweet.service - updating hashtags (userId: 641886150e863d702a3e3301)
+20.3.2023, 20:29:26 - INFO - Tweet added:  | 6418a605267a008e9506f63f (userId: 641886150e863d702a3e3301)
+20.3.2023, 20:30:04 - DEBUG - tweet.service - updating hashtags (userId: 641886150e863d702a3e3301)
+20.3.2023, 20:30:05 - INFO - Tweet added:  | 6418a62d267a008e9506f640 (userId: 641886150e863d702a3e3301)
+20.3.2023, 20:32:58 - DEBUG - user.service - getting users (userId: 641886150e863d702a3e3301)
+20.3.2023, 20:32:59 - DEBUG - tweet.service - getting tweets (userId: 641886150e863d702a3e3301)
+20.3.2023, 20:32:59 - DEBUG - tweet.service - getting hashtags (userId: 641886150e863d702a3e3301)
+20.3.2023, 20:33:54 - DEBUG - user.service - getting users (userId: 641886150e863d702a3e3301)
+20.3.2023, 20:33:54 - DEBUG - tweet.service - getting tweets (userId: 641886150e863d702a3e3301)
+20.3.2023, 20:33:55 - DEBUG - tweet.service - getting hashtags (userId: 641886150e863d702a3e3301)
+20.3.2023, 20:34:33 - INFO - Server is running on port: 3030 
+20.3.2023, 20:34:42 - DEBUG - tweet.service - getting hashtags (userId: 641886150e863d702a3e3301)
+20.3.2023, 20:34:42 - INFO - getting mongoDB for development (userId: 641886150e863d702a3e3301)
+20.3.2023, 20:34:42 - DEBUG - tweet.service - getting tweets (userId: 641886150e863d702a3e3301)
+20.3.2023, 20:34:42 - INFO - getting mongoDB for development (userId: 641886150e863d702a3e3301)
+20.3.2023, 20:34:43 - DEBUG - user.service - getting users (userId: 641886150e863d702a3e3301)
+20.3.2023, 20:34:43 - INFO - getting mongoDB for development (userId: 641886150e863d702a3e3301)
+20.3.2023, 20:36:08 - INFO - Server is running on port: 3030 
+20.3.2023, 20:37:33 - DEBUG - tweet.service - getting hashtags (userId: 641886150e863d702a3e3301)
+20.3.2023, 20:37:33 - INFO - getting mongoDB for development (userId: 641886150e863d702a3e3301)
+20.3.2023, 20:38:20 - DEBUG - user.service - getting users (userId: 641886150e863d702a3e3301)
+20.3.2023, 20:38:21 - DEBUG - tweet.service - getting tweets (userId: 641886150e863d702a3e3301)
+20.3.2023, 20:38:21 - DEBUG - tweet.service - getting hashtags (userId: 641886150e863d702a3e3301)
+20.3.2023, 20:38:26 - DEBUG - user.service - getting users (userId: 641886150e863d702a3e3301)
+20.3.2023, 20:38:27 - DEBUG - tweet.service - getting tweets (userId: 641886150e863d702a3e3301)
+20.3.2023, 20:38:27 - DEBUG - tweet.service - getting hashtags (userId: 641886150e863d702a3e3301)
+20.3.2023, 20:39:33 - DEBUG - user.service - getting users (userId: 641886150e863d702a3e3301)
+20.3.2023, 20:39:34 - DEBUG - tweet.service - getting tweets (userId: 641886150e863d702a3e3301)
+20.3.2023, 20:39:34 - DEBUG - tweet.service - getting hashtags (userId: 641886150e863d702a3e3301)
+20.3.2023, 20:41:53 - INFO - Server is running on port: 3030 
+20.3.2023, 20:42:01 - DEBUG - user.service - getting users (userId: 641886150e863d702a3e3301)
+20.3.2023, 20:42:01 - INFO - getting mongoDB for development (userId: 641886150e863d702a3e3301)
+20.3.2023, 20:42:01 - INFO - getting mongoDB for development (userId: 641886150e863d702a3e3301)
+20.3.2023, 20:42:01 - DEBUG - tweet.service - getting tweets (userId: 641886150e863d702a3e3301)
+20.3.2023, 20:42:02 - INFO - getting mongoDB for development (userId: 641886150e863d702a3e3301)
+20.3.2023, 20:42:02 - DEBUG - tweet.service - getting hashtags (userId: 641886150e863d702a3e3301)
+20.3.2023, 20:44:48 - DEBUG - auth.service - login with username: vtomer 
+20.3.2023, 20:44:48 - INFO - User login:  | {"_id":"641886150e863d702a3e3301","username":"vtomer","firstName":"Tomer","lastName":"Vardi","about":"","profileImg":"","coverImg":"","follows":[],"followers":[],"savedTweets":[],"isGuest":false,"createdAt":"2023-03-20T16:13:09.000Z"} 
+20.3.2023, 20:44:55 - DEBUG - user.service - getting users (userId: 641886150e863d702a3e3301)
+20.3.2023, 20:44:55 - DEBUG - tweet.service - getting tweets (userId: 641886150e863d702a3e3301)
+20.3.2023, 20:44:56 - DEBUG - tweet.service - getting hashtags (userId: 641886150e863d702a3e3301)
+20.3.2023, 20:45:19 - DEBUG - tweet.service - updating hashtags (userId: 641886150e863d702a3e3301)
+20.3.2023, 20:45:19 - INFO - Tweet added:  | 6418a9bf9726941899270876 (userId: 641886150e863d702a3e3301)
+20.3.2023, 20:45:31 - DEBUG - user.service - getting users (userId: 641886150e863d702a3e3301)
+20.3.2023, 20:45:32 - DEBUG - tweet.service - getting tweets (userId: 641886150e863d702a3e3301)
+20.3.2023, 20:45:32 - DEBUG - tweet.service - getting hashtags (userId: 641886150e863d702a3e3301)
+20.3.2023, 20:46:35 - DEBUG - tweet.service - updating hashtags (userId: 641886150e863d702a3e3301)
+20.3.2023, 20:46:36 - INFO - Tweet added:  | 6418aa0c9726941899270877 (userId: 641886150e863d702a3e3301)
+20.3.2023, 20:48:00 - DEBUG - user.service - getting users (userId: 641886150e863d702a3e3301)
+20.3.2023, 20:48:01 - DEBUG - tweet.service - getting tweets (userId: 641886150e863d702a3e3301)
+20.3.2023, 20:48:01 - DEBUG - tweet.service - getting hashtags (userId: 641886150e863d702a3e3301)
+20.3.2023, 20:53:10 - DEBUG - user.service - getting users (userId: 641886150e863d702a3e3301)
+20.3.2023, 20:53:10 - DEBUG - tweet.service - getting tweets (userId: 641886150e863d702a3e3301)
+20.3.2023, 20:54:37 - DEBUG - user.service - getting users (userId: 641886150e863d702a3e3301)
+20.3.2023, 20:54:37 - DEBUG - tweet.service - getting tweets (userId: 641886150e863d702a3e3301)
+20.3.2023, 20:54:39 - DEBUG - tweet.service - getting hashtags (userId: 641886150e863d702a3e3301)
+20.3.2023, 20:54:42 - DEBUG - user.service - getting users (userId: 641886150e863d702a3e3301)
+20.3.2023, 20:54:43 - DEBUG - tweet.service - getting tweets (userId: 641886150e863d702a3e3301)
+20.3.2023, 20:54:44 - DEBUG - tweet.service - getting hashtags (userId: 641886150e863d702a3e3301)
+20.3.2023, 20:57:32 - DEBUG - user.service - getting users (userId: 641886150e863d702a3e3301)
+20.3.2023, 20:58:35 - DEBUG - tweet.service - getting tweets (userId: 641886150e863d702a3e3301)
+20.3.2023, 20:59:27 - DEBUG - tweet.service - getting hashtags (userId: 641886150e863d702a3e3301)
+20.3.2023, 21:01:49 - DEBUG - user.service - getting users (userId: 641886150e863d702a3e3301)
+20.3.2023, 21:01:50 - DEBUG - tweet.service - getting tweets (userId: 641886150e863d702a3e3301)
+20.3.2023, 21:01:50 - DEBUG - tweet.service - getting hashtags (userId: 641886150e863d702a3e3301)
+20.3.2023, 21:04:10 - DEBUG - user.service - getting users (userId: 641886150e863d702a3e3301)
+20.3.2023, 21:04:11 - DEBUG - tweet.service - getting tweets (userId: 641886150e863d702a3e3301)
+20.3.2023, 21:04:12 - DEBUG - tweet.service - getting hashtags (userId: 641886150e863d702a3e3301)
+20.3.2023, 21:04:16 - DEBUG - user.service - getting users (userId: 641886150e863d702a3e3301)
+20.3.2023, 21:04:17 - DEBUG - tweet.service - getting tweets (userId: 641886150e863d702a3e3301)
+20.3.2023, 21:04:17 - DEBUG - tweet.service - getting hashtags (userId: 641886150e863d702a3e3301)
+20.3.2023, 21:04:22 - DEBUG - user.service - getting users (userId: 641886150e863d702a3e3301)
+20.3.2023, 21:04:23 - DEBUG - tweet.service - getting tweets (userId: 641886150e863d702a3e3301)
+20.3.2023, 21:04:25 - DEBUG - user.service - getting users (userId: 641886150e863d702a3e3301)
+20.3.2023, 21:04:26 - DEBUG - tweet.service - getting tweets (userId: 641886150e863d702a3e3301)
+20.3.2023, 21:04:26 - DEBUG - tweet.service - getting hashtags (userId: 641886150e863d702a3e3301)
+20.3.2023, 21:04:43 - DEBUG - user.service - getting users (userId: 641886150e863d702a3e3301)
+20.3.2023, 21:04:43 - DEBUG - tweet.service - getting tweets (userId: 641886150e863d702a3e3301)
+20.3.2023, 21:04:44 - DEBUG - tweet.service - getting hashtags (userId: 641886150e863d702a3e3301)
+20.3.2023, 21:06:10 - DEBUG - user.service - getting users (userId: 641886150e863d702a3e3301)
+20.3.2023, 21:06:11 - DEBUG - tweet.service - getting tweets (userId: 641886150e863d702a3e3301)
+20.3.2023, 21:06:11 - DEBUG - tweet.service - getting hashtags (userId: 641886150e863d702a3e3301)
+20.3.2023, 21:06:18 - DEBUG - tweet.service - updating hashtags (userId: 641886150e863d702a3e3301)
+20.3.2023, 21:06:18 - INFO - Tweet added:  | 6418aeaa9726941899270878 (userId: 641886150e863d702a3e3301)
+20.3.2023, 21:06:24 - DEBUG - tweet.service - getting tweets (userId: 641886150e863d702a3e3301)
+20.3.2023, 21:06:25 - DEBUG - user.service - getting users (userId: 641886150e863d702a3e3301)
+20.3.2023, 21:06:25 - DEBUG - tweet.service - getting hashtags (userId: 641886150e863d702a3e3301)
+20.3.2023, 21:06:38 - INFO - Tweet added:  | 6418aebe9726941899270879 (userId: 641886150e863d702a3e3301)
+20.3.2023, 21:06:46 - DEBUG - tweet.service - updating hashtags (userId: 641886150e863d702a3e3301)
+20.3.2023, 21:06:46 - INFO - Tweet added:  | 6418aec6972694189927087a (userId: 641886150e863d702a3e3301)
+20.3.2023, 21:07:00 - DEBUG - tweet.service - updating hashtags (userId: 641886150e863d702a3e3301)
+20.3.2023, 21:07:00 - INFO - Tweet added:  | 6418aed4972694189927087b (userId: 641886150e863d702a3e3301)
+20.3.2023, 21:07:32 - DEBUG - user.service - getting users (userId: 641886150e863d702a3e3301)
+20.3.2023, 21:07:33 - DEBUG - tweet.service - getting hashtags (userId: 641886150e863d702a3e3301)
+20.3.2023, 21:07:33 - DEBUG - tweet.service - getting tweets (userId: 641886150e863d702a3e3301)
+20.3.2023, 21:07:33 - DEBUG - tweet.service - getting hashtags (userId: 641886150e863d702a3e3301)
+20.3.2023, 21:07:44 - DEBUG - user.service - getting users (userId: 641886150e863d702a3e3301)
+20.3.2023, 21:07:44 - DEBUG - tweet.service - getting tweets (userId: 641886150e863d702a3e3301)
+20.3.2023, 21:07:45 - DEBUG - tweet.service - getting hashtags (userId: 641886150e863d702a3e3301)
+20.3.2023, 21:07:53 - DEBUG - user.service - getting users (userId: 641886150e863d702a3e3301)
+20.3.2023, 21:07:53 - DEBUG - tweet.service - getting tweets (userId: 641886150e863d702a3e3301)
+20.3.2023, 21:07:54 - DEBUG - tweet.service - getting hashtags (userId: 641886150e863d702a3e3301)
+20.3.2023, 21:08:11 - DEBUG - user.service - getting users (userId: 641886150e863d702a3e3301)
+20.3.2023, 21:08:12 - DEBUG - tweet.service - getting tweets (userId: 641886150e863d702a3e3301)
+20.3.2023, 21:08:12 - DEBUG - tweet.service - getting hashtags (userId: 641886150e863d702a3e3301)
+20.3.2023, 21:08:43 - DEBUG - user.service - getting users (userId: 641886150e863d702a3e3301)
+20.3.2023, 21:08:44 - DEBUG - tweet.service - getting tweets (userId: 641886150e863d702a3e3301)
+20.3.2023, 21:08:44 - DEBUG - tweet.service - getting hashtags (userId: 641886150e863d702a3e3301)
+20.3.2023, 21:08:49 - DEBUG - tweet.service - updating hashtags (userId: 641886150e863d702a3e3301)
+20.3.2023, 21:08:49 - INFO - Tweet added:  | 6418af41972694189927087c (userId: 641886150e863d702a3e3301)
+20.3.2023, 21:08:54 - DEBUG - tweet.service - updating hashtags (userId: 641886150e863d702a3e3301)
+20.3.2023, 21:08:55 - INFO - Tweet added:  | 6418af47972694189927087d (userId: 641886150e863d702a3e3301)
+20.3.2023, 21:09:10 - DEBUG - tweet.service - updating hashtags (userId: 641886150e863d702a3e3301)
+20.3.2023, 21:09:11 - INFO - Tweet added:  | 6418af57972694189927087e (userId: 641886150e863d702a3e3301)
+20.3.2023, 21:09:23 - DEBUG - tweet.service - updating hashtags (userId: 641886150e863d702a3e3301)
+20.3.2023, 21:09:24 - INFO - Tweet removed:  | 6418af57972694189927087e (userId: 641886150e863d702a3e3301)
+20.3.2023, 21:09:33 - INFO - Tweet updated:  | 6418af47972694189927087d (userId: 641886150e863d702a3e3301)
+20.3.2023, 21:09:33 - INFO - Retweet added:  | 6418af6d972694189927087f (userId: 641886150e863d702a3e3301)
+20.3.2023, 21:09:34 - INFO - Tweet updated:  | 6418af47972694189927087d (userId: 641886150e863d702a3e3301)
+20.3.2023, 21:09:50 - DEBUG - tweet.service - updating hashtags (userId: 641886150e863d702a3e3301)
+20.3.2023, 21:09:50 - INFO - Tweet removed:  | 6418af6d972694189927087f (userId: 641886150e863d702a3e3301)
+20.3.2023, 21:09:50 - INFO - Tweet removed:  | 6418af47972694189927087d (userId: 641886150e863d702a3e3301)
+20.3.2023, 21:10:04 - DEBUG - user.service - getting users (userId: 641886150e863d702a3e3301)
+20.3.2023, 21:10:04 - DEBUG - tweet.service - getting tweets (userId: 641886150e863d702a3e3301)
+20.3.2023, 21:10:05 - DEBUG - tweet.service - getting hashtags (userId: 641886150e863d702a3e3301)
+20.3.2023, 21:10:16 - DEBUG - tweet.service - updating hashtags (userId: 641886150e863d702a3e3301)
+20.3.2023, 21:10:16 - INFO - Tweet added:  | 6418af989726941899270880 (userId: 641886150e863d702a3e3301)
+20.3.2023, 21:11:01 - INFO - Tweet updated:  | 6418af989726941899270880 (userId: 641886150e863d702a3e3301)
+20.3.2023, 21:11:01 - INFO - Retweet added:  | 6418afc59726941899270881 (userId: 641886150e863d702a3e3301)
+20.3.2023, 21:11:02 - INFO - Tweet updated:  | 6418af989726941899270880 (userId: 641886150e863d702a3e3301)
+20.3.2023, 22:09:17 - DEBUG - tweet.service - getting tweets 
+20.3.2023, 22:09:17 - DEBUG - tweet.service - getting hashtags 
+20.3.2023, 22:09:17 - DEBUG - user.service - getting users 
+21.3.2023, 2:00:11 - DEBUG - user.service - getting users 
+21.3.2023, 2:00:11 - DEBUG - tweet.service - getting tweets 
+21.3.2023, 2:00:11 - DEBUG - tweet.service - getting hashtags 
+21.3.2023, 11:43:12 - DEBUG - user.service - getting users 
+21.3.2023, 11:43:12 - DEBUG - tweet.service - getting tweets 
+21.3.2023, 11:43:12 - DEBUG - tweet.service - getting hashtags 
+21.3.2023, 12:52:08 - INFO - Server is running on port: 3030 

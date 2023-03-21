@@ -113,18 +113,18 @@ async function queryHashtags() {
         if (hashtagsDocuments.length) {
             hashtagsToReturn = {
                 _id: hashtagsDocuments[0]._id,
-                hashtags: hashtagsDocuments[0].hashtags,
+                hashtagsList: hashtagsDocuments[0].hashtagsList || [],
             }
         } else {
             const newHashtags = {
-                hashtags: []
+                hashtagsList: []
             }
             await hashtagCollection.insertOne(newHashtags)
             const newHashtagsDocuments: [hashtags] = await hashtagCollection.find().toArray()
 
             hashtagsToReturn = {
                 _id: newHashtagsDocuments[0]._id,
-                hashtags: newHashtagsDocuments[0].hashtags,
+                hashtagsList: newHashtagsDocuments[0].hashtagsList,
             }
         }
         return hashtagsToReturn
@@ -140,7 +140,7 @@ async function updateHashtags(hashtags: hashtags) {
         // peek only updatable properties
         const hashtagsToSave = {
             _id: new ObjectId(hashtags._id), // needed for the returned obj
-            hashtags: hashtags.hashtags
+            hashtagsList: hashtags.hashtagsList
         }
 
         const hashtagCollection = await dbService.getCollection('hashtag')
